@@ -78,3 +78,7 @@ A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplic
 ## Prévia no GitHub Pages
 
 A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. São 24 testes, incluindo a adaptação de URLs. Veja [o guia de publicação](docs/PUBLICACAO.md).
+
+## Backend local de teste
+
+Execute `node backend/preview.mjs` e abra `http://127.0.0.1:4287/`. Salva contatos e cadastros em SQLite e captura e-mails para conferência, sem envio externo. Para conferir os dados localmente: `node backend/inspect.mjs`. Banco fora da pasta pública e ignorado no Git. A prévia do GitHub Pages continua estática e não recebe esses cadastros. Consulte [BACKEND-TESTE.md](docs/BACKEND-TESTE.md) e [LEVANTAMENTO-WEBFLOW.md](docs/LEVANTAMENTO-WEBFLOW.md). O site oficial não foi modificado.

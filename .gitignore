@@ -1,6 +1,10 @@
 dist/
 dist-pages/
 node_modules/
+.local-data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
 .env
 .env.*
 !.env.example

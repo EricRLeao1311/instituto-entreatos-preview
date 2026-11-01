@@ -2,7 +2,7 @@
 
 ## Decisão principal
 
-O produto é um site editorial, sem área autenticada ou dados privados. Um gerador estático pequeno permite produzir HTML completo e legível sem um framework ou dependências de instalação. Node.js executa apenas a montagem e o servidor de desenvolvimento. A hospedagem recebe arquivos estáticos; não precisa executar Node.
+O produto é um site editorial, sem área autenticada. A publicação estática não armazena dados privados; o receptor opcional de teste local usa um banco separado, descrito no final deste documento. Um gerador estático pequeno permite produzir HTML completo e legível sem um framework ou dependências de instalação. Node.js executa apenas a montagem e o servidor de desenvolvimento. A hospedagem recebe arquivos estáticos; não precisa executar Node.
 
 O projeto foi separado a partir da apresentação existente, preservando a geometria e as regras visuais que já estavam publicadas. A revisão 2 carrega uma cópia local do runtime de apresentação exportado, com os mesmos dados de interações, para preservar sua fidelidade visual. A inicialização do editor, marca, comércio e formulários hospedados foi retirada. Não se trata de uma nova implementação de CSS com uma nomenclatura inteiramente nova: a camada `legacy.css` é deliberadamente preservada e documentada.
 
@@ -66,3 +66,7 @@ O carrossel foi extraído literalmente para `src/components/home-carousel.html`,
 ## Adaptador de publicação em subdiretório
 
 `build-pages.mjs` mantém o build normal e cria `dist-pages/`. `pages-paths.mjs` prefixa apenas endereços locais em atributos HTML/SVG e URLs CSS; configuração do PDF e comparação de pathname do diálogo são adaptadas na saída. Fontes de apresentação e vendor permanecem intactos. Testes do adaptador cobrem URLs externas, fragmentos, srcset, vídeo, fonte e caminhos inválidos. Os arquivos protegidos por hash recebem `-text` em `.gitattributes` para conservar os mesmos bytes ao publicar via Git em outro sistema operacional.
+
+## Backend opcional de teste local
+
+`backend/` é separado do gerador estático. `server.mjs` reutiliza o servidor HTTP existente e acrescenta dois receptores e uma resposta local de configuração; `store.mjs` encapsula SQLite e a transação de cadastro/caixa de saída. `preview.mjs` limita a execução a loopback e `inspect.mjs` é a consulta local do operador. Sem novas dependências. Os dados ficam em `.local-data/`, fora de `dist/` e do Git. Nenhuma API de leitura de dados pessoais é publicada. O backend não executa no GitHub Pages e não reutiliza o receptor do Webflow de produção. Guia: `BACKEND-TESTE.md`.

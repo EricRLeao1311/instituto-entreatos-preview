@@ -14,6 +14,7 @@ export function setupForms() {
       input.addEventListener('change', sync);
       input.addEventListener('focus', () => custom.classList.add('w--redirected-focus'));
       input.addEventListener('blur', () => custom.classList.remove('w--redirected-focus'));
+      form.addEventListener('reset', () => queueMicrotask(sync));
       sync();
     });
     form.addEventListener('submit', async event => {
@@ -22,7 +23,7 @@ export function setupForms() {
       if (!form.reportValidity()) return;
       status.replaceChildren();
       const payload = Object.fromEntries(new FormData(form).entries());
-      const endpoint = form.dataset.endpoint;
+      const endpoint = form.dataset.endpoint || config.forms?.[`${kind}Endpoint`];
       if (!endpoint) {
         if (kind === 'contact') {
           const reason = form.querySelector('[name="Reason"]')?.selectedOptions[0]?.textContent || '';
@@ -49,7 +50,10 @@ export function setupForms() {
           body: JSON.stringify({ ...payload, kind }), signal: AbortSignal.timeout(15000),
         });
         if (!response.ok) throw new Error('Falha no envio');
-        status.textContent = 'Obrigado! Sua mensagem foi enviada.';
+        const receipt = await response.json().catch(() => null);
+        status.textContent = receipt?.mode === 'preview'
+          ? 'Recebido no ambiente de teste. Nenhum e-mail foi enviado.'
+          : 'Obrigado! Seus dados foram recebidos.';
         if (kind === 'research' && config.research.documentUrl) {
           const link = document.createElement('a'); link.href = config.research.documentUrl;
           link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Abrir pesquisa';

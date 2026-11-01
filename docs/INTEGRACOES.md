@@ -34,6 +34,7 @@ Informe uma URL HTTPS de um receptor controlado pelo Instituto. O navegador envi
   "Email": "email@exemplo.com",
   "Subject": "Telefone informado",
   "Message": "Mensagem",
+  "Reason": "convidar-instituto",
   "kind": "contact"
 }
 ```
@@ -61,3 +62,7 @@ A revisão 2 restaura os iframes originais do Embedly/YouTube para manter sua ap
 ## Critério de conclusão de uma integração
 
 Use um receptor de teste ou um ambiente autorizado. Verifique um sucesso real, uma rejeição, um timeout, campos inválidos e o comportamento em celular. Só registre “envio funcionando” depois de o responsável confirmar o recebimento. Registre a URL pública do receptor e as condições do teste, sem dados pessoais ou segredos.
+
+## Receptor local de teste
+
+`node backend/preview.mjs` abre a versão com recebimento local em `http://127.0.0.1:4287/`. O banco e a caixa de saída ficam em `.local-data/`, nunca na pasta pública. Sem envio externo. A resposta 202 com `mode: "preview"` faz o navegador explicar que recebeu no ambiente de teste e não enviou e-mail. O checkbox original acompanha o reset após o sucesso. A prévia estática publicada conserva os endpoints vazios e o fluxo alternativo existente. Contratos, limites e próximos passos: [BACKEND-TESTE.md](BACKEND-TESTE.md). Levantamento das configurações privadas: [LEVANTAMENTO-WEBFLOW.md](LEVANTAMENTO-WEBFLOW.md).

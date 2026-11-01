@@ -1,12 +1,12 @@
 # Backend e materiais pendentes
 
-Esta etapa continua restrita ao front-end. `site.forms.contactEndpoint` e `researchEndpoint` permanecem vazios.
+Existe um backend **local de teste** com persistência SQLite e captura de e-mails, descrito em [BACKEND-TESTE.md](BACKEND-TESTE.md). Não envia e-mails e não está hospedado no GitHub Pages. A configuração estática `site.forms.contactEndpoint` e `researchEndpoint` permanece vazia. O site oficial não foi alterado. O levantamento privado do Webflow ainda depende de consulta bem-sucedida; consulte [LEVANTAMENTO-WEBFLOW.md](LEVANTAMENTO-WEBFLOW.md).
 
-Para a pesquisa de 2025: criar receptor HTTPS, validar nome/e-mail/aceite, salvar o cadastro e conectar um serviço de e-mail que envie o PDF ou seu link ao interessado. O formulário preservado usa `Name`, `email`, `Phone` opcional, `checkbox` e `kind: research`. Registrar a edição 2025 e a referência aos termos aceitos no receptor. Não colocar chaves de envio no navegador. Configurar a URL pública somente quando o serviço estiver disponível e confirmar recebimento antes de anunciar envio funcionando.
+Para a pesquisa de 2025: hospedar receptor HTTPS e conectar um serviço de e-mail que envie o PDF ou seu link ao interessado. A validação e a gravação do cadastro/aceite já estão implementadas no receptor local de teste. O formulário preservado usa `Name`, `email`, `Phone` opcional, `checkbox` e `kind: research`. Registrar a edição 2025 e a referência aos termos aceitos no receptor. Não colocar chaves de envio no navegador. Configurar a URL pública somente quando o serviço estiver disponível e confirmar recebimento antes de anunciar envio funcionando.
 
-Para Contato: conectar o receptor com `Name`, `Email`, `Subject` (telefone), `Message`, `Reason` e `kind: contact`. O motivo aceita `apresentar-contato`, `convidar-instituto`, `contar-historia` ou vazio. Sem receptor, o site oferece preparar a mensagem no aplicativo do visitante.
+Para Contato: hospedar o receptor já implementado e confirmar o destinatário e o serviço de envio. O receptor recebe `Name`, `Email`, `Subject` (telefone), `Message`, `Reason` e `kind: contact`. O motivo aceita `apresentar-contato`, `convidar-instituto`, `contar-historia` ou vazio. Sem receptor, o site oferece preparar a mensagem no aplicativo do visitante.
 
-Configurar validação no servidor, controle de abuso, tratamento de falhas e CORS se necessário. Uma resposta 2xx confirma aceitação pelo receptor, não a chegada à caixa de e-mail. O PDF atual é público e o cadastro não é controle de acesso ao arquivo.
+Validação, limite local de requisições e tratamento de falha de gravação estão implementados no teste. Antes de hospedar publicamente, definir origens autorizadas e proteção contra abuso adequada ao provedor. Uma resposta 2xx confirma aceitação pelo receptor, não a chegada à caixa de e-mail. O PDF atual é público e o cadastro não é controle de acesso ao arquivo.
 
 Materiais: arquivo/URL do manifesto; fotos de Mari C. e Sônia P.; confirmação do canal de YouTube. Até receber, manter o conteúdo existente e as iniciais identificadas, sem inventar fotos, vídeos ou destinos.
 
