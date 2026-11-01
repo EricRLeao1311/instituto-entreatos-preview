@@ -66,3 +66,7 @@ Use um receptor de teste ou um ambiente autorizado. Verifique um sucesso real, u
 ## Receptor local de teste
 
 `node backend/preview.mjs` abre a versão com recebimento local em `http://127.0.0.1:4287/`. O banco e a caixa de saída ficam em `.local-data/`, nunca na pasta pública. Sem envio externo. A resposta 202 com `mode: "preview"` faz o navegador explicar que recebeu no ambiente de teste e não enviou e-mail. O checkbox original acompanha o reset após o sucesso. A prévia estática publicada conserva os endpoints vazios e o fluxo alternativo existente. Contratos, limites e próximos passos: [BACKEND-TESTE.md](BACKEND-TESTE.md). Levantamento das configurações privadas: [LEVANTAMENTO-WEBFLOW.md](LEVANTAMENTO-WEBFLOW.md).
+
+## Backend de teste hospedável
+
+A nova opção usa `api/` e `backend/cloud/`, mantendo os mesmos campos e apresentação. O recibo 202 separa captura (`captured`), fila (`pending`) e aceite do provedor (`accepted`); nenhum deles prova entrega à caixa final. Não há envio aberto ao público nesta etapa: remetente, destinatários de teste e credenciais são configuração privada. Consulte `BACKEND-CLOUD.md` e `ATIVAR-TESTE.md`. GitHub Pages e o build padrão conservam endpoints vazios. A opção Vercel habilita os endpoints relativos no módulo público de configuração somente após ativação explícita.

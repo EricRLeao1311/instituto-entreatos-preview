@@ -16,6 +16,10 @@ Manter o site do Instituto Entre Atos com alterações pequenas, verificáveis e
 
 ## Sequência de trabalho
 
+**Registro obrigatório de toda alteração, inclusive por IA:** antes de editar, crie ou atualize `docs/tasks/AAAA-MM-descricao.md` a partir de `docs/tasks/TAREFA.md`. Identifique o responsável e a IA/ferramenta usada, o pedido que autoriza o escopo, as decisões, os arquivos previstos e o ambiente autorizado. Antes de concluir, registre arquivos reais, verificações executadas/resultados e pendências. Inclua o registro no mesmo commit/conjunto da alteração. A CI exige o arquivo com as seções do template; revisão humana continua necessária para conferir seu conteúdo. Nunca registre segredos, dados pessoais de formulários ou destinatários privados nesse repositório público.
+
+**Ambiente autorizado atualmente: teste.** Alterações de backend/hospedagem devem seguir `docs/BACKEND-CLOUD.md`. Mantenha a produção da cliente, Webflow, DNS e domínio oficial intactos; uma promoção futura exige pedido explícito e registro próprio. Para executar a suíte completa, use Node 24 e instale as dependências de desenvolvimento com `npm ci --ignore-scripts`; o runtime e o front-end não dependem delas.
+
 1. Leia o pedido e consulte `docs/MAPA-DE-EDICAO.md`. Identifique a página, seção e arquivos compartilhados afetados. Termine esta etapa com uma lista explícita de arquivos que precisam mudar.
 2. Leia a referência correspondente antes da edição: conteúdo ou nova página → `docs/CONTEUDO.md`; CSS, layout ou responsividade → `docs/ESTILOS.md`; animação, `data-w-id`, IDs de página ou runtime → `docs/ANIMACOES.md`; formulários ou pesquisa → `docs/INTEGRACOES.md`; build ou componentes → `docs/ARQUITETURA.md`; hospedagem → `docs/PUBLICACAO.md`.
 3. Faça a menor alteração que atende ao pedido. Conteúdo repetido da equipe e dos retratos tem uma fonte em `src/content/`; preserve essa centralização. Componentes compartilhados mudam todas as páginas: use uma regra com `[data-page="..."]` quando o pedido for local.

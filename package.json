@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Site estático e modular do Instituto Entre Atos, independente do Webflow.",
-  "engines": { "node": ">=22" },
+  "description": "Site estÃ¡tico e modular do Instituto Entre Atos, independente do Webflow.",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/serve.mjs --watch",
     "preview": "node scripts/serve.mjs",
     "test": "node --test",
-    "check": "node scripts/build.mjs && node --test"
+    "check": "node scripts/build.mjs && node --test",
+    "build:vercel": "node scripts/build.mjs && node --test && node scripts/build-vercel.mjs",
+    "preview:backend": "node backend/preview.mjs",
+    "check:record": "node scripts/check-change-record.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.14"
   }
 }

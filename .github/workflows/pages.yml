@@ -21,9 +21,15 @@ jobs:
       pages: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+      - run: node scripts/check-change-record.mjs
+        env:
+          CHANGE_BASE: ${{ github.event.before }}
       - name: Verificar site e preservação
         run: |
           node scripts/build.mjs

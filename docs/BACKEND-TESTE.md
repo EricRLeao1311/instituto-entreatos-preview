@@ -40,7 +40,7 @@ node backend/inspect.mjs
 
 Esse comando pode exibir dados pessoais: sua saída não deve ser colada no repositório público. O receptor não expõe leitura, listagem, exportação nem administração por HTTP. Testes automatizados usam dados fictícios e banco temporário próprio.
 
-Não há destinatário privado do Webflow confirmado. Por isso, mensagens capturadas de contato ficam com destinatário vazio. Caso o responsável confirme um endereço, `PREVIEW_CONTACT_TO` pode registrar esse destinatário apenas na captura; isso não ativa envio real. O e-mail público do Instituto continua sendo `contato@institutoentreatos.com.br`.
+O destinatário padrão do Webflow foi confirmado por texto do usuário e registrado fora do Git; overrides por formulário ainda não foram conferidos. Por isso, mensagens capturadas de contato ficam com destinatário vazio. Caso o responsável confirme um endereço, `PREVIEW_CONTACT_TO` pode registrar esse destinatário apenas na captura; isso não ativa envio real. O e-mail público do Instituto continua sendo `contato@institutoentreatos.com.br`.
 
 ## Separação da prévia pública
 
@@ -66,3 +66,7 @@ Escolher hospedagem de teste para processo Node com volume persistente (ou adapt
 ## Referência técnica
 
 SQLite usa o módulo integrado [`node:sqlite`](https://nodejs.org/download/release/latest-v24.x/docs/api/sqlite.html), sem instalar dependências. A transação associa cadastro e caixa de saída. O módulo pode emitir aviso experimental em versões de Node 22/24; o teste local utiliza Node 24.22.1. Não alterar baselines de apresentação para acomodar mudanças do receptor.
+
+## Evolução para hospedagem
+
+A validação e a composição das mensagens agora são compartilhadas por `backend/forms.mjs`. SQLite continua sendo a opção local sem contas. A opção hospedável, com Postgres e transporte de e-mail, está em `BACKEND-CLOUD.md`; a dependência de desenvolvimento PGlite serve apenas para testar o SQL e não entra no runtime.

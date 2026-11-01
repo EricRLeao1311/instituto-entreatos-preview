@@ -1,5 +1,7 @@
 dist/
 dist-pages/
+dist-vercel/
+.vercel/
 node_modules/
 .local-data/
 *.sqlite

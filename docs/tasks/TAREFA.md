@@ -8,6 +8,9 @@ Descreva o comportamento ou texto final e onde ele aparece. Cole o conteúdo apr
 
 ## Escopo
 
+- Responsável: nome da pessoa/agente; IA e ferramenta utilizadas (ou “sem IA”):
+- Ambiente autorizado: local, teste ou produção explicitamente autorizada:
+
 - Página ou rota:
 - Componente ou seção:
 - Frase do pedido que exige cada alteração:
@@ -37,6 +40,8 @@ Indique a fonte editorial, a captura de referência ou o contrato da integraçã
 Preencher com decisões tomadas, arquivos alterados e motivo. Se o escopo precisou mudar, explique por quê.
 
 ## Verificação realizada
+
+Preencha os resultados efetivamente executados. Inclua build/testes, preservação aplicável, limites de teste e registro conferido por `node scripts/check-change-record.mjs --staged`. “Não executado” é diferente de “aprovado”.
 
 Registre comandos, resultados, URLs, tamanhos de tela e capturas pertinentes. Separe testes realizados de verificações ainda necessárias.
 

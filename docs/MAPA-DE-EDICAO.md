@@ -131,3 +131,7 @@ Os perfis da Home são oito pessoas distintas em dez slots técnicos. A duplica�
 ## Ajustes locais autorizados nos três blocos da Home
 
 Em `home/07-instituto.html`, `#sobre-instituto-home`, `#aproximacao-home` e `#agenda-home` compartilham a distribuição de título e conteúdo em `site.css`. O primeiro pedido autorizou os blocos Instituto/Agenda; o pedido posterior autorizou estender exatamente a mesma distribuição ao bloco intermediário. Registros: `docs/tasks/2026-11-layout-dois-blocos.md` e `docs/tasks/2026-11-layout-aproximacao.md`. Não estender esses seletores a outros cards sem um pedido correspondente.
+
+## Backend e configuração por ambiente
+
+Contrato de campos/aceite/mensagens: `backend/forms.mjs`. Receptor SQLite local: `backend/server.mjs`/`store.mjs`. API hospedável: `api/` e `backend/cloud/`; migrações: `supabase/migrations/`. Build exclusivo Vercel: `scripts/build-vercel.mjs`; segredos: variáveis privadas do provedor, com nomes em `.env.example`. Leia `BACKEND-CLOUD.md` antes de alterar qualquer contrato e registre a tarefa conforme AGENTS.md. Configuração pública de `site.json` não recebe credenciais nem destinatários privados.

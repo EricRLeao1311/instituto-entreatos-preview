@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts",
+  "buildCommand": "npm run build:vercel",
+  "outputDirectory": "dist-vercel",
+  "functions": { "api/*.mjs": { "maxDuration": 60 } },
+  "crons": [{ "path": "/api/retry-mail", "schedule": "0 9 * * *" }],
+  "headers": [{ "source": "/(.*)", "headers": [
+    { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+    { "key": "X-Content-Type-Options", "value": "nosniff" }
+  ] }]
+}

@@ -2,7 +2,7 @@
 
 ## Decisão principal
 
-O produto é um site editorial, sem área autenticada. A publicação estática não armazena dados privados; o receptor opcional de teste local usa um banco separado, descrito no final deste documento. Um gerador estático pequeno permite produzir HTML completo e legível sem um framework ou dependências de instalação. Node.js executa apenas a montagem e o servidor de desenvolvimento. A hospedagem recebe arquivos estáticos; não precisa executar Node.
+O produto é um site editorial, sem área autenticada. A publicação estática não armazena dados privados; o receptor opcional de teste local usa um banco separado, descrito no final deste documento. Um gerador estático pequeno permite produzir HTML completo e legível sem um framework ou dependências de instalação. Na opção estática, Node.js executa a montagem e o servidor de desenvolvimento. A hospedagem recebe arquivos estáticos; não precisa executar Node.
 
 O projeto foi separado a partir da apresentação existente, preservando a geometria e as regras visuais que já estavam publicadas. A revisão 2 carrega uma cópia local do runtime de apresentação exportado, com os mesmos dados de interações, para preservar sua fidelidade visual. A inicialização do editor, marca, comércio e formulários hospedados foi retirada. Não se trata de uma nova implementação de CSS com uma nomenclatura inteiramente nova: a camada `legacy.css` é deliberadamente preservada e documentada.
 
@@ -70,3 +70,11 @@ O carrossel foi extraído literalmente para `src/components/home-carousel.html`,
 ## Backend opcional de teste local
 
 `backend/` é separado do gerador estático. `server.mjs` reutiliza o servidor HTTP existente e acrescenta dois receptores e uma resposta local de configuração; `store.mjs` encapsula SQLite e a transação de cadastro/caixa de saída. `preview.mjs` limita a execução a loopback e `inspect.mjs` é a consulta local do operador. Sem novas dependências. Os dados ficam em `.local-data/`, fora de `dist/` e do Git. Nenhuma API de leitura de dados pessoais é publicada. O backend não executa no GitHub Pages e não reutiliza o receptor do Webflow de produção. Guia: `BACKEND-TESTE.md`.
+
+## Backend para hospedagem de teste
+
+O front-end permanece estático. `api/` contém entradas Web Standard da Vercel; `backend/cloud/` recebe requisições, chama transações Postgres pelo REST do Supabase e tenta envio pelo Resend. `backend/forms.mjs` concentra o contrato comum com o servidor SQLite existente. Persistência, cotas e fila ficam em funções SQL versionadas; APIs públicas não consultam dados pessoais. Sem dependência de runtime ou novo framework.
+
+`build-vercel.mjs` gera `dist-vercel/`, com `noindex` e endpoints relativos ativados somente por `BACKEND_ENABLED=true`. Uma lista explícita controla a configuração pública, sem espalhar variáveis privadas no JavaScript. Builds `dist/` e `dist-pages/` continuam independentes. A escolha, os limites, as fontes oficiais e a manutenção estão em `BACKEND-CLOUD.md`; configuração pelo titular em `ATIVAR-TESTE.md`.
+
+A suíte completa usa PGlite em desenvolvimento para executar o SQL real. `package-lock.json` fixa a versão e os workflows instalam com `npm ci --ignore-scripts`. A verificação de registro por tarefa antecede a publicação do Pages. Manter os scripts existentes `dev`, `preview`, `build` e `check`; `preview:backend` e `build:vercel` são acréscimos.

@@ -4,7 +4,7 @@ Reconstrução do site público [institutoentreatos.com.br](https://institutoent
 
 ## Começar
 
-Instale o Node.js 22 ou superior. Abra um terminal nesta pasta e execute:
+Use Node.js 24 para desenvolvimento e testes completos. Abra um terminal nesta pasta e execute:
 
 ```sh
 node scripts/serve.mjs --watch
@@ -13,11 +13,12 @@ node scripts/serve.mjs --watch
 Abra `http://127.0.0.1:4173`. Depois de editar um arquivo em `src/` ou `public/`, atualize o navegador. Para gerar a versão de publicação:
 
 ```sh
+npm ci --ignore-scripts
 node scripts/build.mjs
 node --test
 ```
 
-O resultado fica em `dist/`. Abra o site por HTTP, usando o servidor acima; abrir o HTML diretamente por duplo clique não carrega os módulos JavaScript corretamente. Os mesmos comandos também estão disponíveis como `npm run dev`, `npm run build` e `npm run check`, se o npm estiver instalado. Não é necessário executar `npm install`.
+O resultado fica em `dist/`. Abra o site por HTTP, usando o servidor acima; abrir o HTML diretamente por duplo clique não carrega os módulos JavaScript corretamente. Os mesmos comandos também estão disponíveis como `npm run dev`, `npm run build` e `npm run check`, se o npm estiver instalado. A apresentação e o build estático não precisam de pacotes; a suíte completa instala uma dependência de desenvolvimento para testar o SQL real do backend.
 
 ## Onde editar
 
@@ -73,12 +74,20 @@ Fontes WOFF2 completas, variantes gzip/Brotli no build e revalidação no servid
 
 ## Correção de preservação de 01/11/2026
 
-A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 30 testes, incluindo os contratos de apresentação e o receptor local.
+A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 43 testes, incluindo os contratos de apresentação e o receptor local.
 
 ## Prévia no GitHub Pages
 
-A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 30 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
+A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 43 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
 
 ## Backend local de teste
 
 Execute `node backend/preview.mjs` e abra `http://127.0.0.1:4287/`. Salva contatos e cadastros em SQLite e captura e-mails para conferência, sem envio externo. Para conferir os dados localmente: `node backend/inspect.mjs`. Banco fora da pasta pública e ignorado no Git. A prévia do GitHub Pages continua estática e não recebe esses cadastros. Consulte [BACKEND-TESTE.md](docs/BACKEND-TESTE.md) e [LEVANTAMENTO-WEBFLOW.md](docs/LEVANTAMENTO-WEBFLOW.md). O site oficial não foi modificado.
+
+## Backend para hospedar e manutenção com IA
+
+O código está preparado para um projeto separado de teste na Vercel, com Postgres/Supabase e envio Resend. Contas, banco e credenciais ainda precisam ser configurados; nenhum backend online ou entrega real foi validado. O modo inicial captura mensagens sem envio e o modo de envio exige lista de destinatários de teste. Não altera Webflow, DNS nem domínio da cliente.
+
+Leia [a arquitetura e os limites do backend](docs/BACKEND-CLOUD.md) e [o guia de ativação](docs/ATIVAR-TESTE.md). O build Vercel é separado (`dist-vercel/`); GitHub Pages continua com seu fluxo alternativo. O receptor SQLite local permanece disponível por `npm run preview:backend`.
+
+**Toda mudança com IA precisa ser registrada em `docs/tasks/`, com responsável/IA, pedido, escopo, decisões, verificações reais e pendências, no mesmo conjunto da alteração.** A CI verifica a presença das seções obrigatórias; revisão humana continua necessária. `AGENTS.md` é a fonte de regras, inclusive para Claude via `CLAUDE.md`.

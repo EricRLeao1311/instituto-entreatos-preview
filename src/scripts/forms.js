@@ -51,9 +51,11 @@ export function setupForms() {
         });
         if (!response.ok) throw new Error('Falha no envio');
         const receipt = await response.json().catch(() => null);
-        status.textContent = receipt?.mode === 'preview'
-          ? 'Recebido no ambiente de teste. Nenhum e-mail foi enviado.'
-          : 'Obrigado! Seus dados foram recebidos.';
+        status.textContent = receipt?.mode !== 'preview' ? 'Obrigado! Seus dados foram recebidos.'
+          : receipt.email === 'accepted' ? 'Dados recebidos no teste. O envio do e-mail foi solicitado.'
+          : receipt.email === 'pending' ? 'Dados recebidos no teste. O e-mail aguarda uma nova tentativa de envio.'
+          : receipt.email === 'captured' ? 'Recebido no ambiente de teste. Nenhum e-mail foi enviado.'
+          : 'Dados recebidos no teste. Não foi possível confirmar o envio do e-mail.';
         if (kind === 'research' && config.research.documentUrl) {
           const link = document.createElement('a'); link.href = config.research.documentUrl;
           link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Abrir pesquisa';
