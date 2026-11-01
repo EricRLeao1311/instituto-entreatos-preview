@@ -49,4 +49,6 @@ Criar/conectar as contas, aplicar a migração em banco exclusivo de teste, conf
 
 ## Decisões registradas
 
+Metadados do pacote mantidos em UTF-8 e scripts npm anteriores preservados. A dependência de testes fica restrita ao desenvolvimento.
+
 O remetente nativo do Webflow não é reutilizado; o novo transporte precisa de remetente próprio autorizado. O destinatário padrão confirmado fica fora do Git e será uma variável privada. Reply-to do novo contato usa o e-mail validado do visitante, para permitir resposta; isso não altera o Webflow. A fila é durável, mas o cron diário não garante baixa latência de recuperação: mensagens ambíguas fora da janela de idempotência exigem revisão. Não foi criada newsletter, área de login ou CMS novo sem requisito; os dados são administrados no painel do provedor. O padrão é captura, e envio externo em teste exige lista explícita. A opção Vercel não presume gratuidade: o titular deve conferir plano permitido para trabalho de cliente.

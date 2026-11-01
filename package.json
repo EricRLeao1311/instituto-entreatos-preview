@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Site estÃ¡tico e modular do Instituto Entre Atos, independente do Webflow.",
+  "description": "Site estático e modular do Instituto Entre Atos, independente do Webflow.",
   "engines": {
     "node": "24.x"
   },
