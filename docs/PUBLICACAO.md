@@ -11,17 +11,9 @@ A prévia possui `noindex` e robots com `Disallow: /`, sem alterar os metadados 
 
 ## Repositório
 
-O código está preparado para um repositório, mas esta entrega não cria automaticamente um repositório na conta de ninguém. A pessoa responsável deve criar ou indicar o repositório do Instituto. Versione `src/`, `public/`, `scripts/`, `tests/`, documentação e os arquivos de configuração. `dist/` é gerado e está ignorado no Git.
+O repositório público desta prévia é [EricRLeao1311/instituto-entreatos-preview](https://github.com/EricRLeao1311/instituto-entreatos-preview). O site está em [GitHub Pages](https://ericrleao1311.github.io/instituto-entreatos-preview/). A publicação inicial foi aprovada em 01/11/2026, no commit `36895f7`, pelo [workflow de publicação](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41344111537).
 
-Para iniciar um repositório local, a partir desta pasta:
-
-```sh
-git init
-git add .
-git commit -m "Reconstrói site do Instituto Entre Atos"
-```
-
-Depois, conecte o endereço real do repositório escolhido. Revise a visibilidade e a autoria dos recursos antes de torná-lo público. Não é preciso publicar o código publicamente para permitir manutenção por uma IA com acesso ao repositório.
+Versionados: `src/`, `public/`, `scripts/`, `tests/`, documentação e configuração. `dist/` e `dist-pages/` são gerados e ignorados no Git. Para atualizar, faça a alteração mínima autorizada, execute build e testes, registre o commit e envie à branch `main`. O GitHub publica automaticamente após os testes; confira o resultado na aba Actions. Mudanças apenas de documentação não disparam nova publicação.
 
 ## Hospedagem estática
 
@@ -35,22 +27,22 @@ Depois, conecte o endereço real do repositório escolhido. Revise a visibilidad
 
 Sirva a pasta gerada na raiz de um domínio. Cada rota tem seu próprio `index.html`, permitindo navegação direta e indexação. Configure a hospedagem para servir `404.html` com status 404 em URLs inexistentes; não use uma regra de SPA que retorne a capa para qualquer endereço.
 
-O projeto usa caminhos absolutos como `/assets/...`. Um subdiretório, como `usuario.github.io/repositorio/`, exige adicionar e testar um base path no gerador e nos links. Para GitHub Pages sem essa adaptação, use um domínio próprio ou um site na raiz da conta. Consulte a [documentação oficial do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) para configurar a fonte de publicação.
+O projeto usa caminhos absolutos como `/assets/...`. Para subdiretórios do GitHub Pages, use o adaptador `build-pages.mjs` descrito acima, já configurado e testado para esta prévia. Consulte a [documentação oficial do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) para configurar a fonte de publicação.
 
-O arquivo `.github/workflows/check.yml` roda o build e os testes em pushes e pull requests. Ele não publica o site. Habilite a publicação no provedor escolhido depois de configurar o domínio e as integrações.
+O arquivo `.github/workflows/check.yml` roda o build e os testes em pushes e pull requests. Ele não publica o site. A publicação desta prévia é feita pelo workflow separado `pages.yml`, já habilitado. Um domínio definitivo e suas integrações exigem configuração própria.
 
 ## Troca do site atual
 
 Desde a revisão de 01/11/2026, o build inclui variantes gzip/Brotli e fontes WOFF2. A compressão está ativa no servidor local; o provedor externo precisa de compressão automática ou negociação configurada. A presença dos arquivos `.br`/`.gz` por si só não ativa compressão no provedor. Configure também revalidação por ETag. Consulte [Desempenho](DESEMPENHO.md) para resultados e contratos.
 
 1. Publique `dist/` em um endereço de teste.
-2. Confira as sete páginas, as 14 publicações, imagens, vídeos e formulário no endereço de teste.
+2. Confira as oito páginas institucionais e as 14 publicações, imagens, vídeos e formulário no endereço de teste.
 3. Configure e valide os endpoints e confira a abertura do PDF local conforme `INTEGRACOES.md`.
 4. Confira o valor de `site.url`, o sitemap, as rotas antigas e os redirects necessários.
 5. A pessoa responsável pelo domínio altera DNS/hospedagem quando a versão estiver aprovada.
 6. Confira HTTPS, URLs diretas, 404 e recebimento de mensagens no domínio final.
 
-Não houve alteração de DNS, domínio, publicação ou encerramento da conta Webflow durante esta reconstrução. Mantenha a versão atual disponível até concluir a validação de substituição.
+A prévia foi publicada em um endereço separado do GitHub Pages. O DNS e o domínio da cliente e sua conta Webflow permanecem sem alteração. Mantenha a versão atual disponível até concluir a validação de substituição.
 
 ## Voltar uma versão
 

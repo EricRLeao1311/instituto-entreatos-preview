@@ -1,6 +1,6 @@
 # Publicar uma prévia no GitHub Pages
 
-Status: em andamento
+Status: concluído em 01/11/2026
 
 ## Autorização e escopo
 
@@ -16,3 +16,14 @@ Arquivos previstos: `scripts/build-pages.mjs` e módulo de adaptação de URLs, 
 - Publicação automática pelo GitHub Actions, com permissões limitadas à leitura do código e publicação de Pages.
 - Endereço publicado conferido em páginas diretas, mídia e navegação, com cabeçalho/carrossel originais.
 - Backend permanece pendente, como determinado pelo usuário.
+
+## Resultado e evidências
+
+- Repositório criado: https://github.com/EricRLeao1311/instituto-entreatos-preview
+- Prévia publicada: https://ericrleao1311.github.io/instituto-entreatos-preview/
+- Commit publicado: `36895f7`; execução aprovada: https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41344111537
+- Build e 24 testes aprovados tanto localmente quanto no GitHub. Os sete arquivos com contratos de bytes foram conferidos também no índice Git; `.gitattributes` conserva os arquivos protegidos ao clonar em Linux.
+- 28 verificações HTTP aprovadas no endereço público: 22 páginas, três scripts, duas folhas de estilo e o PDF. Todas retornaram 200. Antes da publicação, 2.006 referências locais de HTML e as referências de CSS foram conferidas no artefato.
+- Navegador público: apresentação pronta, nenhuma imagem quebrada na Home, nenhuma mensagem de erro ou aviso na Biblioteca; o link da Home abre o diálogo original de pesquisa e o contato recebe corretamente `motivo=convidar-instituto`.
+- Artefato conserva os bytes dos scripts de terceiros e o CSS original, descontando apenas o prefixo de URLs locais. Nenhuma mudança visual, editorial ou nos dados de animação foi necessária.
+- Cadastros, envio de pesquisa por e-mail e recebimento direto de mensagens continuam pendentes, conforme `docs/BACKEND-PENDENTE.md`.
