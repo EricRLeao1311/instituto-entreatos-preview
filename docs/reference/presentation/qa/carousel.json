@@ -1,0 +1,180 @@
+{
+  "geometry": [
+    {
+      "width": 1440,
+      "original": [
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "font": "16px",
+          "height": 552,
+          "objectFit": "fill",
+          "selector": ".marquee-image-master",
+          "width": 16624
+        },
+        {
+          "borderRadius": "0px",
+          "display": "none",
+          "font": "16px",
+          "height": 0,
+          "objectFit": "fill",
+          "selector": ".marquee-image-master-mobile",
+          "width": 0
+        },
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "font": "16px",
+          "height": 520,
+          "objectFit": "fill",
+          "selector": ".marquee-slide",
+          "width": 400
+        },
+        {
+          "borderRadius": "16px",
+          "display": "block",
+          "font": "16px",
+          "height": 520,
+          "objectFit": "fill",
+          "selector": ".logo-wrapper",
+          "width": 400
+        },
+        {
+          "borderRadius": "16px",
+          "display": "inline-block",
+          "font": "16px",
+          "height": 520,
+          "objectFit": "cover",
+          "selector": ".logo-image",
+          "width": 400
+        }
+      ],
+      "current": [
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "font": "16px",
+          "height": 552,
+          "objectFit": "fill",
+          "selector": ".marquee-image-master",
+          "width": 16624
+        },
+        {
+          "borderRadius": "0px",
+          "display": "none",
+          "font": "16px",
+          "height": 0,
+          "objectFit": "fill",
+          "selector": ".marquee-image-master-mobile",
+          "width": 0
+        },
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "font": "16px",
+          "height": 520,
+          "objectFit": "fill",
+          "selector": ".marquee-slide",
+          "width": 400
+        },
+        {
+          "borderRadius": "16px",
+          "display": "block",
+          "font": "16px",
+          "height": 520,
+          "objectFit": "fill",
+          "selector": ".logo-wrapper",
+          "width": 400
+        },
+        {
+          "borderRadius": "16px",
+          "display": "inline-block",
+          "font": "16px",
+          "height": 520,
+          "objectFit": "cover",
+          "selector": ".logo-image",
+          "width": 400
+        }
+      ],
+      "same": true
+    },
+    {
+      "width": 390,
+      "original": [
+        {
+          "borderRadius": "0px",
+          "display": "none",
+          "height": 0,
+          "selector": ".marquee-image-master",
+          "width": 0
+        },
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "height": 452,
+          "selector": ".marquee-image-master-mobile",
+          "width": 4680
+        },
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "height": 420,
+          "selector": ".marquee-image-master-mobile .marquee-slide",
+          "width": 300
+        },
+        {
+          "borderRadius": "16px",
+          "display": "block",
+          "height": 420,
+          "selector": ".marquee-image-master-mobile .logo-wrapper",
+          "width": 300
+        }
+      ],
+      "current": [
+        {
+          "borderRadius": "0px",
+          "display": "none",
+          "height": 0,
+          "selector": ".marquee-image-master",
+          "width": 0
+        },
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "height": 452,
+          "selector": ".marquee-image-master-mobile",
+          "width": 4680
+        },
+        {
+          "borderRadius": "0px",
+          "display": "block",
+          "height": 420,
+          "selector": ".marquee-image-master-mobile .marquee-slide",
+          "width": 300
+        },
+        {
+          "borderRadius": "16px",
+          "display": "block",
+          "height": 420,
+          "selector": ".marquee-image-master-mobile .logo-wrapper",
+          "width": 300
+        }
+      ],
+      "same": true,
+      "actualViewport": 468
+    }
+  ],
+  "movement": {
+    "before": "matrix(1, 0, 0, 1, -5033.59, 0)",
+    "after": "matrix(1, 0, 0, 1, -6967.07, 0)",
+    "moved": true
+  },
+  "nativeHover": [
+    {
+      "hovered": true,
+      "id": "001e70e4-fef0-d0fb-3a5b-1eadcbf8a2dc",
+      "mask": "1",
+      "opacity": "1"
+    }
+  ]
+}

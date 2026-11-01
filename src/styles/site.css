@@ -1,0 +1,33 @@
+/* No visual overrides: the published stylesheet and IX2 actions own presentation. */
+.skip-link { position: fixed; top: -100px; left: 20px; padding: 12px 20px; z-index: 10000; background: white; }
+.skip-link:focus { top: 12px; }
+.form-status:empty { display: none; }
+.form-status { margin: 16px 0 0; font-size: 15px; line-height: 1.5; color: #252525; }
+.form-status a { text-decoration: underline; }
+.not-found { max-width: 800px; margin: 14vh auto; padding: 32px; }
+.not-found h1 { font-size: clamp(40px, 7vw, 80px); }
+.not-found a { margin-top: 24px; display: inline-block; }
+
+/* Pedido explícito: corrigir menu cortado em tablet; manter runtime e transições originais. */
+@media (min-width: 480px) and (max-width: 991px) {
+  .nav-right.smaller-gap { display: flex; }
+}
+
+/* Pedido de 01/11: redistribuir apenas os blocos Instituto e Agenda da Home. */
+[data-page="home"] #sobre-instituto-home > .line-title-wrapper,
+[data-page="home"] #agenda-home > .line-title-wrapper,
+[data-page="home"] #aproximacao-home > .line-title-wrapper {
+  grid-column: 1 / span 2;
+  min-width: 0;
+}
+[data-page="home"] #sobre-instituto-home > .description-wrapper,
+[data-page="home"] #agenda-home > .description-wrapper,
+[data-page="home"] #aproximacao-home > .description-wrapper {
+  grid-column: 3 / -1;
+  width: 100%;
+  min-width: 0;
+}
+[data-page="home"] #sobre-instituto-home > .description-wrapper > .button-primary,
+[data-page="home"] #aproximacao-home > .description-wrapper > .button-primary {
+  align-self: flex-start;
+}

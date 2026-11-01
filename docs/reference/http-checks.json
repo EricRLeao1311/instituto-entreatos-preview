@@ -1,0 +1,1432 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/nossa-atuacao",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/quem-somos",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/depoimentos",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/na-midia",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/contato",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/como-funciona-um-programa-de-retorno",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/construindo-uma-marca-pessoal-guia-para-o-sucesso",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/entrevista-maria-luiza",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/ferramentas-para-organizacao-e-planejamento-de-2025",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/maes-lideres---5-soft-skills",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/porque-escolher-um-programa-de-retorno",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/publicacoes/workshop---melhorando-a-autoconfianca",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/404.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "type": "text/plain"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "type": "application/xml"
+  },
+  {
+    "path": "/assets/0052cfa5ba-11.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/00f4635e64-A6---7.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/0288443af5-14-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/02bf4f32cc-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/031fbaf8b4-Capa-E-book---Construa-o-seu-pitch---Apresente-se-em-3-minutos-1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/03b73ba95c-A6---8.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/055837fcc1-WhatsApp-Image-2026-05-11-at-13.41.50.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/056069b923-Simone-G..jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/07ce732bf4-iStock-1465591757-1024x683.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/08825f089f-logo-all-black.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/09a50da670-iStock-1623129811-1024x683.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/0be0a2dced-7-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/0dfcfa8521-1-p-800.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/1070e2623d-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/116d23cbda-5.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/125d483c0b-kobu-agency-7okkFhxrxNw-unsplash-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/12e778880c-ADF48AA4-8196-4EDE-913A-BD7FD44DA569_1_102_o-copiar.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/13441b656e-2-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/146c97fd60-board_Frederico-Paredes.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/150bd51ba3-insta.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/15d1653c01-3.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/18a03d49a6-Ana-Beatriz-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/19422d0188-asia-culturecenter-57oPg_ksI4k-unsplash-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/1952c34a13-2078096215-desafios-do-retorno-ao-trabalho-apos-o-cancer-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/1ec94267de-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjUQ-qXA.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/1fd1c7681e-logo-padrao-p-800.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/20fc513fa1-Lucelia-C.N.-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/20ffe07a08-vide2_mp4.mp4",
+    "status": 200,
+    "type": "video/mp4"
+  },
+  {
+    "path": "/assets/23c8b22d21-10.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/2429f98e0c-9.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/25379c28b7-1-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/26d3743b19-eduardo-ramos-P5v94RZRktg-unsplash-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/28cdcb58a2-WhatsApp-Image-2026-05-11-at-22.36.19.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/2aa570ac66-logo-padrao-p-1080.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/2c0f513e9e-12-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/2da216c602-Alessandra-1-.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/2e5123c51c-1-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/2e9fa9577f-kobu-agency-7okkFhxrxNw-unsplash-p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/2edc71166d-WhatsApp-Image-2026-05-11-at-13.41.50-p-1080.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/3097f32241-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/30fd7e0962-Alessandra-1--p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/31d1314eff-12.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/31f62a5a9a-asia-culturecenter-57oPg_ksI4k-unsplash-p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/32779b6ff6-638229488_webm.webm",
+    "status": 200,
+    "type": "video/webm"
+  },
+  {
+    "path": "/assets/32e10df7cd-10-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/32f5db8d29-11-Charline-C-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/3371ad2286-14-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/33f1b72e68-11-Charline-C.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/36d4037252-Ana-Beatriz.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/3731e8cddf-11-Charline-C-p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/38485192d9-438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-1080.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/3920538099-image-60-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/3b0f815e50-A6---5.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/3ef5bb1ab7-8-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/3ff89d14ef-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiqXA.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/410f450a8d-Patricia-Costa-p-1080.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4110c30eeb-Alessandra-1--p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/41daeb2444-eduardo-ramos-P5v94RZRktg-unsplash-p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/41e4716264-Teresa-L-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/42aaaf7a68-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/42fe814121-asia-culturecenter-57oPg_ksI4k-unsplash-p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/438b3edb2d-Alessandra-1--p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/43d8633f39-438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/44a5c72b62-iStock-1623129811-1024x683-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/48e0c5b9b4-2.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/4a804c72a0-11-Charline-C-p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4aac3030f9-12-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4acd67624c-37EB5DBA-911E-47AC-AF81-455987CE932E_1_105_c.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4b425ca312-Web-Thumbnail.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/4b8f1e4958-logo-padrao.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/4cac7b29c9-Patricia-Costa-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4cf6a95c03-vide2_poster.0000000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4db4229d90-A6---6.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/4e7dd1e984-Lucelia-C.N.-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/4fb20731ba-6-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/510d3408c1-getty-images-lylPREQlrvM-unsplash-1--p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/5556fd2f8b-5.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/56f392ad77-logo-padrao-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/577453baef-Alessandra-1--p-3200.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/588a509973-alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/592bd963bc-eduardo-ramos-P5v94RZRktg-unsplash.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/59cf90660b-6B8A514E-4AC8-4B2E-8C2A-0D6C2D1D223F_1_105_c.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/59fe63bd02-mem5YaSw02SQ0OlzDuR8Isk-VQ.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/5ac11c4dd8-eduardo-ramos-P5v94RZRktg-unsplash-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/5bca49f5eb-1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/5c742e7383-Alessandra-1--p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/5dcf366639-Capa-E-book-Curriculo-Imbativel-com-IA-1-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/5ff0c03f9b-custom-checkbox-checkmark.589d534424.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "/assets/5ff53cc116-13-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/61ba3ccac5-Ana-Beatriz-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/62e7da88de-eduardo-ramos-P5v94RZRktg-unsplash-p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/634d6f05cf-Board_Sandra-Lima.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/639f13ef45-11-Charline-C-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/658b2b1401-Simone-G.-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/676f0d85b3-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/6a70ac2e78-iStock-1465591757-1024x683-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/6abb9c24cd-13-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/6abee51201-Simone-G.-p-1080.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/6d4404736a-asia-culturecenter-57oPg_ksI4k-unsplash-p-3200.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/6d6d4e72b0-asia-culturecenter-57oPg_ksI4k-unsplash-p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/6e6f65f95f-1776288746669.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/6fe03fab0d-91935.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/720d9b6cd1-whatsapp-glyph-black.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "/assets/722ff42d00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/7281442fde-kobu-agency-7okkFhxrxNw-unsplash-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/72b8cc8c4b-Alessandra-1--p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/7332b59532-getty-images-lylPREQlrvM-unsplash-1--p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/740cb1d412-getty-images-lylPREQlrvM-unsplash-1-.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/7439e9a2e8-638229488_poster.0000000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/747abdee73-eduardo-ramos-P5v94RZRktg-unsplash-p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/760d1c59fc-7.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/76e3551a64-000000-69-750x375-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/76e4448289-4-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/77106ccd06-Tennis-Court-Pose.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/785cbdb804-testemunho-A.-Ebert--p-1080.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/78d56f0b87-eduardo-ramos-P5v94RZRktg-unsplash-p-3200.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/78e0631f05-4-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/799041f1f5-iStock-1465591757-1024x683-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/7c70f852c7-kobu-agency-7okkFhxrxNw-unsplash.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/7dbd908181-WhatsApp-Image-2026-05-11-at-13.41.50-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/7df0ec4808-Teresa-L-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/7e9c6ecd71-000000-69-750x375.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/7e9e379111-5-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/7ee1f3fdcf-4.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/81275a4903-14.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/82ace53a3b-5-p-1080.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/82eeee7fd9-12.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/842fc5bfa3-1-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/85e1d8be56-5-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/86aae14e88-5-p-800.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/8750e3375f-Tayna-G-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/8968ebb8fb-x.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "/assets/89c358ab39-JOSE-LUIZ-ROSSI-023-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/8cd68df515-Capa-E-book---Caixa-de-Ferramentas-1-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/8ce7af37ff-GeneralSans-Bold.otf",
+    "status": 200,
+    "type": "font/otf"
+  },
+  {
+    "path": "/assets/8cfd45446a-logo-all-black-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/8dfe4945f1-Capa-E-book-Curriculo-Imbativel-com-IA-1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/8e535456e7-Capa-E-book---Como-se-manter-se-motivado-ao-retorno-1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/8e6fc00929-kobu-agency-7okkFhxrxNw-unsplash-p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/8f7cb3ddcd-Lucelia-C.N.-p-1080.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/900f9b6924-WhatsApp-Image-2026-05-11-at-22.36.19-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/91e19fef9a-Tayna-G.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/925bcb6a0e-Boa-foto-de-evento-Websummit-Rio-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/92b69e3ae5-iStock-2187596823-1024x683-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/937195f9b5-Satoshi-Variable.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/937e79a2de-4.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/93828c6616-Teresa-L-p-1080.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/939f0a8a27-eduardo-ramos-P5v94RZRktg-unsplash-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/941243d355-ADF48AA4-8196-4EDE-913A-BD7FD44DA569_1_102_o-copiar-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/9445ca1697-tete1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/9545f1aded-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/993f15709b-550A1010-523F-40A7-87B5-6354BF15F492_1_105_c-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/99b10e7de3-video-icon.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "/assets/9aec0cfbd6-Lucelia-C.N..jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/9f290def88-GeneralSans-Medium.otf",
+    "status": 200,
+    "type": "font/otf"
+  },
+  {
+    "path": "/assets/9f76dc464b-A6---2.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/a0b79e936c-12-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a25478fa2e-Capa-E-book---Como-se-manter-se-motivado-ao-retorno-1-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/a428d7e7dc-board_Frederico-Paredes-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a52686daed-6B8A514E-4AC8-4B2E-8C2A-0D6C2D1D223F_1_105_c-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a54e61e14e-getty-images-lylPREQlrvM-unsplash-1--p-3200.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a55fc2ca40-A6---4.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/a608cdb6c0-WhatsApp-Image-2026-05-11-at-22.36.19-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a685e32f52-kobu-agency-7okkFhxrxNw-unsplash-p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a7dd31d5ce-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/a9ef091a1f-Patricia-Costa.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/aa7e77b508-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/aae51659e0-2-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/ac35d5c391-8-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/ac5c2d5d29-Board_Sandra-Lima-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/ad5e0efd9c-JOSE-LUIZ-ROSSI-023-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/ad69a9151f-iStock-2187596823-1024x683-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/af110bea88-Patricia-Costa-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/af801b0a62-GeneralSans-Light.otf",
+    "status": 200,
+    "type": "font/otf"
+  },
+  {
+    "path": "/assets/afbc9ac989-3-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/b0c5cd1b54-5-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/b0da5cddc4-Teresa-L.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/b165af2f98-Alessandra-1--p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/b25c099072-ic-Arrow-Go.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "/assets/b3d271d3df-Boa-foto-de-evento-Websummit-Rio.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/b4baefdd37-9-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/b5f86d2cf1-getty-images-lylPREQlrvM-unsplash-1--p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/b8acd3279f-WhatsApp-Image-2026-05-11-at-13.41.50-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/ba08b16a00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/bb9b07e8b2-getty-images-lylPREQlrvM-unsplash-1--p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/bbe39397bf-kobu-agency-7okkFhxrxNw-unsplash-p-3200.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/bd4174f72a-11-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/c04e35dc0a-13.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/c11b6d42d6-8.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/c208c4adcf-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/c22fdc6092-11-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/c4930b03f9-1.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/c494732eba-asia-culturecenter-57oPg_ksI4k-unsplash-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/c56fbc792a-Beatriz-M-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/c6c7c3a9a3-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-3200.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/c8ef9653a5-11-Charline-C-p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/c91e45a651-asia-culturecenter-57oPg_ksI4k-unsplash-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/c93a6057b7-iStock-2187596823-1024x683.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/c9b196fece-550A1010-523F-40A7-87B5-6354BF15F492_1_105_c.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/cb4c83860b-testemunho-A.-Ebert--p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/cb8959d005-Beatriz-M.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/cba18f9822-6-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/cca219a1ce-8.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/cd1a02ec66-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-800.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/cd5926f097-Capa-E-book---Caixa-de-Ferramentas-1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/cdb91ca92c-iStock-1623129811-1024x683-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/ce9886aabd-testemunho-A.-Ebert-.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/d374002024-vide2_webm.webm",
+    "status": 200,
+    "type": "video/webm"
+  },
+  {
+    "path": "/assets/d3f0baf48a-Simone-G.-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/d43e4ba9f9-JOSE-LUIZ-ROSSI-023-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/d45eae893c-6.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/d4f6ccc3a0-3-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/d5e62119da-4-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/d62e3be6f2-A6---3.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/d6c68ef44d-438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-800.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/d7057c71cc-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-2000.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/d7af4b8130-11-Charline-C-p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/d91912f7e0-JOSE-LUIZ-ROSSI-023.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/d9c9aad2f1-GeneralSans-Regular.otf",
+    "status": 200,
+    "type": "font/otf"
+  },
+  {
+    "path": "/assets/dc63245d30-testemunho-A.-Ebert--p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/ded0b4d119-9-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/df16c1e9c3-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-1600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/e085c33ce4-getty-images-lylPREQlrvM-unsplash-1--p-2600.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/e239b2dc89-Beatriz-M-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/e32a54d03c-board_Frederico-Paredes-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/e41cea15bd-2078096215-desafios-do-retorno-ao-trabalho-apos-o-cancer.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/e42a0352d9-kobu-agency-7okkFhxrxNw-unsplash-p-500.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/e7fa37b643-12-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/e9688a7fe8-Board_Sandra-Lima-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/eb5955df2e-638229488_mp4.mp4",
+    "status": 200,
+    "type": "video/mp4"
+  },
+  {
+    "path": "/assets/ec3448359d-Boa-foto-de-evento-Websummit-Rio-p-800.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/f0d9a32b63-10-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/f25ce68e8a-8-p-500.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/f3f3c62d14-A6---1.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/f417e58c0c-getty-images-lylPREQlrvM-unsplash-1--p-1080.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/f658430bc7-tete1-p-500.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/f7d279a4c8-image-60.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/f992ae7280-asia-culturecenter-57oPg_ksI4k-unsplash.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/f9a508cfe4-email.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/fa0569c3ce-37EB5DBA-911E-47AC-AF81-455987CE932E_1_105_c-p-500.jpeg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/favicon.png",
+    "status": 200,
+    "type": "image/png"
+  },
+  {
+    "path": "/assets/fe974453f0-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "path": "/assets/ffdba7d5e1-7-p-800.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/panorama-retorno-profissional-2025.pdf",
+    "status": 200,
+    "type": "application/pdf"
+  },
+  {
+    "path": "/assets/placeholder.svg",
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  {
+    "path": "/scripts/config.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/scripts/counters.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/scripts/feature-flags.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/scripts/forms.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/scripts/interactions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/scripts/main.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/scripts/research.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/styles/base.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/styles/fonts.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/styles/legacy.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/styles/site.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/vendor/jquery-3.5.1.min.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/vendor/runtime-bootstrap.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/vendor/runtime-core.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/vendor/runtime-lightbox.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/vendor/runtime-polyfills.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/vendor/runtime-slider.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  }
+]

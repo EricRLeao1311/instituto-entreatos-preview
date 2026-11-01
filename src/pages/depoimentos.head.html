@@ -1,0 +1,58 @@
+<style>
+  :root {
+    --plyr-color-main: #2e6054;
+  }
+
+  .youtube-video-4x5 {
+    position: relative;
+    width: 100%;
+    max-width: 540px;
+    aspect-ratio: 4 / 5;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .youtube-video-4x5 .plyr {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .youtube-video-4x5 .plyr__video-wrapper {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 0 !important;
+    overflow: hidden !important;
+    background: #000;
+  }
+
+  .youtube-video-4x5 iframe {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+
+    width: 177.78% !important;
+    height: 100% !important;
+
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .youtube-video-4x5 .plyr__controls {
+    z-index: 5;
+  }
+
+  .youtube-video-4x5 .plyr__control--overlaid {
+    z-index: 6;
+  }
+
+  @media screen and (max-width: 767px) {
+    .youtube-video-4x5 {
+      max-width: 100%;
+    }
+  }
+</style>

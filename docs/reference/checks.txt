@@ -1,0 +1,23 @@
+$ node scripts/build.mjs
+Build concluído: 21 páginas + 404 em dist/
+
+$ node --test
+✔ interações preservam integralmente os eventos, tempos, easing e alvos exportados (45.3173ms)
+✔ runtime é local e não inicializa formulários hospedados, editor, marca ou comércio (24.1589ms)
+✔ inventário contém as 7 páginas institucionais e 14 publicações migradas (1.6297ms)
+✔ todas as páginas têm SEO, navegação, conteúdo resolvido e IDs únicos (3.8051ms)
+✔ links internos, âncoras e arquivos locais apontam para destinos existentes (211.3205ms)
+✔ fontes e imagens de CSS são locais e estão disponíveis (28.3774ms)
+✔ formulários oferecem estado de envio e não usam endpoints do Webflow (1.4012ms)
+✔ PDF principal está incluído e módulos do navegador têm seus imports locais (521.4356ms)
+✔ conteúdo de configuração é escapado e variável desconhecida falha (1.8171ms)
+✔ coleções geram HTML estático e escapam o conteúdo de cada registro (16.7823ms)
+✔ includes recursivos rejeitam ciclos e acesso fora da pasta de origem (38.5467ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1041.9766

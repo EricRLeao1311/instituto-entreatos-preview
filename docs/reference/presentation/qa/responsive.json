@@ -1,0 +1,137 @@
+[
+  {
+    "requestedWidth": 1440,
+    "route": "/",
+    "state": {
+      "actualWidth": 1440,
+      "documentWidth": 1425,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/quem-somos",
+    "state": {
+      "actualWidth": 1440,
+      "documentWidth": 1425,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/biblioteca",
+    "state": {
+      "actualWidth": 1440,
+      "documentWidth": 1425,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/contato",
+    "state": {
+      "actualWidth": 1440,
+      "documentWidth": 1425,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 1440,
+    "route": "/nossa-atuacao",
+    "state": {
+      "actualWidth": 1440,
+      "documentWidth": 1425,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 800,
+    "route": "/",
+    "state": {
+      "actualWidth": 800,
+      "documentWidth": 785,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 800,
+    "route": "/quem-somos",
+    "state": {
+      "actualWidth": 800,
+      "documentWidth": 785,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 800,
+    "route": "/biblioteca",
+    "state": {
+      "actualWidth": 800,
+      "documentWidth": 785,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 800,
+    "route": "/contato",
+    "state": {
+      "actualWidth": 800,
+      "documentWidth": 785,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 800,
+    "route": "/nossa-atuacao",
+    "state": {
+      "actualWidth": 800,
+      "documentWidth": 785,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/",
+    "state": {
+      "actualWidth": 390,
+      "documentWidth": 375,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/quem-somos",
+    "state": {
+      "actualWidth": 390,
+      "documentWidth": 375,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/biblioteca",
+    "state": {
+      "actualWidth": 390,
+      "documentWidth": 375,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/contato",
+    "state": {
+      "actualWidth": 390,
+      "documentWidth": 375,
+      "ready": "true"
+    }
+  },
+  {
+    "requestedWidth": 390,
+    "route": "/nossa-atuacao",
+    "state": {
+      "actualWidth": 390,
+      "documentWidth": 375,
+      "ready": "true"
+    }
+  }
+]

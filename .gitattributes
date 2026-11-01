@@ -1,0 +1,29 @@
+* text=auto
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.svg text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.mp4 binary
+*.webm binary
+*.ttf binary
+*.otf binary
+*.woff2 binary
+
+# Preserve exact bytes of files protected by presentation/vendor checks across OSes.
+public/vendor/* -text
+src/styles/legacy.css -text
+src/styles/fonts.css -text
+src/content/interactions.json -text
+src/pages/home.head.html -text
+src/pages/quem-somos.head.html -text
+src/sections/quem-somos/04-team.html -text
+src/sections/quem-somos/05-team-variant-2.html -text

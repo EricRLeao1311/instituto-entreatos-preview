@@ -1,0 +1,22 @@
+✔ cada variante comprimida restaura exatamente os bytes originais (149.6368ms)
+✔ fontes WOFF2 preservam inventário e hashes da conversão verificada (110.7121ms)
+✔ HTTP negocia compressão, HEAD, revalidação e falhas sem servir bytes incorretos (54.5233ms)
+✔ interações preservam integralmente os eventos, tempos, easing e alvos exportados (49.0537ms)
+✔ runtime é local e não inicializa formulários hospedados, editor, marca ou comércio (27.3576ms)
+✔ inventário contém as 7 páginas institucionais e 14 publicações migradas (2.9248ms)
+✔ todas as páginas têm SEO, navegação, conteúdo resolvido e IDs únicos (5.3078ms)
+✔ links internos, âncoras e arquivos locais apontam para destinos existentes (200.6487ms)
+✔ fontes e imagens de CSS são locais e estão disponíveis (4.8711ms)
+✔ formulários oferecem estado de envio e não usam endpoints do Webflow (1.1995ms)
+✔ PDF principal está incluído e módulos do navegador têm seus imports locais (704.6097ms)
+✔ conteúdo de configuração é escapado e variável desconhecida falha (4.3396ms)
+✔ coleções geram HTML estático e escapam o conteúdo de cada registro (23.3912ms)
+✔ includes recursivos rejeitam ciclos e acesso fora da pasta de origem (34.2374ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1233.6757

@@ -1,0 +1,1227 @@
+{
+  "https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a29b112aac4_ic%20Arrow%20Go.svg": {
+    "path": "/assets/b25c099072-ic-Arrow-Go.svg",
+    "bytes": 331,
+    "sha256": "e3ae2b0d058074ccc525277727677a22d1cad20a0b26a7598edbcd281e4c90c8"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0%2F69cd44106f653c0f7530dae5_638229488_mp4.mp4": {
+    "path": "/assets/eb5955df2e-638229488_mp4.mp4",
+    "bytes": 3433875,
+    "sha256": "f9c98c1e1648f748bdf116ce7f14a3090076fba520ff51b7947a5d927fa8b889"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0%2F69cd44106f653c0f7530dae5_638229488_poster.0000000.jpg": {
+    "path": "/assets/7439e9a2e8-638229488_poster.0000000.jpg",
+    "bytes": 77816,
+    "sha256": "c7344b6ad80f5f3fd729801386d7779293c04568f9b0ce68ade47dd1609b36cb"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0%2F69cd44106f653c0f7530dae5_638229488_webm.webm": {
+    "path": "/assets/32779b6ff6-638229488_webm.webm",
+    "bytes": 4098743,
+    "sha256": "09d3fd6485af49497d5c752fe4e7578a56453085cbf834f70e37defbd9efbd2f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0%2F69ea54910e7a9de4e2435bf5_vide2_mp4.mp4": {
+    "path": "/assets/20ffe07a08-vide2_mp4.mp4",
+    "bytes": 2315940,
+    "sha256": "8e8401cbc418ba042e8b962d8f979869dc3a55fd69e852a9625ed32b4165e9cd"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0%2F69ea54910e7a9de4e2435bf5_vide2_poster.0000000.jpg": {
+    "path": "/assets/4cf6a95c03-vide2_poster.0000000.jpg",
+    "bytes": 28629,
+    "sha256": "cfc95bb71fbe1e1e3036948a718e77f8ac74d34facaaaabb4c38f040a158fec3"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0%2F69ea54910e7a9de4e2435bf5_vide2_webm.webm": {
+    "path": "/assets/d374002024-vide2_webm.webm",
+    "bytes": 2536410,
+    "sha256": "1abbbf504ff33e5f2c9dcf72a5f759757051ea1d7d3349c7e8d8fca6ffe69b62"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a368_GeneralSans-Light.otf": {
+    "path": "/assets/af801b0a62-GeneralSans-Light.otf",
+    "bytes": 46020,
+    "sha256": "6e4965d3b14bb02d4123cedaf87d2b4c3da7462a195d2e5d27f361f1fcd277a4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a369_GeneralSans-Bold.otf": {
+    "path": "/assets/8ce7af37ff-GeneralSans-Bold.otf",
+    "bytes": 43260,
+    "sha256": "88bff1f629ba18f1342250753648b9e74196b8a2229fbf2f53d602d787fd23fc"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a36a_GeneralSans-Regular.otf": {
+    "path": "/assets/d9c9aad2f1-GeneralSans-Regular.otf",
+    "bytes": 45948,
+    "sha256": "f5cfd05c1dafa77e944670528a81958f7c21b7517bafd2a8796a3aa17e56b9ce"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a3d9_GeneralSans-Medium.otf": {
+    "path": "/assets/9f290def88-GeneralSans-Medium.otf",
+    "bytes": 46424,
+    "sha256": "a4c6067d3415ab1ec2e17e6bd0406c0d3f7a28c707c5ddd85ca6458cabd3dbf0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a4b2_Tennis%20Court%20Pose.webp": {
+    "path": "/assets/77106ccd06-Tennis-Court-Pose.webp",
+    "bytes": 228284,
+    "sha256": "5cb9129a6f3c9aa036a619dea4c784fa72420dc055b510ebc8451af1f98252f9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a4bb_438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-1080.png": {
+    "path": "/assets/38485192d9-438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-1080.png",
+    "bytes": 89237,
+    "sha256": "353cd05b205d547d9ffc2e03653d7d34fd9c8926308beb87c976763d33c6599e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a4bb_438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-500.png": {
+    "path": "/assets/43d8633f39-438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-500.png",
+    "bytes": 27733,
+    "sha256": "b6d736ec4201bbb8c19482b768eb58901b0b5ba59e16647f15cfaaab9fc355ac"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a4bb_438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-800.png": {
+    "path": "/assets/d6c68ef44d-438cdd58033d010202a9b8d4de0a091c_Web-Thumbnail-p-800.png",
+    "bytes": 55742,
+    "sha256": "09c68ae26cad209d6ba01e9bdddb829b3b0a6a0a9500ba29a846d1d7009d7347"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca8fb5411afd539109a4bb_Web-Thumbnail.png": {
+    "path": "/assets/4b425ca312-Web-Thumbnail.png",
+    "bytes": 231834,
+    "sha256": "8bb3ea7bfff733d54eb96f0f4b2d92090491033db52684eafc2a4ff11f69b693"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ca91602023d749c7f3b7ac_Satoshi-Variable.ttf": {
+    "path": "/assets/937195f9b5-Satoshi-Variable.ttf",
+    "bytes": 127420,
+    "sha256": "02ad131926aa46d282b6af73ad2bcaecb0ec6ef3b830a2f08dcabef44f1140ff"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69d5d751ec350cf591381bd4_Ana%20Beatriz-p-500.jpeg": {
+    "path": "/assets/61ba3ccac5-Ana-Beatriz-p-500.jpeg",
+    "bytes": 18068,
+    "sha256": "743d0754e4191c772a4a6e22c91be050b9814bbd93a3cf000978f1b10655de92"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69d5d751ec350cf591381bd4_Ana%20Beatriz-p-800.jpeg": {
+    "path": "/assets/18a03d49a6-Ana-Beatriz-p-800.jpeg",
+    "bytes": 37460,
+    "sha256": "8462b25f1bf3720cd7f74dc6a737433b4eb80f4989ef482dd02f97763894c674"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69d5d751ec350cf591381bd4_Ana%20Beatriz.jpeg": {
+    "path": "/assets/36d4037252-Ana-Beatriz.jpeg",
+    "bytes": 46639,
+    "sha256": "3625cb927a14be1799b409bd4a73a889cfe06226cea40ebe72959b80fb5be607"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc26ef610e86d478e6c1_Patricia%20Costa-p-1080.jpeg": {
+    "path": "/assets/410f450a8d-Patricia-Costa-p-1080.jpeg",
+    "bytes": 63075,
+    "sha256": "318a068e1c0ad4a40c65260ec50fa1dd310d6c70bc8c2b06f30cdee50350b84a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc26ef610e86d478e6c1_Patricia%20Costa-p-500.jpeg": {
+    "path": "/assets/4cac7b29c9-Patricia-Costa-p-500.jpeg",
+    "bytes": 19802,
+    "sha256": "ea2bd75e96cb04ef7cf3f5165cd164e399c604ca861d07448f6b5add63bfb965"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc26ef610e86d478e6c1_Patricia%20Costa-p-800.jpeg": {
+    "path": "/assets/af110bea88-Patricia-Costa-p-800.jpeg",
+    "bytes": 40001,
+    "sha256": "cf58a159d1b6e871428c6e2ea16047e10fc7ac8415578a530d23a33025361a80"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc26ef610e86d478e6c1_Patricia%20Costa.jpeg": {
+    "path": "/assets/a9ef091a1f-Patricia-Costa.jpeg",
+    "bytes": 93390,
+    "sha256": "6c2425014d65e7858c0d5ae787eb69a87bdfe5735a09561caf5be4161ee8fbaf"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc40a16d08ad8f731dd6_Board_Sandra%20Lima-p-500.jpeg": {
+    "path": "/assets/e9688a7fe8-Board_Sandra-Lima-p-500.jpeg",
+    "bytes": 34779,
+    "sha256": "17ae5c1af8683e46f06fe643fda1d24a7f555e5500bd2434183dbb04c1562fe2"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc40a16d08ad8f731dd6_Board_Sandra%20Lima-p-800.jpeg": {
+    "path": "/assets/ac5c2d5d29-Board_Sandra-Lima-p-800.jpeg",
+    "bytes": 79225,
+    "sha256": "13930d275b92cb82ef1218e5286a3e0c72896c6769ed5c00a50c3a845e0d803f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc40a16d08ad8f731dd6_Board_Sandra%20Lima.jpeg": {
+    "path": "/assets/634d6f05cf-Board_Sandra-Lima.jpeg",
+    "bytes": 217562,
+    "sha256": "fadb592c1826d6c0d7e617ce7876320d5f946024cc2f1b30ff021446eb409900"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc7154a64bfa2307c0f2_board_Frederico%20Paredes-p-500.jpeg": {
+    "path": "/assets/e32a54d03c-board_Frederico-Paredes-p-500.jpeg",
+    "bytes": 54783,
+    "sha256": "b525e61abda623a9909ea260c11bf018b08efe62ccc808c9f9262d87f0f5896f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc7154a64bfa2307c0f2_board_Frederico%20Paredes-p-800.jpeg": {
+    "path": "/assets/a428d7e7dc-board_Frederico-Paredes-p-800.jpeg",
+    "bytes": 128033,
+    "sha256": "7b08503a72246b0c336b12a1f4a8d67a219aaed35623b3057f440b50fc16c05d"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dedc7154a64bfa2307c0f2_board_Frederico%20Paredes.jpeg": {
+    "path": "/assets/146c97fd60-board_Frederico-Paredes.jpeg",
+    "bytes": 150255,
+    "sha256": "0443ab63a1d87ab2929312e43104d49a25ff00f5200be9eb3e2835a7605906d8"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dee46d696e10ef68089d5f_A6%20-%201.png": {
+    "path": "/assets/f3f3c62d14-A6---1.png",
+    "bytes": 17403,
+    "sha256": "0e2d6b71fd2d43f553a1f8dfe33e7aba103eee948de78a867ca9440efb237a0c"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dee4840cb83c4daf6b6d97_A6%20-%202.png": {
+    "path": "/assets/9f76dc464b-A6---2.png",
+    "bytes": 16742,
+    "sha256": "0273e33a09cd0b61d94f1c653a310d00bda76468e9fc2329f0a7aa23811da42e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dee48cc6cc6c768e0565a9_A6%20-%203.png": {
+    "path": "/assets/d62e3be6f2-A6---3.png",
+    "bytes": 18475,
+    "sha256": "a7f2ebbbb2d6b66178e9d643b4fda9299020e02c042eacca9b8033639a65f618"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dee48cde0b0a78b2389fd3_A6%20-%206.png": {
+    "path": "/assets/4db4229d90-A6---6.png",
+    "bytes": 37918,
+    "sha256": "1d202ab448485361ebb3f0cd3ec7786b8599d124f0adfd5ac9410c62b187c8a4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dee48ce47f07cb0bb02aa8_A6%20-%205.png": {
+    "path": "/assets/3b0f815e50-A6---5.png",
+    "bytes": 25778,
+    "sha256": "193f1169c325edf3c33ac3bf837b0cf7ad73da662ddd8c713b43627f82ccb514"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dee48cf212d8384e63a7c9_A6%20-%204.png": {
+    "path": "/assets/a55fc2ca40-A6---4.png",
+    "bytes": 11947,
+    "sha256": "7300f99698e3ac68d848f54c5f6b47c362fac4fb194488f01b21fc13a0177d88"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69df15e374af59b570c43463_A6%20-%207.png": {
+    "path": "/assets/00f4635e64-A6---7.png",
+    "bytes": 19443,
+    "sha256": "fc62f0308a9d6886652c77220941c4a1d9d108f4ea92c8395d60ec37ccfdcefc"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69df15eca1cc13fa05ba2200_A6%20-%208.png": {
+    "path": "/assets/03b73ba95c-A6---8.png",
+    "bytes": 14538,
+    "sha256": "56e4a89e59b1ee576c9bb765d890e9f4c4368929175abeb08720a8a3de094293"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dfaf06cccd8f2bb8ee2e8f_x.svg": {
+    "path": "/assets/8968ebb8fb-x.svg",
+    "bytes": 315,
+    "sha256": "534aa5ebd01afe8eee8ae9953fa8701f0a07e586a9c8044caa8b7edf989619e4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dffc30ab46b1bf39cc25be_testemunho%20A.%20Ebert%20-p-1080.jpeg": {
+    "path": "/assets/785cbdb804-testemunho-A.-Ebert--p-1080.jpeg",
+    "bytes": 77627,
+    "sha256": "db2735c7973f490c8a0be7e56390fea737f4e510f57c11961845e426ace4b6b6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dffc30ab46b1bf39cc25be_testemunho%20A.%20Ebert%20-p-500.jpeg": {
+    "path": "/assets/dc63245d30-testemunho-A.-Ebert--p-500.jpeg",
+    "bytes": 21208,
+    "sha256": "8029458ca1460696fc8fb9ad784716f09f45f9200b64e8173f42a639c78f550d"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dffc30ab46b1bf39cc25be_testemunho%20A.%20Ebert%20-p-800.jpeg": {
+    "path": "/assets/cb4c83860b-testemunho-A.-Ebert--p-800.jpeg",
+    "bytes": 47009,
+    "sha256": "33054852d7500ac7824be1cffd10ca6d153bd35c5c7be4e1cde75a57ad9f598e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dffc30ab46b1bf39cc25be_testemunho%20A.%20Ebert%20.jpeg": {
+    "path": "/assets/ce9886aabd-testemunho-A.-Ebert-.jpeg",
+    "bytes": 102710,
+    "sha256": "537be50895ddc632ade462b9a91f07217448270b0020485ee864a9c2cc26e76c"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e0045fec197c57ed29ae76_1776288746669.jpg": {
+    "path": "/assets/6e6f65f95f-1776288746669.jpg",
+    "bytes": 23549,
+    "sha256": "754125aa296ca9ebee67de9f0d3e1448a3b83e87b535682e472497de56d2ce94"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e00d3a33947b9dc98f4be2_ADF48AA4-8196-4EDE-913A-BD7FD44DA569_1_102_o%20copiar-p-500.jpg": {
+    "path": "/assets/941243d355-ADF48AA4-8196-4EDE-913A-BD7FD44DA569_1_102_o-copiar-p-500.jpg",
+    "bytes": 35316,
+    "sha256": "5d744260eec8c7f40eaeed38f736936aa6ae450b38d6912b0a04f477abc5e388"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e00d3a33947b9dc98f4be2_ADF48AA4-8196-4EDE-913A-BD7FD44DA569_1_102_o%20copiar.jpg": {
+    "path": "/assets/12e778880c-ADF48AA4-8196-4EDE-913A-BD7FD44DA569_1_102_o-copiar.jpg",
+    "bytes": 416571,
+    "sha256": "faae8fb4d99edbb60332d2e89fa30d664fef9bd65fdf341dcf851b522bd34e26"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e1372b7ce3816b083b6a81_91935.png": {
+    "path": "/assets/6fe03fab0d-91935.png",
+    "bytes": 3515,
+    "sha256": "a1ecb3b610074a0475abc9045c47656d529d3120241145ca6ed277e7b480095f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e251826010418d12de24a6_insta.png": {
+    "path": "/assets/150bd51ba3-insta.png",
+    "bytes": 21711,
+    "sha256": "b2adb6b5f1564abafc2996652adad56ed8793d6fc127753123a2963ec007e703"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e251c266dfcb34ad665a57_whatsapp-glyph-black.svg": {
+    "path": "/assets/720d9b6cd1-whatsapp-glyph-black.svg",
+    "bytes": 1610,
+    "sha256": "3feab71baae497a51ba81f9c66795e2ebb1fca5239e469bc5460f0c7f61e166d"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e25223e4c56534249f78f8_email.png": {
+    "path": "/assets/f9a508cfe4-email.png",
+    "bytes": 3668,
+    "sha256": "9e0e4d1874a21e7d86c70dca2743e7456acc35d725b0cdbefa381ac6ad7c34c6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-1080.jpg": {
+    "path": "/assets/5c742e7383-Alessandra-1--p-1080.jpg",
+    "bytes": 143231,
+    "sha256": "97b0023d054c232328906f83af9f66ade7cb5ef03f753039d02e3463d3e9785b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-1600.jpg": {
+    "path": "/assets/438b3edb2d-Alessandra-1--p-1600.jpg",
+    "bytes": 337197,
+    "sha256": "63f4749d32d05bd979aa7a84d9bdb64f48eadc6f2f47357acf7a5daf689e85a9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-2000.jpg": {
+    "path": "/assets/4110c30eeb-Alessandra-1--p-2000.jpg",
+    "bytes": 555490,
+    "sha256": "9387e066786a4137b5fe28f0634cba12db713bcfe4ae36d973563f30ab79c17e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-2600.jpg": {
+    "path": "/assets/72b8cc8c4b-Alessandra-1--p-2600.jpg",
+    "bytes": 999500,
+    "sha256": "13f7aff36460e9f2856c076c857ea56d8671f180152384ea91ac1e97f6f9c3a9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-3200.jpg": {
+    "path": "/assets/577453baef-Alessandra-1--p-3200.jpg",
+    "bytes": 1535503,
+    "sha256": "834bd7a36b1b80fce3b52116f355dbaa87ce07cf26ab8122250c3e2855455ccf"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-500.jpg": {
+    "path": "/assets/b165af2f98-Alessandra-1--p-500.jpg",
+    "bytes": 33254,
+    "sha256": "73896a6ad151dfe627e42575dfd48f11e066b1f7131bc02146c5788e57213f00"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1)-p-800.jpg": {
+    "path": "/assets/30fd7e0962-Alessandra-1--p-800.jpg",
+    "bytes": 78593,
+    "sha256": "dea607a8e9541aef1598ac1a4202fa3a679708cda12cd7e1e0c1967b20eecbcf"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e6aa5359a3e6c972fea2cf_Alessandra%20(1).jpg": {
+    "path": "/assets/2da216c602-Alessandra-1-.jpg",
+    "bytes": 1770157,
+    "sha256": "eff0cd4048f55543b34034d2040dd2ba47f3c827c59f1aa6c0987e7ddb6e02a3"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e90923fe85c8c305fb04ba_logo-padrao-p-1080.png": {
+    "path": "/assets/2aa570ac66-logo-padrao-p-1080.png",
+    "bytes": 21445,
+    "sha256": "438a3da34889e1dab8618fd0e0d06c26a518565146e7039b87750ed395daccdd"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e90923fe85c8c305fb04ba_logo-padrao-p-500.png": {
+    "path": "/assets/56f392ad77-logo-padrao-p-500.png",
+    "bytes": 9758,
+    "sha256": "b5f10e963c8a073d2a509161d3a653ec709b141a13c866fd1a37add9d7a319d8"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e90923fe85c8c305fb04ba_logo-padrao-p-800.png": {
+    "path": "/assets/1fd1c7681e-logo-padrao-p-800.png",
+    "bytes": 15546,
+    "sha256": "585323241caca4a09ccd0cc91cc87291dbae61f939159820db8a4851d386fd56"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e90923fe85c8c305fb04ba_logo-padrao.png": {
+    "path": "/assets/4b8f1e4958-logo-padrao.png",
+    "bytes": 26665,
+    "sha256": "9ab5cf4c429b1f9be144c306195f8a321c19b63e3225280a62e08218d39e4fcd"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e909491ee8f54f644d1d0a_logo-all-black-p-500.png": {
+    "path": "/assets/8cfd45446a-logo-all-black-p-500.png",
+    "bytes": 9418,
+    "sha256": "049965d23db18c2caadf26cc188aa0a55b680ba1739bcc1b5de4c3a41f7f0878"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69e909491ee8f54f644d1d0a_logo-all-black.png": {
+    "path": "/assets/08825f089f-logo-all-black.png",
+    "bytes": 13279,
+    "sha256": "408695ae128e4e7902d160bf98f732bd5d924879fd7fb94e586cdbf77757d278"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea59a2a7db0d0d07b8a182_JOSE%20LUIZ%20ROSSI%20023-p-1080.jpg": {
+    "path": "/assets/ad5e0efd9c-JOSE-LUIZ-ROSSI-023-p-1080.jpg",
+    "bytes": 174063,
+    "sha256": "4747361a79b210cffcd39daa05a31b5c725c73443aab7d436ee5e48b846b1462"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea59a2a7db0d0d07b8a182_JOSE%20LUIZ%20ROSSI%20023-p-500.jpg": {
+    "path": "/assets/d43e4ba9f9-JOSE-LUIZ-ROSSI-023-p-500.jpg",
+    "bytes": 40994,
+    "sha256": "91e64a432741480bcd6962de40e09235a67afce2d78c6cb80ab9aa16e4045aa2"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea59a2a7db0d0d07b8a182_JOSE%20LUIZ%20ROSSI%20023-p-800.jpg": {
+    "path": "/assets/89c358ab39-JOSE-LUIZ-ROSSI-023-p-800.jpg",
+    "bytes": 97505,
+    "sha256": "34aa34466a794ae45d1d0b00a85227a5f8851d16317223dd2b5b89d3c7a7fd3a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea59a2a7db0d0d07b8a182_JOSE%20LUIZ%20ROSSI%20023.jpg": {
+    "path": "/assets/d91912f7e0-JOSE-LUIZ-ROSSI-023.jpg",
+    "bytes": 553806,
+    "sha256": "834b767d0d96aa5c37f0499d6d2388273db90e8d4d1f04fce7ab02c70b541b2f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5af6e9692fd77be32d8a_6B8A514E-4AC8-4B2E-8C2A-0D6C2D1D223F_1_105_c-p-500.jpeg": {
+    "path": "/assets/a52686daed-6B8A514E-4AC8-4B2E-8C2A-0D6C2D1D223F_1_105_c-p-500.jpeg",
+    "bytes": 59618,
+    "sha256": "4a2b68ce0da4b2a7e9e984ea6636496e487d3d0179798487235b545c66bc8e10"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5af6e9692fd77be32d8a_6B8A514E-4AC8-4B2E-8C2A-0D6C2D1D223F_1_105_c.jpeg": {
+    "path": "/assets/59cf90660b-6B8A514E-4AC8-4B2E-8C2A-0D6C2D1D223F_1_105_c.jpeg",
+    "bytes": 238751,
+    "sha256": "ce2ceb69567c29383acbf9ff14dff2ad77e8f2318d2f9e4bd138eaec0597e5e2"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b008ceb267ae3048d5b_550A1010-523F-40A7-87B5-6354BF15F492_1_105_c-p-500.jpeg": {
+    "path": "/assets/993f15709b-550A1010-523F-40A7-87B5-6354BF15F492_1_105_c-p-500.jpeg",
+    "bytes": 46213,
+    "sha256": "a104c830901657e2edf1cca69bffab3639b8e44d5714a0fb1bc304a7a6dba05e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b008ceb267ae3048d5b_550A1010-523F-40A7-87B5-6354BF15F492_1_105_c.jpeg": {
+    "path": "/assets/c9b196fece-550A1010-523F-40A7-87B5-6354BF15F492_1_105_c.jpeg",
+    "bytes": 221750,
+    "sha256": "9ac0320b7900955c3fc0b5c8d7a1c4d67b2bb764a4e54b55b5a26bd3dd961af4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b0c8ceb267ae3048f4b_37EB5DBA-911E-47AC-AF81-455987CE932E_1_105_c-p-500.jpeg": {
+    "path": "/assets/fa0569c3ce-37EB5DBA-911E-47AC-AF81-455987CE932E_1_105_c-p-500.jpeg",
+    "bytes": 65735,
+    "sha256": "8f7e06ac42cb0c68024353be1a51d96e3afeb70921141f393f06c736d9a7d9a4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b0c8ceb267ae3048f4b_37EB5DBA-911E-47AC-AF81-455987CE932E_1_105_c.jpeg": {
+    "path": "/assets/4acd67624c-37EB5DBA-911E-47AC-AF81-455987CE932E_1_105_c.jpeg",
+    "bytes": 323714,
+    "sha256": "f887fc7354f675d6ee864a43e56ed2df2e1bceeae7d100f3f6cfd782688da155"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b2b2693c9dd156c371b_Boa%20foto%20de%20evento%20Websummit%20Rio-p-500.jpeg": {
+    "path": "/assets/925bcb6a0e-Boa-foto-de-evento-Websummit-Rio-p-500.jpeg",
+    "bytes": 66972,
+    "sha256": "f4d7f06ac4de93ed235aa091bac4132f00df83cdcf58d363b9159d6ad64046d0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b2b2693c9dd156c371b_Boa%20foto%20de%20evento%20Websummit%20Rio-p-800.jpeg": {
+    "path": "/assets/ec3448359d-Boa-foto-de-evento-Websummit-Rio-p-800.jpeg",
+    "bytes": 146434,
+    "sha256": "960102ca0d451694a17486c6edb9d62e944ef2c4bc2ff4c77c2a38dbc8e5e412"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5b2b2693c9dd156c371b_Boa%20foto%20de%20evento%20Websummit%20Rio.jpeg": {
+    "path": "/assets/b3d271d3df-Boa-foto-de-evento-Websummit-Rio.jpeg",
+    "bytes": 205659,
+    "sha256": "f31b74ac55d06d0fd467f3bf121d0266bb7e7a67d6addc2793d8b4d5cc2877af"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-1080.jpg": {
+    "path": "/assets/c91e45a651-asia-culturecenter-57oPg_ksI4k-unsplash-p-1080.jpg",
+    "bytes": 128463,
+    "sha256": "ba5ab8527316f54ff29a258eac25cf189c568b8ce51c50cc2f2158d639c069aa"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-1600.jpg": {
+    "path": "/assets/6d6d4e72b0-asia-culturecenter-57oPg_ksI4k-unsplash-p-1600.jpg",
+    "bytes": 248187,
+    "sha256": "3eb2fc5baca2de2860c174b93bbc627d574ce81c01ae916d29bffd974d613644"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-2000.jpg": {
+    "path": "/assets/42fe814121-asia-culturecenter-57oPg_ksI4k-unsplash-p-2000.jpg",
+    "bytes": 360554,
+    "sha256": "48ba1b54ef79070c562ca1ded57f1508862541d37aa0bea98f514a3a0a872d79"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-2600.jpg": {
+    "path": "/assets/31f62a5a9a-asia-culturecenter-57oPg_ksI4k-unsplash-p-2600.jpg",
+    "bytes": 550254,
+    "sha256": "d80f7d7b6240722d941ecf9632aeb5167668efccfddd242f7c0e766f0efec4b5"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-3200.jpg": {
+    "path": "/assets/6d4404736a-asia-culturecenter-57oPg_ksI4k-unsplash-p-3200.jpg",
+    "bytes": 768453,
+    "sha256": "0c77dbfc43c15960acf6167483963ac507869d34df671953e6f05b60a4015a46"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-500.jpg": {
+    "path": "/assets/19422d0188-asia-culturecenter-57oPg_ksI4k-unsplash-p-500.jpg",
+    "bytes": 36774,
+    "sha256": "e96cc44dfa84d4b6790bae42cb66e1c5fbf1306005b2a7e56bdc9769e768a785"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash-p-800.jpg": {
+    "path": "/assets/c494732eba-asia-culturecenter-57oPg_ksI4k-unsplash-p-800.jpg",
+    "bytes": 79946,
+    "sha256": "6484a98c6ad2f4c49f9f27e4d0e08e206cd03d3a452b15a98a431a6f9cd4130b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea5e205055b8097720dffd_asia-culturecenter-57oPg_ksI4k-unsplash.jpg": {
+    "path": "/assets/f992ae7280-asia-culturecenter-57oPg_ksI4k-unsplash.jpg",
+    "bytes": 2522272,
+    "sha256": "1f78f90a7ff7559293acf46bc3186bef2849dd5f40442c952b91b156aa78dacf"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-1080.jpg": {
+    "path": "/assets/939f0a8a27-eduardo-ramos-P5v94RZRktg-unsplash-p-1080.jpg",
+    "bytes": 100075,
+    "sha256": "546cbe8ea43bfdb3c45fff92808f7ce9df46e2c5900c8d248f278555475224c5"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-1600.jpg": {
+    "path": "/assets/747abdee73-eduardo-ramos-P5v94RZRktg-unsplash-p-1600.jpg",
+    "bytes": 188154,
+    "sha256": "ddab6a2a1249078f4523c5e243429ecf8e2c62cddcb66524986c22dca648a748"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-2000.jpg": {
+    "path": "/assets/41daeb2444-eduardo-ramos-P5v94RZRktg-unsplash-p-2000.jpg",
+    "bytes": 278461,
+    "sha256": "35d824edef947cffc17f5a54e755d50972bb0ec459dad15a9235fdcd2ea8bad9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-2600.jpg": {
+    "path": "/assets/62e7da88de-eduardo-ramos-P5v94RZRktg-unsplash-p-2600.jpg",
+    "bytes": 465892,
+    "sha256": "3bb8305676e597f557b6a1234149914beca93d6fa9d7d49e897bbc01ce9a9eb6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-3200.jpg": {
+    "path": "/assets/78d56f0b87-eduardo-ramos-P5v94RZRktg-unsplash-p-3200.jpg",
+    "bytes": 760805,
+    "sha256": "cd24c7a8bd469532eda81ff49bc909d77e6e1ca1bb296445883a67085df6e49d"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-500.jpg": {
+    "path": "/assets/26d3743b19-eduardo-ramos-P5v94RZRktg-unsplash-p-500.jpg",
+    "bytes": 31153,
+    "sha256": "492d300a58d8eeee06f1fbcf779542c78c356640345574d01e4cfbe33845c15b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash-p-800.jpg": {
+    "path": "/assets/5ac11c4dd8-eduardo-ramos-P5v94RZRktg-unsplash-p-800.jpg",
+    "bytes": 63467,
+    "sha256": "9de069243b14b913bfdd44918005a7fef7125fff89819bcbdc709fc345734ed6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea6023940b0fb6c9f4dd0d_eduardo-ramos-P5v94RZRktg-unsplash.jpg": {
+    "path": "/assets/592bd963bc-eduardo-ramos-P5v94RZRktg-unsplash.jpg",
+    "bytes": 3927242,
+    "sha256": "b2550198667e9886a542ea9d70e26e799cd8bc307abe1189518408cede0000d0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea9b110dc35b5a15f768f0_video-icon.svg": {
+    "path": "/assets/99b10e7de3-video-icon.svg",
+    "bytes": 999,
+    "sha256": "48cf9f7f903cc38137a0a65a700c39e6d2389f996aac5cc29ad2aee5c01c2780"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741188271b51de65217_Beatriz%20M-p-500.jpeg": {
+    "path": "/assets/c56fbc792a-Beatriz-M-p-500.jpeg",
+    "bytes": 29396,
+    "sha256": "c30fce92001d59ded6007ab44033091400b91ac98672cadaff069387a3f1a251"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741188271b51de65217_Beatriz%20M-p-800.jpeg": {
+    "path": "/assets/e239b2dc89-Beatriz-M-p-800.jpeg",
+    "bytes": 66220,
+    "sha256": "f3e80bf4e0c3e798c4e2a89e0704580855a7ec8bc1bce214b9e40221a9a4839c"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741188271b51de65217_Beatriz%20M.jpeg": {
+    "path": "/assets/cb8959d005-Beatriz-M.jpeg",
+    "bytes": 92152,
+    "sha256": "f8639da74fe75b077eec08badac9ea2fa3972e230508c557eeb2f1d38ad83211"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74168027ac8cc60d4be_Tayna%20G-p-500.jpeg": {
+    "path": "/assets/8750e3375f-Tayna-G-p-500.jpeg",
+    "bytes": 28940,
+    "sha256": "1cc0de164b140111d882d6f205658aadfa7febde3c5904fd81482d7235b988a8"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74168027ac8cc60d4be_Tayna%20G.jpeg": {
+    "path": "/assets/91e19fef9a-Tayna-G.jpeg",
+    "bytes": 40647,
+    "sha256": "d8f2342bf3994ba0c0720fd27093dc57b054b64a3962e42a5d8d6f9f330e15b9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74188b6e123f2a66c99_Lucelia%20C.N.-p-1080.jpeg": {
+    "path": "/assets/8f7cb3ddcd-Lucelia-C.N.-p-1080.jpeg",
+    "bytes": 105971,
+    "sha256": "dcdbc0980b684b0c76c298942877e33ebf5ef693408c0424aa5cf7caa1b53569"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74188b6e123f2a66c99_Lucelia%20C.N.-p-500.jpeg": {
+    "path": "/assets/20fc513fa1-Lucelia-C.N.-p-500.jpeg",
+    "bytes": 26320,
+    "sha256": "85961685f022a6a921565e34f479928eb08af6f9d951d535766d19c1c2b1c77a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74188b6e123f2a66c99_Lucelia%20C.N.-p-800.jpeg": {
+    "path": "/assets/4e7dd1e984-Lucelia-C.N.-p-800.jpeg",
+    "bytes": 63655,
+    "sha256": "0ab7e8631313fbff0e635e3a33a19e2a400dbd13a3930d1937e03971c85e96e1"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74188b6e123f2a66c99_Lucelia%20C.N..jpeg": {
+    "path": "/assets/9aec0cfbd6-Lucelia-C.N..jpeg",
+    "bytes": 179761,
+    "sha256": "d376efd419364b040c0f5c3680e7ee39d651afa08de46158a063f1857662db25"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741c8ef1fa353eed38c_Teresa%20L-p-1080.jpeg": {
+    "path": "/assets/93828c6616-Teresa-L-p-1080.jpeg",
+    "bytes": 419102,
+    "sha256": "e7e22640eea58e2ab11145b3cfb48d9a608395f4eae6afe39bd96f9d1b347fc0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741c8ef1fa353eed38c_Teresa%20L-p-500.jpeg": {
+    "path": "/assets/41e4716264-Teresa-L-p-500.jpeg",
+    "bytes": 92856,
+    "sha256": "bb147660d3ccaf18e53f8830e9e462539ee568381d0dde8acc102600146230b4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741c8ef1fa353eed38c_Teresa%20L-p-800.jpeg": {
+    "path": "/assets/7df0ec4808-Teresa-L-p-800.jpeg",
+    "bytes": 240388,
+    "sha256": "a6f5e73c53f87fdb1748376b833f014ebabe7f1a798b1cc21578e9e59c7d1877"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741c8ef1fa353eed38c_Teresa%20L.jpeg": {
+    "path": "/assets/b0da5cddc4-Teresa-L.jpeg",
+    "bytes": 426196,
+    "sha256": "eca99024be9217d078e20fce3c4cb52a99510ec7580f4085b6e7692b2ba9c92a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741e04bdc72d717af4f_Simone%20G.-p-1080.jpeg": {
+    "path": "/assets/6abee51201-Simone-G.-p-1080.jpeg",
+    "bytes": 179629,
+    "sha256": "5c04c8c52f9c840dc84b7191a74ca57560fcd2766d16fce8870802849bb93e6a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741e04bdc72d717af4f_Simone%20G.-p-500.jpeg": {
+    "path": "/assets/d3f0baf48a-Simone-G.-p-500.jpeg",
+    "bytes": 49264,
+    "sha256": "b27d97fd5a13e705054c8fbed31fb12d457b8bd0eaae56450f1f3e30ae07d703"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741e04bdc72d717af4f_Simone%20G.-p-800.jpeg": {
+    "path": "/assets/658b2b1401-Simone-G.-p-800.jpeg",
+    "bytes": 107430,
+    "sha256": "0273f902f61026e33ded893edf37e63b35668a90285e0965277976ecc680b408"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead741e04bdc72d717af4f_Simone%20G..jpeg": {
+    "path": "/assets/056069b923-Simone-G..jpeg",
+    "bytes": 192359,
+    "sha256": "95783a08a5a8b1c3aaaf0251b0a1a4ee6abdaec3986ae1bf63d77a38b40f87a7"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C-p-1080.jpg": {
+    "path": "/assets/d7af4b8130-11-Charline-C-p-1080.jpg",
+    "bytes": 165722,
+    "sha256": "26c268e8650f6c9d338d98f96921f843e14898c41ea76819c0b9aa806554a756"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C-p-1600.jpg": {
+    "path": "/assets/c8ef9653a5-11-Charline-C-p-1600.jpg",
+    "bytes": 367081,
+    "sha256": "86261518a4e9b98853cb0e009d2a935c8f54a8eae9223d1d5f3f116663773cf4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C-p-2000.jpg": {
+    "path": "/assets/4a804c72a0-11-Charline-C-p-2000.jpg",
+    "bytes": 593688,
+    "sha256": "1442f7153cd670896e42f3a6612c7fb58875fd0b22f60a0eb27b532122c35f2f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C-p-2600.jpg": {
+    "path": "/assets/3731e8cddf-11-Charline-C-p-2600.jpg",
+    "bytes": 1031235,
+    "sha256": "43aeb073d25f1b2922c5d534acbe72852846acbad5810e215425768fa6acdc4b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C-p-500.jpg": {
+    "path": "/assets/639f13ef45-11-Charline-C-p-500.jpg",
+    "bytes": 44570,
+    "sha256": "f316915c3e853f172f949473d7d00e19cdc015444af5fb44fe959d858bcb0e0e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C-p-800.jpg": {
+    "path": "/assets/32f5db8d29-11-Charline-C-p-800.jpg",
+    "bytes": 96574,
+    "sha256": "2c39b919257839739a216f846bf0abf6f5e0d91206ee07caaaec7e752afe091e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ead74230b08fdfcbc0185c_11-Charline%20C.jpg": {
+    "path": "/assets/33f1b72e68-11-Charline-C.jpg",
+    "bytes": 1425484,
+    "sha256": "3fe71ddbc5c5fb8021eb1c8d73963a7800d3f434367a79d1d3c7fa0f085184af"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69f22d4e341814df2400cb42_tete1-p-500.png": {
+    "path": "/assets/f658430bc7-tete1-p-500.png",
+    "bytes": 59024,
+    "sha256": "51b180e9f45def958e6bf23c3b7231e557277ef5654c595d573211f904b661ab"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69f22d4e341814df2400cb42_tete1.png": {
+    "path": "/assets/9445ca1697-tete1.png",
+    "bytes": 243042,
+    "sha256": "80b5e69ad7fb04327c4040865aacbea2ddb22d144f553e4327b6e29bbd60b831"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a020dcf9a943350362c5df4_WhatsApp%20Image%202026-05-11%20at%2013.41.50-p-1080.jpeg": {
+    "path": "/assets/2edc71166d-WhatsApp-Image-2026-05-11-at-13.41.50-p-1080.jpeg",
+    "bytes": 135491,
+    "sha256": "ce38da0b3d65e8c43ff4fb3044de87734d487601828f27fda7e465a4c2d8f135"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a020dcf9a943350362c5df4_WhatsApp%20Image%202026-05-11%20at%2013.41.50-p-500.jpeg": {
+    "path": "/assets/7dbd908181-WhatsApp-Image-2026-05-11-at-13.41.50-p-500.jpeg",
+    "bytes": 39692,
+    "sha256": "312fe8db959d8210ca2d5a08280e2d2313befc049c5fc24e8a07cb7d4916381e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a020dcf9a943350362c5df4_WhatsApp%20Image%202026-05-11%20at%2013.41.50-p-800.jpeg": {
+    "path": "/assets/b8acd3279f-WhatsApp-Image-2026-05-11-at-13.41.50-p-800.jpeg",
+    "bytes": 84804,
+    "sha256": "034b04de53b9c02e649b9328acffb6c741d0352db08a8503b80a8bb977ea990c"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a020dcf9a943350362c5df4_WhatsApp%20Image%202026-05-11%20at%2013.41.50.jpeg": {
+    "path": "/assets/055837fcc1-WhatsApp-Image-2026-05-11-at-13.41.50.jpeg",
+    "bytes": 366200,
+    "sha256": "254e7b23637db08923659816569ad239ba1412e043199f73755921fc82814fda"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a04a4a94dd28c8ad73e1d90_WhatsApp%20Image%202026-05-11%20at%2022.36.19-p-500.jpeg": {
+    "path": "/assets/900f9b6924-WhatsApp-Image-2026-05-11-at-22.36.19-p-500.jpeg",
+    "bytes": 47789,
+    "sha256": "c28863812941b4dda4215f615ef4fb6d45cb7e1a39937af71676957e6a8b255b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a04a4a94dd28c8ad73e1d90_WhatsApp%20Image%202026-05-11%20at%2022.36.19-p-800.jpeg": {
+    "path": "/assets/a608cdb6c0-WhatsApp-Image-2026-05-11-at-22.36.19-p-800.jpeg",
+    "bytes": 98584,
+    "sha256": "f8bbf89e20fb604384b4f005427f941d378cf7de63d521541dfb84c9a8f8b32d"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/6a04a4a94dd28c8ad73e1d90_WhatsApp%20Image%202026-05-11%20at%2022.36.19.jpeg": {
+    "path": "/assets/28cdcb58a2-WhatsApp-Image-2026-05-11-at-22.36.19.jpeg",
+    "bytes": 111768,
+    "sha256": "a364160bc950cc589e1e596a83bf2bf52b5b91efb98c5906c863cf95fa134a0a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cabe11c73de481644990eb_image%2060-p-500.png": {
+    "path": "/assets/3920538099-image-60-p-500.png",
+    "bytes": 139070,
+    "sha256": "541f1a9cc2b45216754da1b09a51a26c5995a5a590a35d8c912e97347f981524"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cabe11c73de481644990eb_image%2060.png": {
+    "path": "/assets/f7d279a4c8-image-60.png",
+    "bytes": 654307,
+    "sha256": "425160d9bb8bcc2bf77f94b38fd7d107ed8c76355f4c9596f2df08917fb819ca"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc144238320c85d4cc0159_2078096215-desafios-do-retorno-ao-trabalho-apos-o-cancer-p-500.webp": {
+    "path": "/assets/1952c34a13-2078096215-desafios-do-retorno-ao-trabalho-apos-o-cancer-p-500.webp",
+    "bytes": 5510,
+    "sha256": "c8d75700dc42e8ac98e7c331557dd61bb00244cc1c6365e65bac1c651a95e130"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc144238320c85d4cc0159_2078096215-desafios-do-retorno-ao-trabalho-apos-o-cancer.webp": {
+    "path": "/assets/e41cea15bd-2078096215-desafios-do-retorno-ao-trabalho-apos-o-cancer.webp",
+    "bytes": 8452,
+    "sha256": "9296e25dab5e23bf4a80a0f4a63a306dbe3b6b9e03ab09caa4516a4bd4bdf1f7"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc15624feb6d052635f219_000000-69-750x375-p-500.png": {
+    "path": "/assets/76e3551a64-000000-69-750x375-p-500.png",
+    "bytes": 79576,
+    "sha256": "5bb3e3bcc47ea05fcae4de9e46de4af43ba0a11f92a7f243deb5fa0c91376004"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc15624feb6d052635f219_000000-69-750x375.png": {
+    "path": "/assets/7e9c6ecd71-000000-69-750x375.png",
+    "bytes": 341527,
+    "sha256": "40a4ea5c51822bbaa44e49b5ab8e9e35c66bacc60a80e9ad61b91456cc528de5"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc1690be17b23732c88ac3_iStock-1465591757-1024x683-p-500.jpg": {
+    "path": "/assets/799041f1f5-iStock-1465591757-1024x683-p-500.jpg",
+    "bytes": 22098,
+    "sha256": "273f2135b4baebe9cdedf52e657c47c512f60919551445c8692769827c57ab11"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc1690be17b23732c88ac3_iStock-1465591757-1024x683-p-800.jpg": {
+    "path": "/assets/6a70ac2e78-iStock-1465591757-1024x683-p-800.jpg",
+    "bytes": 44843,
+    "sha256": "8b0a7bdbd98bad5577f685b7d409a0a80651d32a17b84acf7fad9fc773b01ffe"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc1690be17b23732c88ac3_iStock-1465591757-1024x683.jpg": {
+    "path": "/assets/07ce732bf4-iStock-1465591757-1024x683.jpg",
+    "bytes": 69317,
+    "sha256": "2aaac2c55921614ded36ea4433d8b75e32ae505f4aac7631b3cecb596cf3d8d5"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16bdbf5710556f75f69b_5-p-1080.png": {
+    "path": "/assets/82ace53a3b-5-p-1080.png",
+    "bytes": 258702,
+    "sha256": "124ef5a85c478bb35a3c681215c27cab4ad39b6be210785a5653c08205365dcd"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16bdbf5710556f75f69b_5-p-500.png": {
+    "path": "/assets/b0c5cd1b54-5-p-500.png",
+    "bytes": 73365,
+    "sha256": "fb1590c9af35ed2e921d65aea2d8dc2d2f7e8394f393c492e7e7e39e1dbfd386"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16bdbf5710556f75f69b_5-p-800.png": {
+    "path": "/assets/86aae14e88-5-p-800.png",
+    "bytes": 157356,
+    "sha256": "95038d4f218ef950e0f665219fecffca9b657625e0de1340f033fd81dd703342"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16bdbf5710556f75f69b_5.png": {
+    "path": "/assets/5556fd2f8b-5.png",
+    "bytes": 1189207,
+    "sha256": "9eb35a520849214b530f0c61fb9c3775e70a3cd59a8f436ed60971486f8d4824"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16d5b49fce4f4018385c_iStock-1623129811-1024x683-p-500.jpg": {
+    "path": "/assets/cdb91ca92c-iStock-1623129811-1024x683-p-500.jpg",
+    "bytes": 20735,
+    "sha256": "7fadfff1e2d4f0b0b9c0c9b45c189ad463cd659df22ba4e8ca535055dfafc99f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16d5b49fce4f4018385c_iStock-1623129811-1024x683-p-800.jpg": {
+    "path": "/assets/44a5c72b62-iStock-1623129811-1024x683-p-800.jpg",
+    "bytes": 40933,
+    "sha256": "d1c06a9119119f75858c45af6548d58e9605ed3cf81140387f6ec166c9bb15f1"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16d5b49fce4f4018385c_iStock-1623129811-1024x683.jpg": {
+    "path": "/assets/09a50da670-iStock-1623129811-1024x683.jpg",
+    "bytes": 62621,
+    "sha256": "b8c3f2e10632b33d99a052814a26ae31f07343e83a63ce5c001889a54026889e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16fb4209479969d60215_iStock-2187596823-1024x683-p-500.webp": {
+    "path": "/assets/ad69a9151f-iStock-2187596823-1024x683-p-500.webp",
+    "bytes": 10060,
+    "sha256": "cc13e9fe9b25deb5f6ab267162806d1312aded5a0e022d115a55d16ccadbc67b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16fb4209479969d60215_iStock-2187596823-1024x683-p-800.webp": {
+    "path": "/assets/92b69e3ae5-iStock-2187596823-1024x683-p-800.webp",
+    "bytes": 17382,
+    "sha256": "99fa6fb943ef088d8426bab081632ac97a57386982bd1f460a8556baa5197cff"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69cc16fb4209479969d60215_iStock-2187596823-1024x683.webp": {
+    "path": "/assets/c93a6057b7-iStock-2187596823-1024x683.webp",
+    "bytes": 35034,
+    "sha256": "57b3419828af1fd9e6200d9c4911c4d4a0760147283876e533140f8c5fbd8b75"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a01556da40e00da35e79_1-p-500.webp": {
+    "path": "/assets/2e5123c51c-1-p-500.webp",
+    "bytes": 15748,
+    "sha256": "b25fc42b5514d11adb92aa5a070dd7f514571fd0af3a677d5bf8630ebf3ae892"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a01556da40e00da35e79_1-p-800.webp": {
+    "path": "/assets/25379c28b7-1-p-800.webp",
+    "bytes": 26800,
+    "sha256": "c56afd174c5763a448708db4c1ade88f7bc4afd29be491d8b9e943612f65fb0e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a01556da40e00da35e79_1.webp": {
+    "path": "/assets/c4930b03f9-1.webp",
+    "bytes": 56740,
+    "sha256": "1af0d67d2185e592478140af033c918fcae63636a20a0f41523c2c4494e0dbb0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a1b4b9a5bef3e7e6cd67_2-p-500.webp": {
+    "path": "/assets/13441b656e-2-p-500.webp",
+    "bytes": 13464,
+    "sha256": "24eb8a62836153509a47fdf04f389aa3fb7bcc7e5ff1c69bd2fa1623a83c36e9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a1b4b9a5bef3e7e6cd67_2-p-800.webp": {
+    "path": "/assets/aae51659e0-2-p-800.webp",
+    "bytes": 22262,
+    "sha256": "01fc2302e332fd14dfef802e53ccb2a3e13091484fd4a2ca15fa4dac803202e1"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a1b4b9a5bef3e7e6cd67_2.webp": {
+    "path": "/assets/48e0c5b9b4-2.webp",
+    "bytes": 45662,
+    "sha256": "a76c46ed9c52756c28b553b091f742b1a571a860784108f98dc6191914a8df40"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a1edf19dcf15dde5e262_3-p-500.webp": {
+    "path": "/assets/afbc9ac989-3-p-500.webp",
+    "bytes": 9088,
+    "sha256": "b2033a5917ca278c5530910756374f3e9e0f8b2d5c45a5613d94b5be451e21dc"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a1edf19dcf15dde5e262_3-p-800.webp": {
+    "path": "/assets/d4f6ccc3a0-3-p-800.webp",
+    "bytes": 15418,
+    "sha256": "6480c1c2d573f35d59c662b656dc24ad2a3e89d1e49fe37843e1d678e43d8d7a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a1edf19dcf15dde5e262_3.webp": {
+    "path": "/assets/15d1653c01-3.webp",
+    "bytes": 27490,
+    "sha256": "eedb90e28c151ffe29b33a2270294ac66820416ce3c64dd76d2e7ed3b1c02db5"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a210f6eb2514e9a4453f_4-p-500.webp": {
+    "path": "/assets/76e4448289-4-p-500.webp",
+    "bytes": 11604,
+    "sha256": "d53cc60663c141b5a1fe871c65659fb3618e3470d72b478e10dc84d9371582f7"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a210f6eb2514e9a4453f_4-p-800.webp": {
+    "path": "/assets/d5e62119da-4-p-800.webp",
+    "bytes": 19888,
+    "sha256": "190f648dca0999a432e2720add7ce96644ca6b068000e2d12dc916a8a9f518af"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a210f6eb2514e9a4453f_4.webp": {
+    "path": "/assets/937e79a2de-4.webp",
+    "bytes": 41088,
+    "sha256": "dc61d05feb99a9896b5a71a981c9389d00325ee420e57e33a3a0edcc2bc85b13"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a486e609699f8f4485b2_5-p-500.webp": {
+    "path": "/assets/7e9e379111-5-p-500.webp",
+    "bytes": 8210,
+    "sha256": "25a241dd333c4b451f279004cf8087fb62777fccc75225cde8165dc8f2f8d853"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a486e609699f8f4485b2_5-p-800.webp": {
+    "path": "/assets/85e1d8be56-5-p-800.webp",
+    "bytes": 13876,
+    "sha256": "7f649afbbeb137d536da7c8618c2ec68d0e6d096d371dafda201b7fbcfc69683"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a486e609699f8f4485b2_5.webp": {
+    "path": "/assets/116d23cbda-5.webp",
+    "bytes": 25794,
+    "sha256": "0029998331e3fb45fdb86364dc71cbe4fcc12642758b4ee9a55a62be7684d999"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a51d3e3b321624ebfd72_6-p-500.webp": {
+    "path": "/assets/cba18f9822-6-p-500.webp",
+    "bytes": 14586,
+    "sha256": "ef0871d3a55729c87afbf63a44b5ca5fcab6b42c5f5b744eff5958b488dd6a5f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a51d3e3b321624ebfd72_6-p-800.webp": {
+    "path": "/assets/4fb20731ba-6-p-800.webp",
+    "bytes": 23864,
+    "sha256": "e694f2c16ceeca7874011cc86ef07264c92922c480584856a33e96cbea73927c"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a51d3e3b321624ebfd72_6.webp": {
+    "path": "/assets/d45eae893c-6.webp",
+    "bytes": 42272,
+    "sha256": "e2c84f68b27f8489ea0731b4a9526c18ea898999502ac1bd32d89142962bb204"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a55ab90de8e977dabe18_7-p-500.webp": {
+    "path": "/assets/0be0a2dced-7-p-500.webp",
+    "bytes": 10002,
+    "sha256": "a8c3dde0e3a304b2a365b316047013eab2d23e38db68f812bc373dad1af6fef7"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a55ab90de8e977dabe18_7-p-800.webp": {
+    "path": "/assets/ffdba7d5e1-7-p-800.webp",
+    "bytes": 16626,
+    "sha256": "ec00a1484fe5ef45dceda8e74452d6c18c1169d785a2854adda965d5d61e6415"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a55ab90de8e977dabe18_7.webp": {
+    "path": "/assets/760d1c59fc-7.webp",
+    "bytes": 30096,
+    "sha256": "301ebe2f0286216cd80b9d7921c54e3494f1eb90e768311b79da8d794cff0561"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a57985622f4d1f40bf8e_8-p-500.webp": {
+    "path": "/assets/3ef5bb1ab7-8-p-500.webp",
+    "bytes": 18518,
+    "sha256": "d34637fde7ed0d2a958d0382cc75beb27c79ec653c251b520a79251ce6d8e161"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a57985622f4d1f40bf8e_8-p-800.webp": {
+    "path": "/assets/ac35d5c391-8-p-800.webp",
+    "bytes": 30250,
+    "sha256": "f014e6b137fb7934d6f0cf65aabb116575186a6a86ef0d1ddc4edffdb3578953"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a57985622f4d1f40bf8e_8.webp": {
+    "path": "/assets/cca219a1ce-8.webp",
+    "bytes": 54968,
+    "sha256": "23d130fbaeba8d9b328a89627760c3ca657594b7ad7ef22986930fc09f606ea1"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a5e2e18e7328bbb9dad2_9-p-500.webp": {
+    "path": "/assets/ded0b4d119-9-p-500.webp",
+    "bytes": 14328,
+    "sha256": "5ab2ad5c6608c10777ff11876869cffee52702d576d9ecc9da6c536fed20f1fc"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a5e2e18e7328bbb9dad2_9-p-800.webp": {
+    "path": "/assets/b4baefdd37-9-p-800.webp",
+    "bytes": 23498,
+    "sha256": "c8f0c46b59ca657e34886d87167c26b9cb4b05a9563182c20ce2fbe4b7603dbd"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a5e2e18e7328bbb9dad2_9.webp": {
+    "path": "/assets/2429f98e0c-9.webp",
+    "bytes": 42298,
+    "sha256": "fdb56620394973bde6e123a4c26c1865faf57cfdfa4ebb59761e1f8b6496a4de"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a61a528363f8f712f542_10-p-500.webp": {
+    "path": "/assets/32e10df7cd-10-p-500.webp",
+    "bytes": 18042,
+    "sha256": "4997c02ea2dfde652d9ccfc714c422a4d77474dfafb538657d667c089e297172"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a61a528363f8f712f542_10-p-800.webp": {
+    "path": "/assets/f0d9a32b63-10-p-800.webp",
+    "bytes": 30342,
+    "sha256": "4ff893aacbd02144743beda15f4dd056de6dcec826738c29c5c2e771011a20d9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a61a528363f8f712f542_10.webp": {
+    "path": "/assets/23c8b22d21-10.webp",
+    "bytes": 59726,
+    "sha256": "5eb5e85aa31171bc136f3fa10fa183568e4cdf9b225e62431a6398cdfe47106e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a6366f5d44faf25be3b1_11-p-500.webp": {
+    "path": "/assets/c22fdc6092-11-p-500.webp",
+    "bytes": 14472,
+    "sha256": "3d9320107c95d348558ee519e57ad26b4f0e6f3e02cd4254cbfebc78337cf978"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a6366f5d44faf25be3b1_11-p-800.webp": {
+    "path": "/assets/bd4174f72a-11-p-800.webp",
+    "bytes": 23966,
+    "sha256": "178b860ae48b9aacbf2c5b9a01e99562d8e69f683d1d5aa715af0cdfc87e2322"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a6366f5d44faf25be3b1_11.webp": {
+    "path": "/assets/0052cfa5ba-11.webp",
+    "bytes": 46300,
+    "sha256": "14cb8ccc23d6d23d6adc5859fa7b904e448abef1a0e8d1d1e266235294b2cbc3"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a678dbef0ac116be9016_12-p-500.webp": {
+    "path": "/assets/e7fa37b643-12-p-500.webp",
+    "bytes": 15160,
+    "sha256": "15ef9e0ac39acc35523148e8c1c1bb7db9ce1feaa4566800006704b2963c05c2"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a678dbef0ac116be9016_12-p-800.webp": {
+    "path": "/assets/2c0f513e9e-12-p-800.webp",
+    "bytes": 25958,
+    "sha256": "dbca8cc7c008d24f588f5657b4824d858eb4a569b90921ac4de0b6243cb85f84"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a678dbef0ac116be9016_12.webp": {
+    "path": "/assets/31d1314eff-12.webp",
+    "bytes": 49780,
+    "sha256": "c2ae92113f3ccef71d1d3e81433efb62c84414d825f6e0cb3706bf74e3f4d45f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a69d054355516546ed7c_13-p-500.webp": {
+    "path": "/assets/6abb9c24cd-13-p-500.webp",
+    "bytes": 8642,
+    "sha256": "424948e85f911d4a308edeebc356b527ca6e14568af43e55ebf26c2436cf57fe"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a69d054355516546ed7c_13-p-800.webp": {
+    "path": "/assets/5ff53cc116-13-p-800.webp",
+    "bytes": 13880,
+    "sha256": "71b3880b6d7ea689b9dad4b2ebf063fd27f3eba1582c70fe0f40d90f67a7356f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a69d054355516546ed7c_13.webp": {
+    "path": "/assets/c04e35dc0a-13.webp",
+    "bytes": 27518,
+    "sha256": "7afa9ea92885cad194622c0246b6777553b8a6f0a3aa45c8f4fc92299a098e68"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a6d41923fc3a5ef65c3a_14-p-500.webp": {
+    "path": "/assets/3371ad2286-14-p-500.webp",
+    "bytes": 10950,
+    "sha256": "2903d4cae81ac0d6314c00b04a67abca8a422f82c85c4debeb7d83780fb9fa88"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a6d41923fc3a5ef65c3a_14-p-800.webp": {
+    "path": "/assets/0288443af5-14-p-800.webp",
+    "bytes": 17992,
+    "sha256": "5259d5c7582aeeaadea31656e42ae326cc571458a71103672d6a5a04d5082860"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5a6d41923fc3a5ef65c3a_14.webp": {
+    "path": "/assets/81275a4903-14.webp",
+    "bytes": 36432,
+    "sha256": "92c3252d873a98c828d1a94ff4ba4cc0bc91dc0f9f64cafea787e284cf7bb12c"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5ae8bad29a350738ba73a_1-p-500.png": {
+    "path": "/assets/842fc5bfa3-1-p-500.png",
+    "bytes": 115542,
+    "sha256": "f7d526125f2680c8b57e3d4c3954b57a638220ba487f9454c6db4709bf0aefa9"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5ae8bad29a350738ba73a_1-p-800.png": {
+    "path": "/assets/0dfcfa8521-1-p-800.png",
+    "bytes": 260526,
+    "sha256": "33496f0211af7ca2284f28df4e6adf6714a16a78c3d465943b127e4a093b98d1"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5ae8bad29a350738ba73a_1.png": {
+    "path": "/assets/5bca49f5eb-1.png",
+    "bytes": 980863,
+    "sha256": "0d982bcbf4cb7b965e000678a121223f68b0fdc61fa3625090d00ab0aa297e74"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5aeeaeea88e8a5349741e_4-p-500.jpg": {
+    "path": "/assets/78e0631f05-4-p-500.jpg",
+    "bytes": 15457,
+    "sha256": "03b57a36e98c57179e6a472f07288edcbfd9893ffb29ee718c409fd6e7881ff8"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5aeeaeea88e8a5349741e_4.jpg": {
+    "path": "/assets/7ee1f3fdcf-4.jpg",
+    "bytes": 104235,
+    "sha256": "2d35d48ca26c5fce7ddb219031591e632f28655f1b0bd2933299a9bc298ec6c6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5afb5a9b4c9eca6746b07_8-p-500.webp": {
+    "path": "/assets/f25ce68e8a-8-p-500.webp",
+    "bytes": 29638,
+    "sha256": "4a5fa922ec1644d3a7dc4b2fd80921291ce71a4d1ea77af46d1707a6f349ff33"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5afb5a9b4c9eca6746b07_8.webp": {
+    "path": "/assets/c11b6d42d6-8.webp",
+    "bytes": 92672,
+    "sha256": "1c62c05242b6f9e2efeacf165a8b16e3572091735b2ceb85e24599e7125582bb"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5b66a0f54034245c79946_12-p-500.jpeg": {
+    "path": "/assets/4aac3030f9-12-p-500.jpeg",
+    "bytes": 24186,
+    "sha256": "3ee6245df9ee163fbe7856438d92b03580be0d2bae13a90cd35a6dc733b28251"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5b66a0f54034245c79946_12-p-800.jpeg": {
+    "path": "/assets/a0b79e936c-12-p-800.jpeg",
+    "bytes": 48520,
+    "sha256": "87fa1bd681f1a11a705e1000ec91986fc66a9cea6be83fabd93f8569931037f6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69d5b66a0f54034245c79946_12.jpeg": {
+    "path": "/assets/82eeee7fd9-12.jpeg",
+    "bytes": 73826,
+    "sha256": "913763e644b4252997ee01f471f3ada8dd21975031a1c78bf56fbe81ce2622b0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-1080.jpg": {
+    "path": "/assets/125d483c0b-kobu-agency-7okkFhxrxNw-unsplash-p-1080.jpg",
+    "bytes": 72660,
+    "sha256": "29d5f72bfa2976761bfe7188eb8b40cfdecd16c49f4ca9decb1edc8c1ba12334"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-1600.jpg": {
+    "path": "/assets/a685e32f52-kobu-agency-7okkFhxrxNw-unsplash-p-1600.jpg",
+    "bytes": 155435,
+    "sha256": "f8ed05be30b65a7c188a1cad2658fbbc7c8ee8343b9468388b586295dc2de09f"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-2000.jpg": {
+    "path": "/assets/8e6fc00929-kobu-agency-7okkFhxrxNw-unsplash-p-2000.jpg",
+    "bytes": 247159,
+    "sha256": "877d96ef50052ab0166ff6e8fdffa69398db6dbf59251253d06a896840f6abcc"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-2600.jpg": {
+    "path": "/assets/2e9fa9577f-kobu-agency-7okkFhxrxNw-unsplash-p-2600.jpg",
+    "bytes": 439807,
+    "sha256": "a44f4b33894523972787195e2db91ce3b1ad0d0631d94b5dec6f88d4defa829e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-3200.jpg": {
+    "path": "/assets/bbe39397bf-kobu-agency-7okkFhxrxNw-unsplash-p-3200.jpg",
+    "bytes": 687509,
+    "sha256": "4073860b76d87f7e2fa8b3cc55feb0fd87dfcf5ad53ee3182e51763aaa4d7e45"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-500.jpg": {
+    "path": "/assets/e42a0352d9-kobu-agency-7okkFhxrxNw-unsplash-p-500.jpg",
+    "bytes": 21632,
+    "sha256": "28283a481c966dcdf1eacc60a5ffb87162356ec7e2a3a4b53c45579d72eee264"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash-p-800.jpg": {
+    "path": "/assets/7281442fde-kobu-agency-7okkFhxrxNw-unsplash-p-800.jpg",
+    "bytes": 43849,
+    "sha256": "6266d5d7604cc44069a85bf37f6448c46fb8071594e77dfc6a97778f15f86de0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69dedcdbbc2d7273548ebca4_kobu-agency-7okkFhxrxNw-unsplash.jpg": {
+    "path": "/assets/7c70f852c7-kobu-agency-7okkFhxrxNw-unsplash.jpg",
+    "bytes": 4174969,
+    "sha256": "93edea3ff7533a527933f1c451fd37ff88dfe0acecadd6b5fdb77ba178d71a63"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-1080.jpg": {
+    "path": "/assets/aa7e77b508-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-1080.jpg",
+    "bytes": 125538,
+    "sha256": "1f45be4a32a24883198418a36fef03e31520a220c72a6d98ef7958071c530691"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-1600.jpg": {
+    "path": "/assets/3097f32241-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-1600.jpg",
+    "bytes": 245350,
+    "sha256": "ed00cb5fd3c580190cea9a49eda8fbd79fefa7920755535b2d8a76d0d19fbc98"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-2000.jpg": {
+    "path": "/assets/d7057c71cc-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-2000.jpg",
+    "bytes": 360518,
+    "sha256": "8d878f7c683d4aadd1410d311ca78f8e421bafdfeb339dedde8cba0f32961e16"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-2600.jpg": {
+    "path": "/assets/676f0d85b3-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-2600.jpg",
+    "bytes": 565489,
+    "sha256": "25b4e5dec7b284ce6b0bdc130142c726c1ed1abc7d9e9d559b071054ad7c8d2d"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-3200.jpg": {
+    "path": "/assets/c6c7c3a9a3-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-3200.jpg",
+    "bytes": 827518,
+    "sha256": "fa791036306b15c81f560fb99f1bdf7ffe6c22ba574d77e34c66d8f53883ba1b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-500.jpg": {
+    "path": "/assets/9545f1aded-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-500.jpg",
+    "bytes": 34874,
+    "sha256": "8df9a7abf7aee2fd90166b09406b6235a5e15c3624fd0a3e2b7e42370481e603"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-800.jpg": {
+    "path": "/assets/cd1a02ec66-alex-kotliarskyi-QBpZGqEMsKg-unsplash-p-800.jpg",
+    "bytes": 77154,
+    "sha256": "80ad222e7bb1958516915a17f2470123af4c74057ff80816d4bd4226da4f972b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1a485bd49729e005dbe8_alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg": {
+    "path": "/assets/588a509973-alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg",
+    "bytes": 3812357,
+    "sha256": "98b726d01ebef7c6a028d7e7668e44090671134cf671e06c4a156b8d7a4f16bb"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-1080.jpg": {
+    "path": "/assets/f417e58c0c-getty-images-lylPREQlrvM-unsplash-1--p-1080.jpg",
+    "bytes": 77596,
+    "sha256": "1e93159e392dfa23958eed099c5fc3e5fcaf0c1343002607714d96f09ec05c5a"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-1600.jpg": {
+    "path": "/assets/510d3408c1-getty-images-lylPREQlrvM-unsplash-1--p-1600.jpg",
+    "bytes": 138213,
+    "sha256": "32ffcb92634719cfd625ca4080ec5a9e05596858d06b8c0e0cee3ae157258c35"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-2000.jpg": {
+    "path": "/assets/bb9b07e8b2-getty-images-lylPREQlrvM-unsplash-1--p-2000.jpg",
+    "bytes": 196832,
+    "sha256": "b736ef7b5dcbe75360c1e1f2006fa785ae29a944bcbc1bbc47dc36e28654dcc7"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-2600.jpg": {
+    "path": "/assets/e085c33ce4-getty-images-lylPREQlrvM-unsplash-1--p-2600.jpg",
+    "bytes": 302746,
+    "sha256": "bfeb0f410ef485559f7ea9a423ab980f669d3369c9bc263faaeaccaa4a8bc467"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-3200.jpg": {
+    "path": "/assets/a54e61e14e-getty-images-lylPREQlrvM-unsplash-1--p-3200.jpg",
+    "bytes": 440769,
+    "sha256": "9e10c6495b99a19d7b12730e12e900124278d9dcb140f42258ea7f04bd53a79e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-500.jpg": {
+    "path": "/assets/b5f86d2cf1-getty-images-lylPREQlrvM-unsplash-1--p-500.jpg",
+    "bytes": 25121,
+    "sha256": "f87cd9cdc9aee4d64860585adb8446aa22c4afb71185454ee23a6daf2d6d41d6"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1)-p-800.jpg": {
+    "path": "/assets/7332b59532-getty-images-lylPREQlrvM-unsplash-1--p-800.jpg",
+    "bytes": 49598,
+    "sha256": "71aa88d70a6ffe33e41258f6cef4d287192b0c7d8fc3785966e7317c00b8b12e"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69df1ac3b22c458853088e17_getty-images-lylPREQlrvM-unsplash%20(1).jpg": {
+    "path": "/assets/740cb1d412-getty-images-lylPREQlrvM-unsplash-1-.jpg",
+    "bytes": 828805,
+    "sha256": "3eb1b72f2ed175f5c36859aa6e02b06ac05c7aeb5afa39320fb9781deaae6588"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ea69c6690417446bf7bd05_Anexo%201.4%20-%20%20Foto%20Pesquisa%20Pausa%20na%20Carreira%202025%20para%20site_page-0001%20copiar-p-1080.jpg": {
+    "path": "/assets/1070e2623d-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-1080.jpg",
+    "bytes": 116864,
+    "sha256": "1735223717f0f9cf39d0dcc24296a5186ed20cccb764d12abc9ddc4c4bce2e99"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ea69c6690417446bf7bd05_Anexo%201.4%20-%20%20Foto%20Pesquisa%20Pausa%20na%20Carreira%202025%20para%20site_page-0001%20copiar-p-1600.jpg": {
+    "path": "/assets/df16c1e9c3-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-1600.jpg",
+    "bytes": 201034,
+    "sha256": "bd301df64d4beb713accf7861d82864a98ee51e0b794a3b9d82ea83802fdea38"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ea69c6690417446bf7bd05_Anexo%201.4%20-%20%20Foto%20Pesquisa%20Pausa%20na%20Carreira%202025%20para%20site_page-0001%20copiar-p-2000.jpg": {
+    "path": "/assets/a7dd31d5ce-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-2000.jpg",
+    "bytes": 271002,
+    "sha256": "f617e585fef3fc046d730f20cfe8c1a6e97a732d101c8dbe4300bd0af6ced2a4"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ea69c6690417446bf7bd05_Anexo%201.4%20-%20%20Foto%20Pesquisa%20Pausa%20na%20Carreira%202025%20para%20site_page-0001%20copiar-p-500.jpg": {
+    "path": "/assets/c208c4adcf-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-500.jpg",
+    "bytes": 38866,
+    "sha256": "61c7ea798fb3ac092f35c6c64b71da180c91c2135cc40f1d31397a1ad71ddf34"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ea69c6690417446bf7bd05_Anexo%201.4%20-%20%20Foto%20Pesquisa%20Pausa%20na%20Carreira%202025%20para%20site_page-0001%20copiar-p-800.jpg": {
+    "path": "/assets/02bf4f32cc-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar-p-800.jpg",
+    "bytes": 77095,
+    "sha256": "427f8e73c5412bfc4d5ff8e2337911d27781f51555bd228c7c6eb3646a3084c0"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ea69c6690417446bf7bd05_Anexo%201.4%20-%20%20Foto%20Pesquisa%20Pausa%20na%20Carreira%202025%20para%20site_page-0001%20copiar.jpg": {
+    "path": "/assets/fe974453f0-Anexo-1.4---Foto-Pesquisa-Pausa-na-Carreira-2025-para-site_page-0001-copiar.jpg",
+    "bytes": 1715455,
+    "sha256": "64533a5cc9d618e8bbe281eb75a8bedf65d66fe417533bddc57e5e2e0e1dd097"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef9351e8292dd9b532b9b5_Capa%20E-book%20-%20Construa%20o%20seu%20pitch%20-%20Apresente-se%20em%203%20minutos%201.png": {
+    "path": "/assets/031fbaf8b4-Capa-E-book---Construa-o-seu-pitch---Apresente-se-em-3-minutos-1.png",
+    "bytes": 596540,
+    "sha256": "3bcef965e190e8ebb2bc15a90a58b3cc22fcb4468dbfff76ca148347bf0f91b3"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef935bd531919e873ded44_Capa%20E-book%20-%20Caixa%20de%20Ferramentas%201-p-500.png": {
+    "path": "/assets/8cd68df515-Capa-E-book---Caixa-de-Ferramentas-1-p-500.png",
+    "bytes": 195091,
+    "sha256": "87b52d376c10519c1c20224fd7b6d9a341724e57adfa9c3c9dd71e17bdfdf784"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef935bd531919e873ded44_Capa%20E-book%20-%20Caixa%20de%20Ferramentas%201.png": {
+    "path": "/assets/cd5926f097-Capa-E-book---Caixa-de-Ferramentas-1.png",
+    "bytes": 466119,
+    "sha256": "32413d35a04c937d868182032e0d5b37ec8cbe302fa103c6d7c83cf59033d71b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef936470b57a4b012c8c27_Capa%20E-book%20-%20Como%20se%20manter-se%20motivado%20ao%20retorno%201-p-500.png": {
+    "path": "/assets/a25478fa2e-Capa-E-book---Como-se-manter-se-motivado-ao-retorno-1-p-500.png",
+    "bytes": 90367,
+    "sha256": "5c3f1ba8a18c905c2fd50deb494c64315ec24c1760e3e4c74534a6cf2153b8da"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef936470b57a4b012c8c27_Capa%20E-book%20-%20Como%20se%20manter-se%20motivado%20ao%20retorno%201.png": {
+    "path": "/assets/8e535456e7-Capa-E-book---Como-se-manter-se-motivado-ao-retorno-1.png",
+    "bytes": 225625,
+    "sha256": "7da58381e788b7be79b4c3c2d0fb3a2bdd92282ace4383c553a5b5f120dd7cef"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef936c5cf6c3de7f9a4cb9_Capa%20E-book%20Curri%CC%81culo%20Imbati%CC%81vel%20com%20IA%201-p-500.png": {
+    "path": "/assets/5dcf366639-Capa-E-book-Curriculo-Imbativel-com-IA-1-p-500.png",
+    "bytes": 158147,
+    "sha256": "834678607b9c252d815c8f441605f9d75c20c306354341689d8f9e89e93cde99"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb5411afd539109a191/69ef936c5cf6c3de7f9a4cb9_Capa%20E-book%20Curri%CC%81culo%20Imbati%CC%81vel%20com%20IA%201.png": {
+    "path": "/assets/8dfe4945f1-Capa-E-book-Curriculo-Imbativel-com-IA-1.png",
+    "bytes": 512160,
+    "sha256": "11421ada3bfc9679308dd979d914dac2fb9b6abb73700993fcaf4a69da6eb514"
+  },
+  "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg": {
+    "error": "403 Client Error: Forbidden for url: https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+    "replacementPath": "/assets/placeholder.svg",
+    "replacementNote": "SVG neutro gerado localmente, substituindo o placeholder inacessível."
+  },
+  "https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg": {
+    "path": "/assets/5ff0c03f9b-custom-checkbox-checkmark.589d534424.svg",
+    "bytes": 167,
+    "sha256": "121f8dc257d116b52e8d91b2c735fd52e7516c268b6c721c60ac45d22d5e6404"
+  },
+  "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.ttf": {
+    "path": "/assets/722ff42d00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.ttf",
+    "bytes": 302212,
+    "sha256": "a40a1fdc93cadcbb0e3ba16d6010988118a1a3add06a097330b09cb41c2b8d45"
+  },
+  "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiqXA.ttf": {
+    "path": "/assets/3ff89d14ef-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiqXA.ttf",
+    "bytes": 302808,
+    "sha256": "98272f3512338c52940816f5db61966ca1cdbc3cdb3c0d981da22612723da59e"
+  },
+  "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.ttf": {
+    "path": "/assets/42aaaf7a68-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.ttf",
+    "bytes": 298260,
+    "sha256": "27350bc95b961b9b4e1a80d872f49e903fe727f290f6b2a079e67ceb1685fb1f"
+  },
+  "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.ttf": {
+    "path": "/assets/ba08b16a00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.ttf",
+    "bytes": 301472,
+    "sha256": "c2a4bdafb30500a3bd0843f95ad659ad38492f025837803e6a8ef8672c575e8e"
+  },
+  "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjUQ-qXA.ttf": {
+    "path": "/assets/1ec94267de-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjUQ-qXA.ttf",
+    "bytes": 298720,
+    "sha256": "ec12a8fe0f32e6d717b09c0c930106b9b90a9146338eaab5bc274cb1323ae6ae"
+  },
+  "https://fonts.gstatic.com/s/storyscript/v3/mem5YaSw02SQ0OlzDuR8Isk-VQ.ttf": {
+    "path": "/assets/59fe63bd02-mem5YaSw02SQ0OlzDuR8Isk-VQ.ttf",
+    "bytes": 87308,
+    "sha256": "d1b4e10da66324950616dbb1a7db4e20fbd89c0d50556994261f8b006e3d1cb7"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69ea7024b4c9d73d2823c7e5_Anexo%201.4_%20Pesquisa%20Pausa%20na%20Carreira%202025.pdf": {
+    "path": "/assets/panorama-retorno-profissional-2025.pdf",
+    "bytes": 3333329,
+    "sha256": "7ff9a14b14f63f15b3a58b7c47d7be1c66ab02f9f62b820610166ed346b9805b"
+  },
+  "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/69dfd7477a58372ef8892c88_Favicon%20-%20Light%20%26%20Dark%20theme.png": {
+    "path": "/assets/favicon.png",
+    "bytes": 2981,
+    "sha256": "ffce2d76785bbbc15381f2a25bb05fbff7fe6e9f233a71307eceab2e17f833aa"
+  }
+}

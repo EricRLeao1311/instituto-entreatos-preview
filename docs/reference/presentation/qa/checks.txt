@@ -1,0 +1,30 @@
+Build concluído: 22 páginas + 404 e compressão gzip/Brotli em dist/
+
+✔ cada variante comprimida restaura exatamente os bytes originais (141.7629ms)
+✔ fontes WOFF2 preservam inventário e hashes da conversão verificada (223.5885ms)
+✔ HTTP negocia compressão, HEAD, revalidação e falhas sem servir bytes incorretos (87.6787ms)
+✔ textos aprovados entram nas páginas existentes sem instruções de design publicadas (41.4672ms)
+✔ menu mantém cinco destinos; Biblioteca reutiliza pesquisa/acervo e aponta à imprensa original (13.4162ms)
+✔ motivos de contato têm opções válidas e as grades da equipe continuam sendo as originais (6.9335ms)
+✔ interações preservam integralmente os eventos, tempos, easing e alvos exportados (62.4898ms)
+✔ runtime é local e não inicializa formulários hospedados, editor, marca ou comércio (38.9807ms)
+✔ folhas de apresentação, estados iniciais e dados de animação conservam o baseline (25.1715ms)
+✔ as duas variantes do carrossel conservam todo o componente original, e não apenas eventos IX2 (6.8629ms)
+✔ menu conserva o cabeçalho original, sua estrutura de hover e runtime de navegação (5.382ms)
+✔ inventário mantém as 21 rotas e acrescenta Biblioteca com os componentes existentes (2.693ms)
+✔ todas as páginas têm SEO, navegação, conteúdo resolvido e IDs únicos (7.594ms)
+✔ links internos, âncoras e arquivos locais apontam para destinos existentes (188.5309ms)
+✔ fontes e imagens de CSS são locais e estão disponíveis (3.7229ms)
+✔ formulários oferecem estado de envio e não usam endpoints do Webflow (1.1637ms)
+✔ PDF principal está incluído e módulos do navegador têm seus imports locais (737.2862ms)
+✔ conteúdo de configuração é escapado e variável desconhecida falha (3.4016ms)
+✔ coleções geram HTML estático e escapam o conteúdo de cada registro (24.4328ms)
+✔ includes recursivos rejeitam ciclos e acesso fora da pasta de origem (38.4615ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1385.2459

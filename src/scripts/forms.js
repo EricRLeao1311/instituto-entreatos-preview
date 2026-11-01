@@ -1,0 +1,64 @@
+import config from './config.js';
+
+/** Endpoints receive POST JSON and must return a 2xx response. See docs/INTEGRACOES.md. */
+export function setupForms() {
+  document.querySelectorAll('form[data-form-kind]').forEach(form => {
+    const kind = form.dataset.formKind;
+    const status = form.querySelector('.form-status');
+    const submit = form.querySelector('[type="submit"]');
+    // Keep the original caption and empty initial layout. Explain fallback only after submission.
+    form.querySelectorAll('input[type="checkbox"]').forEach(input => {
+      const custom = input.parentElement.querySelector('div.w-checkbox-input');
+      if (!custom) return;
+      const sync = () => custom.classList.toggle('w--redirected-checked', input.checked);
+      input.addEventListener('change', sync);
+      input.addEventListener('focus', () => custom.classList.add('w--redirected-focus'));
+      input.addEventListener('blur', () => custom.classList.remove('w--redirected-focus'));
+      sync();
+    });
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (!form.reportValidity()) return;
+      status.replaceChildren();
+      const payload = Object.fromEntries(new FormData(form).entries());
+      const endpoint = form.dataset.endpoint;
+      if (!endpoint) {
+        if (kind === 'contact') {
+          const reason = form.querySelector('[name="Reason"]')?.selectedOptions[0]?.textContent || '';
+          const text = `Nome: ${payload.Name}\nE-mail: ${payload.Email}\nTelefone: ${payload.Subject}\nMotivo: ${payload.Reason ? reason : 'Não informado'}\n\n${payload.Message}`;
+          const link = document.createElement('a');
+          link.href = `mailto:${config.email}?subject=${encodeURIComponent('Contato pelo site — ' + payload.Name)}&body=${encodeURIComponent(text)}`;
+          link.textContent = 'Abrir e-mail com esta mensagem';
+          status.append('Mensagem preparada. O envio acontece no seu aplicativo de e-mail. ', link);
+        } else if (config.research.documentUrl) {
+          const link = document.createElement('a'); link.href = config.research.documentUrl;
+          link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Abrir pesquisa';
+          status.append('Seus dados não foram enviados. ', link);
+        } else {
+          status.textContent = 'Para acessar a pesquisa, entre em contato com o Instituto. O acesso online está em configuração.';
+          const link = document.createElement('a'); link.href = `mailto:${config.email}?subject=Solicitar%20pesquisa`;
+          link.textContent = 'Solicitar por e-mail'; status.append(' ', link);
+        }
+        return;
+      }
+      submit.disabled = true; status.textContent = 'Enviando…';
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ ...payload, kind }), signal: AbortSignal.timeout(15000),
+        });
+        if (!response.ok) throw new Error('Falha no envio');
+        status.textContent = 'Obrigado! Sua mensagem foi enviada.';
+        if (kind === 'research' && config.research.documentUrl) {
+          const link = document.createElement('a'); link.href = config.research.documentUrl;
+          link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Abrir pesquisa';
+          status.append(' ', link);
+        }
+        form.reset();
+      } catch {
+        status.textContent = 'Não foi possível confirmar o envio. Tente novamente ou entre em contato por e-mail.';
+      } finally { submit.disabled = false; }
+    });
+  });
+}

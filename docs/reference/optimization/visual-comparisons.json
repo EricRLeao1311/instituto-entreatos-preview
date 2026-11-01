@@ -1,0 +1,698 @@
+[
+  {
+    "size": {
+      "width": 1440,
+      "height": 1000
+    },
+    "route": "/",
+    "equal": true,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 775.125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 307.96875,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 533.6666870117188
+        }
+      ],
+      "height": 4631,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 1382.947998046875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 531.5,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 622.2083740234375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 622.1979370117188,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 710.5,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 422.1145935058594,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 775.125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 307.96875,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 533.6666870117188
+        }
+      ],
+      "height": 4631,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 1382.947998046875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 531.5,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 622.2083740234375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 622.1979370117188,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 710.5,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 422.1145935058594,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 1000
+    },
+    "route": "/quem-somos",
+    "equal": false,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 403.1668395996094,
+          "text": "Somos o começo de uma mudança",
+          "width": 537.6666870117188
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 197.125,
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 949.8646240234376
+        }
+      ],
+      "height": 7896,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 632.1666870117188,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 1666.666748046875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 851.6875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 2839.58349609375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 1277.8646240234375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 403.1666870117187,
+          "text": "Somos o começo de uma mudança",
+          "width": 537.6666870117188
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 197.125,
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 949.8646240234376
+        }
+      ],
+      "height": 7896,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 632.1666870117188,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 1666.666748046875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 851.6875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 2839.58349609375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 1277.8646240234375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 1000
+    },
+    "route": "/contato",
+    "equal": true,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 307.96875,
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 537.6666870117188
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 44,
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 553.6666870117188
+        }
+      ],
+      "height": 2253,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 831.15625,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 1081.572998046875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 307.96875,
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 537.6666870117188
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 44,
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 553.6666870117188
+        }
+      ],
+      "height": 2253,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 831.15625,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 1081.572998046875,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 1000
+    },
+    "route": "/publicacoes",
+    "equal": true,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 107.52083587646484,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 134.40625,
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 387.2604370117187
+        }
+      ],
+      "height": 5559,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 5218.9375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 107.52083587646484,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 134.40625,
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 387.2604370117187
+        }
+      ],
+      "height": 5559,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 5218.9375,
+          "width": 1187.3333740234375
+        },
+        {
+          "height": 339.9895935058594,
+          "width": 1187.3333740234375
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/",
+    "equal": true,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 322.5625,
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 272.66668701171875
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 253.375,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 272.66668701171875
+        }
+      ],
+      "height": 6147,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 1400.666748046875,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 690.3854370117188,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1103.3646240234375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 987.125,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 808.9271240234375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 323.7083435058594,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 322.5625,
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 272.66668701171875
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 253.375,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 272.66668701171875
+        }
+      ],
+      "height": 6147,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 1400.666748046875,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 690.3854370117188,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1103.3646240234375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 987.125,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 808.9271240234375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 323.7083435058594,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/quem-somos",
+    "equal": false,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 230.37503051757812,
+          "text": "Somos o começo de uma mudança",
+          "width": 272.66668701171875
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 316.7708435058594,
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 250.125
+        }
+      ],
+      "height": 11263,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 713.375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1406.666748046875,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1337.625,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 4721.67724609375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1866.885498046875,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 230.375,
+          "text": "Somos o começo de uma mudança",
+          "width": 272.66668701171875
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 316.7708435058594,
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 250.125
+        }
+      ],
+      "height": 11263,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 713.375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1406.666748046875,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1337.625,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 0,
+          "width": 0
+        },
+        {
+          "height": 4721.67724609375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 1866.885498046875,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/contato",
+    "equal": false,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 200.5625,
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 284.3645935058594
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 52.79166793823242,
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 272.65625
+        }
+      ],
+      "height": 3020,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 1231.8958740234375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 955.15625,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 200.56253051757812,
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 284.3645935058594
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 52.791748046875,
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 272.65625
+        }
+      ],
+      "height": 3020,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 1231.8958740234375,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 955.15625,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/publicacoes",
+    "equal": true,
+    "before": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 172.8125,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 272.66668701171875
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 126.70833587646484,
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 186.55209350585935
+        }
+      ],
+      "height": 9049,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 8216,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "after": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 172.8125,
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 272.66668701171875
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 126.70833587646484,
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 186.55209350585935
+        }
+      ],
+      "height": 9049,
+      "ready": "true",
+      "sections": [
+        {
+          "height": 8216,
+          "width": 312.66668701171875
+        },
+        {
+          "height": 832.9166870117188,
+          "width": 312.66668701171875
+        }
+      ]
+    },
+    "equalWithinHundredthPixel": true
+  }
+]

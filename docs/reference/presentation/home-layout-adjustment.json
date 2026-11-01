@@ -1,0 +1,12 @@
+{
+  "request": "Redistribuir somente Quem está por trás do Instituto e Agenda 2030 da Home, sem alterar o restante.",
+  "task": "docs/tasks/2026-11-layout-dois-blocos.md",
+  "scope": [
+    "[data-page=\"home\"] #sobre-instituto-home",
+    "[data-page=\"home\"] #agenda-home",
+    "[data-page=\"home\"] #aproximacao-home"
+  ],
+  "css": "\n/* Pedido de 01/11: redistribuir apenas os blocos Instituto e Agenda da Home. */\n[data-page=\"home\"] #sobre-instituto-home > .line-title-wrapper,\n[data-page=\"home\"] #agenda-home > .line-title-wrapper,\n[data-page=\"home\"] #aproximacao-home > .line-title-wrapper {\n  grid-column: 1 / span 2;\n  min-width: 0;\n}\n[data-page=\"home\"] #sobre-instituto-home > .description-wrapper,\n[data-page=\"home\"] #agenda-home > .description-wrapper,\n[data-page=\"home\"] #aproximacao-home > .description-wrapper {\n  grid-column: 3 / -1;\n  width: 100%;\n  min-width: 0;\n}\n[data-page=\"home\"] #sobre-instituto-home > .description-wrapper > .button-primary,\n[data-page=\"home\"] #aproximacao-home > .description-wrapper > .button-primary {\n  align-self: flex-start;\n}\n",
+  "followupRequest": "O bloco Como você pode se aproximar deve ter a mesma distribuição dos blocos de cima e de baixo.",
+  "followupTask": "docs/tasks/2026-11-layout-aproximacao.md"
+}

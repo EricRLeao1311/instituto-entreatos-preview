@@ -1,0 +1,12 @@
+{
+  "name": "Instituto Entre Atos",
+  "url": "https://institutoentreatos.com.br",
+  "email": "contato@institutoentreatos.com.br",
+  "forms": {
+    "contactEndpoint": "",
+    "researchEndpoint": ""
+  },
+  "research": {
+    "documentUrl": "/assets/panorama-retorno-profissional-2025.pdf"
+  }
+}

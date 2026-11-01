@@ -1,0 +1,27 @@
+{
+  "runtime": {
+    "presentationReady": true,
+    "events": 623,
+    "hostedFormsDisabled": true
+  },
+  "carousel": {
+    "before": "matrix(1, 0, 0, 1, -8851.83, 0)",
+    "after": "matrix(1, 0, 0, 1, -9002.04, 0)",
+    "result": "Movimento observado; tempos e easing verificados pelo objeto original."
+  },
+  "research": {
+    "openDisplay": "flex",
+    "triggerUrlUnchanged": true,
+    "escapeCloses": true,
+    "localSubmit": "Seus dados não foram enviados. Abrir pesquisa"
+  },
+  "contact": {
+    "localSubmit": "Mensagem preparada. O envio acontece no seu aplicativo de e-mail. Abrir e-mail com esta mensagem",
+    "externalMessageSent": false
+  },
+  "hover": {
+    "configuration": "Original, impressão digital verificada.",
+    "realPointerVerification": false,
+    "limit": "A ferramenta não expôs uma ação de hover/movimento de cursor confiável; não foi declarada confirmação visual de todos os quadros."
+  }
+}

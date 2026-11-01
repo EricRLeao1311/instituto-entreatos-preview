@@ -1,0 +1,301 @@
+{
+  "viewports": 42,
+  "source": "https://institutoentreatos.com.br",
+  "method": "Mesma aba; 1440x1000 e 390x844. Retângulos de seções e tipografia de títulos. Rodapés com carregamento tardio reavaliados após rolar e carregar imagens. Não é comparação de cada pixel nem de todos os quadros de vídeo.",
+  "results": [
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/construindo-uma-marca-pessoal-guia-para-o-sucesso",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/nossa-atuacao",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/quem-somos",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/depoimentos",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/na-midia",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/contato",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/como-funciona-um-programa-de-retorno",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/construindo-uma-marca-pessoal-guia-para-o-sucesso",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/entrevista-maria-luiza",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/ferramentas-para-organizacao-e-planejamento-de-2025",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/maes-lideres---5-soft-skills",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/porque-escolher-um-programa-de-retorno",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "mobile",
+      "route": "/publicacoes/workshop---melhorando-a-autoconfianca",
+      "width": 390,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/nossa-atuacao",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/quem-somos",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/depoimentos",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/na-midia",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/contato",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/como-funciona-um-programa-de-retorno",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/entrevista-maria-luiza",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/ferramentas-para-organizacao-e-planejamento-de-2025",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/maes-lideres---5-soft-skills",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/porque-escolher-um-programa-de-retorno",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    },
+    {
+      "mode": "desktop",
+      "route": "/publicacoes/workshop---melhorando-a-autoconfianca",
+      "width": 1440,
+      "unresolvedDifferences": 0,
+      "typographyDifferences": 0
+    }
+  ]
+}

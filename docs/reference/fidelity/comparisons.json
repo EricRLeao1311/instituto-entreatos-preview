@@ -1,0 +1,3408 @@
+[
+  {
+    "route": "/publicacoes/construindo-uma-marca-pessoal-guia-para-o-sucesso",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Construindo uma Marca Pessoal: Guia para o Sucesso",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4229.61279296875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4229.61279296875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Construindo uma Marca Pessoal: Guia para o Sucesso",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4229.61279296875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4229.61279296875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Workshop – Estratégias para retomar sua carreira",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2474.800048828125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 2474.800048828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Workshop – Estratégias para retomar sua carreira",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2474.800048828125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 2474.800048828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [
+      {
+        "section": 1,
+        "property": "height",
+        "source": 301,
+        "copy": 347.6000061035156
+      }
+    ],
+    "unresolvedDeltas": [],
+    "typographyDifferences": [],
+    "footerAfterScroll": {
+      "route": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+      "source": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "copy": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "delta": 0
+    }
+  },
+  {
+    "route": "/",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 268.75,
+          "size": "38.4px",
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 211.1875,
+          "size": "38.4px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 335.20001220703125
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1273.550048828125,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 541.0375366210938,
+          "top": 1273.550048828125,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 959.6500244140624,
+          "top": 1814.5875244140625,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section visible-overflow",
+          "height": 962.6500244140624,
+          "top": 2774.237548828125,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 734.7999877929688,
+          "top": 3736.887451171875,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 228,
+          "top": 4471.6875,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 4699.6875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 268.75,
+          "size": "38.4px",
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 211.1875,
+          "size": "38.4px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 335.20001220703125
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1273.550048828125,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 541.0375366210938,
+          "top": 1273.550048828125,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 959.6500244140624,
+          "top": 1814.5875244140625,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section visible-overflow",
+          "height": 962.6500244140624,
+          "top": 2774.237548828125,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 734.7999877929688,
+          "top": 3736.887451171875,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 228,
+          "top": 4471.6875,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 4699.6875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/nossa-atuacao",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 164.13748168945312,
+          "size": "60.8px",
+          "text": "Dois lados do mesmo desafio",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 70.4000015258789,
+          "size": "32px",
+          "text": "Talentos invisíveis. Resultados visíveis.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 95.0250015258789,
+          "size": "28.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 263.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 105.5999984741211,
+          "size": "32px",
+          "text": "Seu currículo não tem um vazio. Tem uma história.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 95.0250015258789,
+          "size": "28.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 263.20001220703125
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4025.962646484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 3923.025146484375,
+          "top": 4025.962646484375,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 404.2749938964844,
+          "top": 7948.98779296875,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8353.2626953125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 164.1374969482422,
+          "size": "60.8px",
+          "text": "Dois lados do mesmo desafio",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 70.4000015258789,
+          "size": "32px",
+          "text": "Talentos invisíveis. Resultados visíveis.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 95.0250015258789,
+          "size": "28.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 263.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 105.5999984741211,
+          "size": "32px",
+          "text": "Seu currículo não tem um vazio. Tem uma história.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 95.0250015258789,
+          "size": "28.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 263.20001220703125
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4025.962646484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 3923.025146484375,
+          "top": 4025.962646484375,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 404.2749938964844,
+          "top": 7948.98779296875,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8353.2626953125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/quem-somos",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 230.40000915527344,
+          "size": "64px",
+          "text": "Somos o começo de uma mudança",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 253.40000915527344,
+          "size": "28.8px",
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 300.1499938964844
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 756,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section-parallax",
+          "height": 1688,
+          "top": 1044,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 1194.050048828125,
+          "top": 2732,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section-mobile mobile",
+          "height": 2553.199951171875,
+          "top": 3926.050048828125,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 1577.7000732421875,
+          "top": 6575.25,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8152.9501953125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 230.40000915527344,
+          "size": "64px",
+          "text": "Somos o começo de uma mudança",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 253.40000915527344,
+          "size": "28.8px",
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 300.1499938964844
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 756,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section-parallax",
+          "height": 1688,
+          "top": 1044,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 1194.050048828125,
+          "top": 2732,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section-mobile mobile",
+          "height": 2553.199951171875,
+          "top": 3926.050048828125,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 1577.7000732421875,
+          "top": 6575.25,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8152.9501953125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 103.6500015258789,
+          "size": "28.8px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 126.70000457763672,
+          "size": "28.8px",
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 236.875
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 8679.4248046875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8679.4248046875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 103.6500015258789,
+          "size": "28.8px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 126.70000457763672,
+          "size": "28.8px",
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 236.875
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 8679.4248046875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8679.4248046875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/depoimentos",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "Cada",
+          "width": 65.1500015258789
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "história",
+          "width": 86.4375
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "real",
+          "width": 43.67499923706055
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "fortalece",
+          "width": 105.32500457763672
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "o",
+          "width": 15.737500190734863
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "movimento",
+          "width": 135.9499969482422
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 559.5,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section-mobile-1",
+          "height": 7556,
+          "top": 559.5,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8115.5,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "Cada",
+          "width": 65.1500015258789
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "história",
+          "width": 86.4375
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "real",
+          "width": 43.67499923706055
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "fortalece",
+          "width": 105.32500457763672
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "o",
+          "width": 15.737500190734863
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 34.54999923706055,
+          "size": "28.8px",
+          "text": "movimento",
+          "width": 135.9499969482422
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 559.5,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section-mobile-1",
+          "height": 7556,
+          "top": 559.5,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 8115.5,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/na-midia",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 69.0999984741211,
+          "size": "28.8px",
+          "text": "O retorno ao trabalho está entrando na pauta.",
+          "width": 335.20001220703125
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 7434.6875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 7434.6875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 69.0999984741211,
+          "size": "28.8px",
+          "text": "O retorno ao trabalho está entrando na pauta.",
+          "width": 335.20001220703125
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 7434.6875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 7434.6875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/contato",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 167.1875,
+          "size": "30.4px",
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 26.399999618530273,
+          "size": "24px",
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 335.20001220703125
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1274.7874755859375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 904.7999877929688,
+          "top": 1274.7874755859375,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2179.587646484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 167.1875,
+          "size": "30.4px",
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 335.20001220703125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 26.399999618530273,
+          "size": "24px",
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 335.20001220703125
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1274.7874755859375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section",
+          "height": 904.7999877929688,
+          "top": 1274.7874755859375,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2179.587646484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "10 passos para escrever uma carta de apresentação de sucesso",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4186.97509765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 4186.97509765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "10 passos para escrever uma carta de apresentação de sucesso",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4186.97509765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 4186.97509765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/como-funciona-um-programa-de-retorno",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 115.20000457763672,
+          "size": "38.4px",
+          "text": "Como funciona um programa de retorno?",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1538.0250244140625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 776.625,
+          "top": 1538.0250244140625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 115.20000457763672,
+          "size": "38.4px",
+          "text": "Como funciona um programa de retorno?",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1538.0250244140625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 776.625,
+          "top": 1538.0250244140625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 192,
+          "size": "38.4px",
+          "text": "Como identificar empresas que valorizam profissionais em pausa de carreira",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5629.8251953125,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 5629.8251953125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 192,
+          "size": "38.4px",
+          "text": "Como identificar empresas que valorizam profissionais em pausa de carreira",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5629.8251953125,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 5629.8251953125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/construindo-uma-marca-pessoal-guia-para-o-sucesso",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Construindo uma Marca Pessoal: Guia para o Sucesso",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4850.42529296875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 4850.42529296875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Construindo uma Marca Pessoal: Guia para o Sucesso",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4850.42529296875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 4850.42529296875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "De volta ao jogo: O valor de um programa de retorno",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5105.28759765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 5105.28759765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "De volta ao jogo: O valor de um programa de retorno",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5105.28759765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 5105.28759765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/entrevista-maria-luiza",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 76.80000305175781,
+          "size": "38.4px",
+          "text": "Entrevista Maria Luiza",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1564.425048828125,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 776.625,
+          "top": 1564.425048828125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 76.80000305175781,
+          "size": "38.4px",
+          "text": "Entrevista Maria Luiza",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1564.425048828125,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 776.625,
+          "top": 1564.425048828125,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/ferramentas-para-organizacao-e-planejamento-de-2025",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Ferramentas para organização e planejamento de 2025",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 6544.375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 6544.375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Ferramentas para organização e planejamento de 2025",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 6544.375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 6544.375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/maes-lideres---5-soft-skills",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 76.80000305175781,
+          "size": "38.4px",
+          "text": "Mães lideres – 5 Soft skills",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2549.6875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2549.6875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 76.80000305175781,
+          "size": "38.4px",
+          "text": "Mães lideres – 5 Soft skills",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2549.6875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2549.6875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 230.40000915527344,
+          "size": "38.4px",
+          "text": "Pausa de Carreira e o Fim de Ano: Como Transformar um Período de Descanso em um Novo Começo",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5197.35009765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 5197.35009765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 230.40000915527344,
+          "size": "38.4px",
+          "text": "Pausa de Carreira e o Fim de Ano: Como Transformar um Período de Descanso em um Novo Começo",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5197.35009765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 5197.35009765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/porque-escolher-um-programa-de-retorno",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 115.20000457763672,
+          "size": "38.4px",
+          "text": "Porque escolher um programa de retorno?",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2091.775146484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2091.775146484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 115.20000457763672,
+          "size": "38.4px",
+          "text": "Porque escolher um programa de retorno?",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2091.775146484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2091.775146484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 192,
+          "size": "38.4px",
+          "text": "Retorno de Carreira: Uma Nova Estratégia para o Recrutamento Corporativo",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 6375.60009765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 6375.60009765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 192,
+          "size": "38.4px",
+          "text": "Retorno de Carreira: Uma Nova Estratégia para o Recrutamento Corporativo",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 6375.60009765625,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 6375.60009765625,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Você não perde desempenho porque fez uma pausa na carreira!",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2570.025146484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2570.025146484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Você não perde desempenho porque fez uma pausa na carreira!",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2570.025146484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2570.025146484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Workshop – Estratégias para retomar sua carreira",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2239.512451171875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2239.512451171875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 153.60000610351562,
+          "size": "38.4px",
+          "text": "Workshop – Estratégias para retomar sua carreira",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2239.512451171875,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2239.512451171875,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/workshop---melhorando-a-autoconfianca",
+    "mode": "mobile",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 115.20000457763672,
+          "size": "38.4px",
+          "text": "Workshop – Melhorando a autoconfiança",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2480.087646484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2480.087646484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 115.20000457763672,
+          "size": "38.4px",
+          "text": "Workshop – Melhorando a autoconfiança",
+          "width": 324
+        }
+      ],
+      "height": 844,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2480.087646484375,
+          "top": 0,
+          "width": 375.2000122070313
+        },
+        {
+          "cls": "section footer",
+          "height": 732.2000122070312,
+          "top": 2480.087646484375,
+          "width": 375.2000122070313
+        }
+      ],
+      "width": 390
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 941.3500366210938
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 184.8000030517578,
+          "size": "56px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 652.4000244140625
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1383.2000732421875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 489.5874938964844,
+          "top": 1383.2000732421875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 569.6000366210938,
+          "top": 1872.7874755859375,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section visible-overflow",
+          "height": 685.5375366210938,
+          "top": 2442.387451171875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 711.2000122070312,
+          "top": 3127.925048828125,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 326.3999938964844,
+          "top": 3839.125,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4165.52490234375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "A pausa de carreira não é o fim de uma história. É o entre atos.",
+          "width": 941.3500366210938
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 184.8000030517578,
+          "size": "56px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 652.4000244140625
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1383.2000732421875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 489.5874938964844,
+          "top": 1383.2000732421875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 569.6000366210938,
+          "top": 1872.7874755859375,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section visible-overflow",
+          "height": 685.5375366210938,
+          "top": 2442.387451171875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 711.2000122070312,
+          "top": 3127.925048828125,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 326.3999938964844,
+          "top": 3839.125,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4165.52490234375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/nossa-atuacao",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 66.23750305175781,
+          "size": "73.6px",
+          "text": "Dois lados do mesmo desafio",
+          "width": 1344.800048828125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 123.20000457763672,
+          "size": "56px",
+          "text": "Talentos invisíveis. Resultados visíveis.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 134.40000915527344,
+          "size": "44.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 298.8000183105469
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 123.20000457763672,
+          "size": "56px",
+          "text": "Seu currículo não tem um vazio. Tem uma história.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 134.40000915527344,
+          "size": "44.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 298.8000183105469
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4181.08740234375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 3407.275146484375,
+          "top": 4181.08740234375,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 1108.4500732421875,
+          "top": 7588.36279296875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 8696.8125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 66.23750305175781,
+          "size": "73.6px",
+          "text": "Dois lados do mesmo desafio",
+          "width": 1344.800048828125
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 123.20000457763672,
+          "size": "56px",
+          "text": "Talentos invisíveis. Resultados visíveis.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 134.40000915527344,
+          "size": "44.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 298.8000183105469
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 123.20000457763672,
+          "size": "56px",
+          "text": "Seu currículo não tem um vazio. Tem uma história.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 134.40000915527344,
+          "size": "44.8px",
+          "text": "Vamos conversar sobre retorno profissional",
+          "width": 298.8000183105469
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4181.08740234375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 3407.275146484375,
+          "top": 4181.08740234375,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 1108.4500732421875,
+          "top": 7588.36279296875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 8696.8125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/quem-somos",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 403.2000122070313,
+          "size": "112px",
+          "text": "Somos o começo de uma mudança",
+          "width": 656.4000244140625
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 147.8249969482422,
+          "size": "44.8px",
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 1139.8375244140625
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 632.6000366210938,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section-parallax",
+          "height": 2000,
+          "top": 920.6000366210938,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 825.6000366210938,
+          "top": 2920.60009765625,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section mobile1",
+          "height": 1720.800048828125,
+          "top": 3746.199951171875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 1149.112548828125,
+          "top": 5467,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 6616.11279296875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 403.2000122070313,
+          "size": "112px",
+          "text": "Somos o começo de uma mudança",
+          "width": 656.4000244140625
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 147.8249969482422,
+          "size": "44.8px",
+          "text": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do trabalho onde a pausa seja reconhecida como parte do caminho.",
+          "width": 1139.8375244140625
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 632.6000366210938,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section-parallax",
+          "height": 2000,
+          "top": 920.6000366210938,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 825.6000366210938,
+          "top": 2920.60009765625,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section mobile1",
+          "height": 1720.800048828125,
+          "top": 3746.199951171875,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 1149.112548828125,
+          "top": 5467,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 6616.11279296875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 107.5,
+          "size": "44.8px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 89.5999984741211,
+          "size": "44.8px",
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 483.4250183105469
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5410.125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 5410.125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 107.5,
+          "size": "44.8px",
+          "text": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso.",
+          "width": 800
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 89.5999984741211,
+          "size": "44.8px",
+          "text": "Panorama do Retorno Profissional no Brasil 2025",
+          "width": 483.4250183105469
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5410.125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 5410.125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/depoimentos",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "Cada",
+          "width": 99.57500457763672
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "história",
+          "width": 130.90000915527344
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "real",
+          "width": 66.1624984741211
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "fortalece",
+          "width": 159.83750915527344
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "o",
+          "width": 24.037500381469727
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "movimento",
+          "width": 207.4750061035156
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 493.1000061035156,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section mobile2",
+          "height": 5481.125,
+          "top": 493.1000061035156,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 5974.22509765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "Cada",
+          "width": 99.57500457763672
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "história",
+          "width": 130.90000915527344
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "real",
+          "width": 66.1624984741211
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "fortalece",
+          "width": 159.83750915527344
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "o",
+          "width": 24.037500381469727
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 53.75,
+          "size": "44.8px",
+          "text": "movimento",
+          "width": 207.4750061035156
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 493.1000061035156,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section mobile2",
+          "height": 5481.125,
+          "top": 493.1000061035156,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 5974.22509765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/na-midia",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 107.5,
+          "size": "44.8px",
+          "text": "O retorno ao trabalho está entrando na pauta.",
+          "width": 720
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 3327.487548828125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 3327.487548828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 107.5,
+          "size": "44.8px",
+          "text": "O retorno ao trabalho está entrando na pauta.",
+          "width": 720
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section z-index-2",
+          "height": 3327.487548828125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 3327.487548828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/contato",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 308,
+          "size": "56px",
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 656.4000244140625
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 44,
+          "size": "40px",
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 672.4000244140625
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 831.2000122070312,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 1081.5999755859375,
+          "top": 831.2000122070312,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 1912.800048828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 307.9999694824219,
+          "size": "56px",
+          "text": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você.",
+          "width": 656.4000244140625
+        },
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 44,
+          "size": "40px",
+          "text": "Inscreva-se na nossa newsletter",
+          "width": 672.4000244140625
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 831.2000122070312,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section",
+          "height": 1081.5999755859375,
+          "top": 831.2000122070312,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 1912.800048828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "10 passos para escrever uma carta de apresentação de sucesso",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 3850.737548828125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 3850.737548828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "10 passos para escrever uma carta de apresentação de sucesso",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 3850.737548828125,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 3850.737548828125,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/como-funciona-um-programa-de-retorno",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Como funciona um programa de retorno?",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1961.7249755859375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 1961.7249755859375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Como funciona um programa de retorno?",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1961.7249755859375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 1961.7249755859375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "Como identificar empresas que valorizam profissionais em pausa de carreira",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4576.77490234375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4576.77490234375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "Como identificar empresas que valorizam profissionais em pausa de carreira",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4576.77490234375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4576.77490234375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "De volta ao jogo: O valor de um programa de retorno",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 3935.35009765625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 3935.35009765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "De volta ao jogo: O valor de um programa de retorno",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 3935.35009765625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 3935.35009765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/entrevista-maria-luiza",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 80,
+          "size": "80px",
+          "text": "Entrevista Maria Luiza",
+          "width": 693.3624877929688
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1946.5250244140625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 1946.5250244140625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 80,
+          "size": "80px",
+          "text": "Entrevista Maria Luiza",
+          "width": 693.3624877929688
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 1946.5250244140625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 1946.5250244140625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/ferramentas-para-organizacao-e-planejamento-de-2025",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Ferramentas para organização e planejamento de 2025",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5354.16259765625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 5354.16259765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Ferramentas para organização e planejamento de 2025",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 5354.16259765625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 5354.16259765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/maes-lideres---5-soft-skills",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 80,
+          "size": "80px",
+          "text": "Mães lideres – 5 Soft skills",
+          "width": 859.0625
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2547.824951171875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 2547.824951171875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 80,
+          "size": "80px",
+          "text": "Mães lideres – 5 Soft skills",
+          "width": 859.0625
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2547.824951171875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 2547.824951171875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "Pausa de Carreira e o Fim de Ano: Como Transformar um Período de Descanso em um Novo Começo",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4356.625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4356.625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "Pausa de Carreira e o Fim de Ano: Como Transformar um Período de Descanso em um Novo Começo",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4356.625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4356.625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/porque-escolher-um-programa-de-retorno",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Porque escolher um programa de retorno?",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2198.22509765625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 2198.22509765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Porque escolher um programa de retorno?",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2198.22509765625,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 2198.22509765625,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [
+      {
+        "section": 1,
+        "property": "height",
+        "source": 301,
+        "copy": 347.6000061035156
+      }
+    ],
+    "unresolvedDeltas": [],
+    "typographyDifferences": [],
+    "footerAfterScroll": {
+      "route": "/publicacoes/porque-escolher-um-programa-de-retorno",
+      "source": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "copy": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "delta": 0
+    }
+  },
+  {
+    "route": "/publicacoes/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "Retorno de Carreira: Uma Nova Estratégia para o Recrutamento Corporativo",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4624.11279296875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4624.11279296875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 240,
+          "size": "80px",
+          "text": "Retorno de Carreira: Uma Nova Estratégia para o Recrutamento Corporativo",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 4624.11279296875,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 4624.11279296875,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [],
+    "unresolvedDeltas": [],
+    "typographyDifferences": []
+  },
+  {
+    "route": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Você não perde desempenho porque fez uma pausa na carreira!",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2670.525146484375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 2670.525146484375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Você não perde desempenho porque fez uma pausa na carreira!",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2670.525146484375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 346.375,
+          "top": 2670.525146484375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [
+      {
+        "section": 1,
+        "property": "height",
+        "source": 301,
+        "copy": 346.375
+      }
+    ],
+    "unresolvedDeltas": [],
+    "typographyDifferences": [],
+    "footerAfterScroll": {
+      "route": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+      "source": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "copy": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "delta": 0
+    }
+  },
+  {
+    "route": "/publicacoes/workshop---melhorando-a-autoconfianca",
+    "mode": "desktop",
+    "source": {
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Workshop – Melhorando a autoconfiança",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2551.025146484375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 301,
+          "top": 2551.025146484375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "copy": {
+      "formsDisabled": "true",
+      "headings": [
+        {
+          "font": "\"Satoshi Variable\", Verdana, sans-serif",
+          "height": 160,
+          "size": "80px",
+          "text": "Workshop – Melhorando a autoconfiança",
+          "width": 1120
+        }
+      ],
+      "height": 1000,
+      "ready": "true",
+      "sections": [
+        {
+          "cls": "section",
+          "height": 2551.025146484375,
+          "top": 0,
+          "width": 1424.800048828125
+        },
+        {
+          "cls": "section footer",
+          "height": 347.6000061035156,
+          "top": 2551.025146484375,
+          "width": 1424.800048828125
+        }
+      ],
+      "width": 1440
+    },
+    "deltas": [
+      {
+        "section": 1,
+        "property": "height",
+        "source": 301,
+        "copy": 347.6000061035156
+      }
+    ],
+    "unresolvedDeltas": [],
+    "typographyDifferences": [],
+    "footerAfterScroll": {
+      "route": "/publicacoes/workshop---melhorando-a-autoconfianca",
+      "source": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "copy": {
+        "height": 347.6000061035156,
+        "imagesLoaded": true,
+        "width": 1424.800048828125
+      },
+      "delta": 0
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "source": "1ec94267de-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjUQ-qXA.ttf",
+    "target": "1ec94267de-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjUQ-qXA-2f6cf2f74f.woff2",
+    "before": 298720,
+    "after": 108240,
+    "sha256": "2f6cf2f74fbbb1e06353f69f7ac56dba0a7f18e879bcf29ca7615b46a54b5230",
+    "glyphs": 2541,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "3ff89d14ef-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiqXA.ttf",
+    "target": "3ff89d14ef-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj6AiqXA-fbe1cb8cfa.woff2",
+    "before": 302808,
+    "after": 109228,
+    "sha256": "fbe1cb8cfa2be445d96dd66eb0874358a90faf3d29fd8fea308836f83afde0bb",
+    "glyphs": 2541,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "42aaaf7a68-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.ttf",
+    "target": "42aaaf7a68-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA-13268c7d98.woff2",
+    "before": 298260,
+    "after": 104620,
+    "sha256": "13268c7d98ae43b492e9118170d6e9903f6046502612c0b42d1f7f8ed0962b9b",
+    "glyphs": 2541,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "59fe63bd02-mem5YaSw02SQ0OlzDuR8Isk-VQ.ttf",
+    "target": "59fe63bd02-mem5YaSw02SQ0OlzDuR8Isk-VQ-72892c5bbf.woff2",
+    "before": 87308,
+    "after": 37332,
+    "sha256": "72892c5bbffca3f73b6f1628f71ec507bcacee3425de6e96dd465c93ff8e3e19",
+    "glyphs": 591,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "722ff42d00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.ttf",
+    "target": "722ff42d00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA-aec85723ca.woff2",
+    "before": 302212,
+    "after": 109212,
+    "sha256": "aec85723ca94c36ade9bb307b27ea5fc9773ec4285d9101b5d4faec97b48e089",
+    "glyphs": 2541,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "8ce7af37ff-GeneralSans-Bold.otf",
+    "target": "8ce7af37ff-GeneralSans-Bold-62e6e635a7.woff2",
+    "before": 43260,
+    "after": 21672,
+    "sha256": "62e6e635a7d0d81cb86b792b662b63f24fe5c733ca0285fdc5a9ca972649e983",
+    "glyphs": 436,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "937195f9b5-Satoshi-Variable.ttf",
+    "target": "937195f9b5-Satoshi-Variable-ea7da896b4.woff2",
+    "before": 127420,
+    "after": 42660,
+    "sha256": "ea7da896b4b9e6283e98fa5c9c38e7beaf58f5cd42b2bc40bcc4c95d8aecd0fe",
+    "glyphs": 504,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "9f290def88-GeneralSans-Medium.otf",
+    "target": "9f290def88-GeneralSans-Medium-9cdd06ad20.woff2",
+    "before": 46424,
+    "after": 23828,
+    "sha256": "9cdd06ad20224dd2ad98a3848f18d0539721a4cf6ce87551555e80a2c09164bf",
+    "glyphs": 436,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "af801b0a62-GeneralSans-Light.otf",
+    "target": "af801b0a62-GeneralSans-Light-1419f5708a.woff2",
+    "before": 46020,
+    "after": 24064,
+    "sha256": "1419f5708a37e623c33df858dbef8dfe5b12cf86a88f3c49c3633a9d5458daf8",
+    "glyphs": 436,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "ba08b16a00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.ttf",
+    "target": "ba08b16a00-NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA-216ce35195.woff2",
+    "before": 301472,
+    "after": 108632,
+    "sha256": "216ce351956fd592f5d478858cefe27b6397fa798e9bc16f3837fa4195ae293e",
+    "glyphs": 2541,
+    "outlinesAndMetricsVerified": true
+  },
+  {
+    "source": "d9c9aad2f1-GeneralSans-Regular.otf",
+    "target": "d9c9aad2f1-GeneralSans-Regular-ec64248e2d.woff2",
+    "before": 45948,
+    "after": 23904,
+    "sha256": "ec64248e2d2542a32b0e2b99cdf0015320479553c6bc49bfe9e6922dad717b45",
+    "glyphs": 436,
+    "outlinesAndMetricsVerified": true
+  }
+]

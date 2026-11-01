@@ -1,0 +1,26 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "encoding": "br",
+    "bytes": 9711,
+    "decodedBytes": 137439,
+    "etag": "\"c2aa51988c522a52501f8500f49775b4e1f3000d30b5112a281ede170d70086c\""
+  },
+  {
+    "route": "/scripts/interactions.js",
+    "status": 200,
+    "encoding": "br",
+    "bytes": 23741,
+    "decodedBytes": 593325,
+    "etag": "\"691a58264f7e4db23bc48b583c6af5856c3c070af8da113406cbaf3b32c9f899\""
+  },
+  {
+    "route": "/styles/legacy.css",
+    "status": 200,
+    "encoding": "br",
+    "bytes": 37744,
+    "decodedBytes": 371931,
+    "etag": "\"50a239e8899db75aaf84274fdb5468737f24f68b0d0ff3bda1b685f68d5c9ebb\""
+  }
+]

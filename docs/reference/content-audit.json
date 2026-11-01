@@ -1,0 +1,89 @@
+{
+  "method": "Linhas visíveis da origem com mais de 70 caracteres, comparadas ao texto do HTML gerado, ignorando whitespace e zero-width characters. Não é prova de equivalência visual.",
+  "pages": [
+    {
+      "route": "/",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/nossa-atuacao",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/quem-somos",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/depoimentos",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/na-midia",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/contato",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/como-funciona-um-programa-de-retorno",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/construindo-uma-marca-pessoal-guia-para-o-sucesso",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/entrevista-maria-luiza",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/ferramentas-para-organizacao-e-planejamento-de-2025",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/maes-lideres---5-soft-skills",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/porque-escolher-um-programa-de-retorno",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/workshop---estrategias-para-retomar-sua-carreira",
+      "missingOriginalLines": []
+    },
+    {
+      "route": "/publicacoes/workshop---melhorando-a-autoconfianca",
+      "missingOriginalLines": []
+    }
+  ]
+}

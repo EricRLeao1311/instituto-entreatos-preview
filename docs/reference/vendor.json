@@ -1,0 +1,37 @@
+{
+  "runtime-polyfills.js": {
+    "source": "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/js/webflow.schunk.1a807f015b216e46.js",
+    "originalSha256": "9b27148fa19bfff7d8c640597bd7c2f634f9c8399f27443af364de3bfced2541",
+    "sha256": "9b27148fa19bfff7d8c640597bd7c2f634f9c8399f27443af364de3bfced2541",
+    "changes": "Cópia byte a byte."
+  },
+  "runtime-core.js": {
+    "source": "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/js/webflow.schunk.3db44da2c95e754c.js",
+    "originalSha256": "6155c4fbbc308055a876e6cc7b8bcef879f052cf8695cf1df2d4dea2eadf305c",
+    "sha256": "b735f3017ba4ea2e5cca59f6143a463b3c5d07c967255d9434d3cbcf1d9676bf",
+    "changes": "Objeto de interações extraído para src/content/interactions.json; inicialização de comércio removida com o módulo extraído."
+  },
+  "runtime-slider.js": {
+    "source": "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/js/webflow.schunk.bad753b47b970d67.js",
+    "originalSha256": "fb518990cf8491b308d91ea5bcedd1c5d2e17a671121ff254483af8b128ce043",
+    "sha256": "fb518990cf8491b308d91ea5bcedd1c5d2e17a671121ff254483af8b128ce043",
+    "changes": "Cópia byte a byte."
+  },
+  "runtime-lightbox.js": {
+    "source": "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/js/webflow.schunk.d659be6dcd9af708.js",
+    "originalSha256": "ff3c1af2925e2a4d86a0715fe9d265490e20a3633944e2d219c9258bf506b829",
+    "sha256": "ff3c1af2925e2a4d86a0715fe9d265490e20a3633944e2d219c9258bf506b829",
+    "changes": "Cópia byte a byte."
+  },
+  "jquery-3.5.1.min.js": {
+    "source": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69ca8fb4411afd539109a0e0",
+    "originalSha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+    "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+    "changes": "Cópia byte a byte."
+  },
+  "runtime-bootstrap.js": {
+    "source": "https://cdn.prod.website-files.com/69ca8fb4411afd539109a0e0/js/webflow.d4bfb83c.032654d9566848d1.js",
+    "sha256": "c33a133ccb77b9d1c74db447513f049d20944c9f360cfc5d9e7c90f90c4e3885",
+    "changes": "Desativados os módulos brand/editor/forms e a inicialização de comércio. Lightbox incluída. Nenhuma alteração do motor IX2."
+  }
+}

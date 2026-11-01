@@ -1,0 +1,218 @@
+[
+  {
+    "page": "home",
+    "file": "src/sections/home/01-hero.html",
+    "anchor": "Hero",
+    "heading": "A pausa de carreira não é o fim de uma história. É o entre atos. Quase 2 milhões de profissionais qu"
+  },
+  {
+    "page": "home",
+    "file": "src/sections/home/02-about.html",
+    "anchor": "About",
+    "heading": "o que fazemos O Instituto Entre Atos existe para que esse intervalo seja reconhecido como parte natu"
+  },
+  {
+    "page": "home",
+    "file": "src/sections/home/03-approach.html",
+    "anchor": "Approach",
+    "heading": "O que é ser retornante? Retornante é todo profissional que está há 12 meses ou mais sem vínculo form"
+  },
+  {
+    "page": "home",
+    "file": "src/sections/home/04-place.html",
+    "anchor": "Place",
+    "heading": "O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso. O Instituto produz pesq"
+  },
+  {
+    "page": "home",
+    "file": "src/sections/home/05-benefits.html",
+    "anchor": "Benefits",
+    "heading": "A PAUSA EM NÚMEROS Países com empresas que têm programas formais para retornantes 20 + Percentual de"
+  },
+  {
+    "page": "home",
+    "file": "src/sections/home/06-testimonials.html",
+    "anchor": "Testimonials",
+    "heading": "Todas as Aparições"
+  },
+  {
+    "page": "nossa-atuacao",
+    "file": "src/sections/nossa-atuacao/01-approach.html",
+    "anchor": "Approach",
+    "heading": "Dois lados do mesmo desafio Sou empresa Sou empresa Sou profissional Sou profissional SERVIÇOS PRO B"
+  },
+  {
+    "page": "nossa-atuacao",
+    "file": "src/sections/nossa-atuacao/02-approach-variant-2.html",
+    "anchor": "Approach-variant-2",
+    "heading": "serviços pro bono para profissionais Seu currículo não tem um vazio. Tem uma história. Quatro frente"
+  },
+  {
+    "page": "nossa-atuacao",
+    "file": "src/sections/nossa-atuacao/03-benefits.html",
+    "anchor": "Benefits",
+    "heading": ""
+  },
+  {
+    "page": "quem-somos",
+    "file": "src/sections/quem-somos/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Somos o começo de uma mudança Saiba mais Saiba mais Arrow Right Arrow Right"
+  },
+  {
+    "page": "quem-somos",
+    "file": "src/sections/quem-somos/02-proximo.html",
+    "anchor": "proximo",
+    "heading": "Somos o primeiro instituto brasileiro dedicado ao retorno de carreira. Trabalhamos para um futuro do"
+  },
+  {
+    "page": "quem-somos",
+    "file": "src/sections/quem-somos/03-approach.html",
+    "anchor": "Approach",
+    "heading": "O que nos move Existe um enorme grupo de profissionais experientes e talentosos que o mercado não es"
+  },
+  {
+    "page": "quem-somos",
+    "file": "src/sections/quem-somos/04-team.html",
+    "anchor": "Team",
+    "heading": "Tetê Baggio Fundadora e diretora executiva Engenheira de Produção pela UFRJ e mediadora internaciona"
+  },
+  {
+    "page": "quem-somos",
+    "file": "src/sections/quem-somos/05-team-variant-2.html",
+    "anchor": "Team-variant-2",
+    "heading": "Tetê Baggio Fundadora e diretora executiva Engenheira de Produção pela UFRJ e mediadora internaciona"
+  },
+  {
+    "page": "quem-somos",
+    "file": "src/sections/quem-somos/06-approach-variant-2.html",
+    "anchor": "Approach-variant-2",
+    "heading": "Para quem é o instituto? Para profissionais que fizeram uma pausa na carreira — voluntária ou involu"
+  },
+  {
+    "page": "publicacoes",
+    "file": "src/sections/publicacoes/01-events.html",
+    "anchor": "Events",
+    "heading": "pesquisa O Brasil não tinha dados sobre retorno profissional. Começamos a mudar isso. O Instituto En"
+  },
+  {
+    "page": "depoimentos",
+    "file": "src/sections/depoimentos/01-about.html",
+    "anchor": "About",
+    "heading": "Depoimentos Cada história real fortalece o movimento Por trás de cada “pausa no currículo” existe um"
+  },
+  {
+    "page": "depoimentos",
+    "file": "src/sections/depoimentos/02-team.html",
+    "anchor": "Team",
+    "heading": "Magui C. Headhunter e Coach de Carreira Com 15 anos de experiência em recrutamento executivo, Magui "
+  },
+  {
+    "page": "depoimentos",
+    "file": "src/sections/depoimentos/03-team-variant-2.html",
+    "anchor": "Team-variant-2",
+    "heading": "Magui C. Headhunter e Coach de Carreira Com 15 anos de experiência em recrutamento executivo, Magui "
+  },
+  {
+    "page": "na-midia",
+    "file": "src/sections/na-midia/01-store.html",
+    "anchor": "Store",
+    "heading": "Na Mídia O retorno ao trabalho está entrando na pauta. O que a mídia diz sobre o retorno profissiona"
+  },
+  {
+    "page": "contato",
+    "file": "src/sections/contato/01-hero.html",
+    "anchor": "Hero",
+    "heading": "O próximo ato começa aqui. Seja empresa, profissional, jornalista ou apoiador — queremos ouvir você."
+  },
+  {
+    "page": "contato",
+    "file": "src/sections/contato/02-messages.html",
+    "anchor": "Messages",
+    "heading": "Inscreva-se na nossa newsletter Nome Email Telefone Mensagem Ao enviar a mensagem, você concorda com"
+  },
+  {
+    "page": "10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso",
+    "file": "src/sections/10-passos-para-escrever-uma-carta-de-apresentacao-de-sucesso/01-hero.html",
+    "anchor": "Hero",
+    "heading": "10 passos para escrever uma carta de apresentação de sucesso Sempre personalize sua carta Dirija a c"
+  },
+  {
+    "page": "como-funciona-um-programa-de-retorno",
+    "file": "src/sections/como-funciona-um-programa-de-retorno/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Como funciona um programa de retorno? Novidade no mercado brasileiro, os programas de retorno já são"
+  },
+  {
+    "page": "como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira",
+    "file": "src/sections/como-identificar-empresas-que-valorizam-profissionais-em-pausa-de-carreira/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Como identificar empresas que valorizam profissionais em pausa de carreira Voltar ao mercado de trab"
+  },
+  {
+    "page": "construindo-uma-marca-pessoal-guia-para-o-sucesso",
+    "file": "src/sections/construindo-uma-marca-pessoal-guia-para-o-sucesso/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Construindo uma Marca Pessoal: Guia para o Sucesso Esse reconhecimento é essencial em várias situaçõ"
+  },
+  {
+    "page": "de-volta-ao-jogo-o-valor-de-um-programa-de-retorno",
+    "file": "src/sections/de-volta-ao-jogo-o-valor-de-um-programa-de-retorno/01-hero.html",
+    "anchor": "Hero",
+    "heading": "De volta ao jogo: O valor de um programa de retorno Programas de Trainee, que ajudam jovens a entrar"
+  },
+  {
+    "page": "entrevista-maria-luiza",
+    "file": "src/sections/entrevista-maria-luiza/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Entrevista Maria Luiza Deixo aqui algumas dicas para se organizar para essa retomada! Registrar tudo"
+  },
+  {
+    "page": "ferramentas-para-organizacao-e-planejamento-de-2025",
+    "file": "src/sections/ferramentas-para-organizacao-e-planejamento-de-2025/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Ferramentas para organização e planejamento de 2025 Neste artigo, exploramos as melhores ferramentas"
+  },
+  {
+    "page": "maes-lideres---5-soft-skills",
+    "file": "src/sections/maes-lideres---5-soft-skills/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Mães lideres – 5 Soft skills De acordo com pesquisa da ZipRecruiter, 93% das companhias afirmam que,"
+  },
+  {
+    "page": "pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco",
+    "file": "src/sections/pausa-de-carreira-e-o-fim-de-ano-como-transformar-um-periodo-de-descanso-em-um-novo-comeco/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Pausa de Carreira e o Fim de Ano: Como Transformar um Período de Descanso em um Novo Começo O final "
+  },
+  {
+    "page": "porque-escolher-um-programa-de-retorno",
+    "file": "src/sections/porque-escolher-um-programa-de-retorno/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Porque escolher um programa de retorno? Trata-se de re-contratar profissionais experientes familiari"
+  },
+  {
+    "page": "retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo",
+    "file": "src/sections/retorno-de-carreira-uma-nova-estrategia-para-o-recrutamento-corporativo/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Retorno de Carreira: Uma Nova Estratégia para o Recrutamento Corporativo O mercado de trabalho evolu"
+  },
+  {
+    "page": "voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira",
+    "file": "src/sections/voce-nao-perde-desempenho-porque-fez-uma-pausa-na-carreira/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Você não perde desempenho porque fez uma pausa na carreira! Organização e gestão do tempo Cuidar de "
+  },
+  {
+    "page": "workshop---estrategias-para-retomar-sua-carreira",
+    "file": "src/sections/workshop---estrategias-para-retomar-sua-carreira/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Workshop – Estratégias para retomar sua carreira Interrompeu sua trajetória profissional, pretende v"
+  },
+  {
+    "page": "workshop---melhorando-a-autoconfianca",
+    "file": "src/sections/workshop---melhorando-a-autoconfianca/01-hero.html",
+    "anchor": "Hero",
+    "heading": "Workshop – Melhorando a autoconfiança Interrompeu sua trajetória profissional? Deu uma pausa na carr"
+  }
+]
