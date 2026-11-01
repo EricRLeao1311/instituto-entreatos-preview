@@ -39,7 +39,7 @@ Implementado. A escolha de três serviços separa hospedagem, dados e entrega de
 - Build Vercel executado com endpoints habilitados e desabilitados: o build padrão continua sem endpoints. HTML difere apenas pelo noindex de teste; CSS e vendor são byte a byte iguais. Varredura de todos os arquivos de texto do artefato confirmou ausência de uma credencial canário colocada apenas no processo de teste.
 - `npm audit --audit-level=high`: zero vulnerabilidades reportadas para o lockfile atual; não equivale a auditoria completa de segurança.
 - Navegador local em 1280 e 390 pixels CSS: pesquisa salva dados fictícios, mostra captura sem envio externo, oferece PDF, reseta checkbox e não apresenta overflow horizontal em celular. Screenshot privada em `work/backend-cloud-formulario-local.png`, fora do repositório. O servidor local permanece em `http://127.0.0.1:4287/`.
-- O registro obrigatório passou na verificação local. A CI e a publicação de teste serão conferidas após o push. Nenhum HTML, CSS, cabeçalho, carrossel, vendor, rota ou dado de animação precisou mudar.
+- O registro obrigatório passou na verificação local. A CI e a publicação estática de teste foram aprovadas após o push. Nenhum HTML, CSS, cabeçalho, carrossel, vendor, rota ou dado de animação precisou mudar.
 
 Não foram testados contas/credenciais reais, deploy na Vercel, API hospedada do Supabase, concorrência entre conexões Postgres reais nem entrega à caixa de e-mail. O build `build:vercel` executa a suíte antes de gerar a saída; scripts npm existentes foram mantidos e apenas ampliados.
 
@@ -52,3 +52,9 @@ Criar/conectar as contas, aplicar a migração em banco exclusivo de teste, conf
 Metadados do pacote mantidos em UTF-8 e scripts npm anteriores preservados. A dependência de testes fica restrita ao desenvolvimento.
 
 O remetente nativo do Webflow não é reutilizado; o novo transporte precisa de remetente próprio autorizado. O destinatário padrão confirmado fica fora do Git e será uma variável privada. Reply-to do novo contato usa o e-mail validado do visitante, para permitir resposta; isso não altera o Webflow. A fila é durável, mas o cron diário não garante baixa latência de recuperação: mensagens ambíguas fora da janela de idempotência exigem revisão. Não foi criada newsletter, área de login ou CMS novo sem requisito; os dados são administrados no painel do provedor. O padrão é captura, e envio externo em teste exige lista explícita. A opção Vercel não presume gratuidade: o titular deve conferir plano permitido para trabalho de cliente.
+
+## Publicação do código e evidências finais
+
+Código implementado no commit `7501608` e metadados ajustados em `53ae197`. A [verificação no GitHub](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41350224044) e a [publicação estática de teste](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41350223921) foram aprovadas. O log confirmou 43 testes, 43 aprovados e zero falhas, além da verificação do registro.
+
+No endereço publicado, Home, Biblioteca e Contato retornaram 200; o módulo de formulários foi comparado com a fonte e a configuração pública foi conferida sem endpoints locais ou credenciais. Nenhum backend foi ativado online; não há contas provisionadas na Vercel/Supabase/Resend. Índice Git revisado sem dados locais, segredos aparentes ou destinatário privado. A implantação futura e a entrega real permanecem pendentes conforme o guia de ativação.
