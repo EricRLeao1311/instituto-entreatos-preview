@@ -73,11 +73,11 @@ Fontes WOFF2 completas, variantes gzip/Brotli no build e revalidação no servid
 
 ## Correção de preservação de 01/11/2026
 
-A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 20 testes.
+A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 30 testes, incluindo os contratos de apresentação e o receptor local.
 
 ## Prévia no GitHub Pages
 
-A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. São 24 testes, incluindo a adaptação de URLs. Veja [o guia de publicação](docs/PUBLICACAO.md).
+A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 30 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
 
 ## Backend local de teste
 

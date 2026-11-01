@@ -33,3 +33,7 @@ Revisão do diff: nenhuma alteração em HTML, CSS, cabeçalho, carrossel, vendo
 O plugin foi reconhecido como instalado e passou a oferecer ferramentas, mas o guia (duas tentativas) e a listagem de sites falharam com ferramenta desconhecida. Não houve consulta privada bem-sucedida nem alteração no Webflow. E-mail público, MX e CNAME previamente consultados foram registrados em `LEVANTAMENTO-WEBFLOW.md` sem confundi-los com destinatários/automação confirmados.
 
 Credenciais de envio, destinatário privado e hospedagem pública própria continuam pendências. Não marcar envio real ou conexão de formulário público como concluídos. O usuário não precisa repetir sua autorização para consulta: quando o serviço Webflow responder, retomar o levantamento sem alterações na produção.
+
+## Registro no GitHub
+
+Código enviado no commit `e4d66110c4bca970c6dad5a1dc1e71a380811761`. A [verificação dos 30 testes](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41346712990) e a [publicação da prévia estática](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41346712992) foram aprovadas. O módulo publicado de formulários foi comparado com a fonte, e a configuração pública foi conferida sem endpoints locais. O banco de teste contém um contato e um cadastro de pesquisa fictícios, com duas mensagens capturadas e nenhum envio; repetição no navegador não duplicou os dados.
