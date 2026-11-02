@@ -169,3 +169,7 @@ O menu principal e o rodapé seguem Home · Nossa atuação · Quem somos · Bib
 | NOZ discreta e links de metas | `quem-somos/07-agenda.html` |
 
 Esta revisão substitui as orientações anteriores sobre retirada de Contato, análise interna e pesquisa em página separada. A quantidade de rotas permanece 26: os dois endereços anteriores continuam como compatibilidade. Preservar `empresa`/`profissional` e demais âncoras ainda existentes. Os 14 artigos continuam por decisão expressa do usuário, apesar da contagem 12 repetida nos DOCX. Registro: `docs/tasks/2026-11-revisao-cinco-paginas.md`.
+
+## Correção da distribuição do manifesto e linhas recentes
+
+Pedido posterior de 02/11 autoriza corrigir somente a disposição das áreas que ficaram estreitas à esquerda. A classe `.editorial-row` está em Home/08-manifesto, nos três cards de aprendizado de Nossa atuação/01 e nas cinco participações de Nossa atuação/03, e nos dois cards de Quem somos/07. `site.css` centraliza o manifesto e amplia o conteúdo das demais linhas para as quatro colunas à direita. Não muda texto, destino, animação ou estilos de outros componentes. Os oito cards anteriores de Quem somos continuam com os IDs e a distribuição que já estavam adequados. Consulte `ESTILOS.md` e `docs/tasks/2026-11-distribuicao-manifesto-blocos.md` antes de reaproveitar esse ajuste.

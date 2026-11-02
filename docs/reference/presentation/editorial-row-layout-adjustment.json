@@ -1,0 +1,10 @@
+{
+  "request": "Centralizar o manifesto e corrigir outras linhas novas coladas à esquerda, preservando o estilo e as animações.",
+  "task": "docs/tasks/2026-11-distribuicao-manifesto-blocos.md",
+  "scope": [
+    "home: manifesto",
+    "nossa-atuacao: oito linhas de aprendizado e participações",
+    "quem-somos: Apoiadores e Agenda 2030"
+  ],
+  "css": "\n/* Pedido de 02/11: equilibrar somente o manifesto e as linhas editoriais identificadas. */\n[data-page=\"nossa-atuacao\"] .editorial-list {\n  grid-template-columns: 1fr;\n}\n[data-page=\"nossa-atuacao\"] .editorial-row > .line-title-wrapper,\n[data-page=\"quem-somos\"] .editorial-row > .line-title-wrapper {\n  grid-column: 1 / span 2;\n  min-width: 0;\n}\n[data-page=\"nossa-atuacao\"] .editorial-row > .description-wrapper,\n[data-page=\"quem-somos\"] .editorial-row > .description-wrapper {\n  grid-column: 3 / -1;\n  min-width: 0;\n  width: 100%;\n}\n[data-page=\"nossa-atuacao\"] .editorial-row > .description-wrapper > .button-primary,\n[data-page=\"quem-somos\"] .editorial-row > .description-wrapper > .button-primary {\n  align-self: flex-start;\n  max-width: 100%;\n}\n[data-page=\"home\"] #manifesto .stacked-list-wrapper {\n  width: 100%;\n}\n[data-page=\"home\"] #manifesto .editorial-row {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n}\n[data-page=\"home\"] #manifesto .editorial-row > .line-title-wrapper {\n  justify-content: center;\n}\n[data-page=\"home\"] #manifesto .editorial-row > .description-wrapper {\n  align-items: center;\n  width: 100%;\n  max-width: 42rem;\n}\n[data-page=\"home\"] #manifesto .editorial-row > .description-wrapper > .button-primary {\n  align-self: center;\n  max-width: 100%;\n}\n"
+}

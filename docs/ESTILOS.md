@@ -35,3 +35,13 @@ O desenho e o comportamento das animações vêm de `src/content/interactions.js
 O botão adicional de pausa e as regras de movimento da primeira entrega não fazem parte da apresentação original e foram removidos. O comportamento de redução de movimento do runtime exportado permanece como publicado. O diálogo possui suporte complementar a Escape e navegação por teclado sem mudar sua geometria.
 
 Os estados iniciais podem deixar elementos transparentes até o runtime inicializar ou até o gatilho de rolagem acontecer, como no original. Uma captura muito cedo não prova que o conteúdo sumiu. Para testar, confira o marcador `data-presentation-ready` no HTML e a animação após seu gatilho. Não force `opacity: 1` globalmente nem remova máscaras para esconder uma falha: isso altera a apresentação solicitada.
+
+## Distribuição dos blocos editoriais corrigida em 02/11
+
+Reaproveitar `.card-3` sem os IDs posicionais da origem deixou duas crianças ocupando somente duas das seis colunas. Não basta copiar as classes: confira a largura efetivamente ocupada pelo título e pelo conteúdo, inclusive em desktop largo. Uma linha de 1345px com texto em 197px não atende à distribuição solicitada.
+
+O pedido específico do usuário autorizou a correção de onze linhas. `.editorial-row` marca apenas o manifesto da Home, oito linhas de aprendizado/participações em Nossa atuação e Apoiadores/Agenda de Quem somos. Em Nossa atuação/Quem somos, título ocupa duas colunas e conteúdo quatro; botões mantêm largura natural. O manifesto tem o conjunto centralizado e seu contêiner ocupa toda a largura. O empilhamento móvel vem do CSS original. Não estender o marcador indiscriminadamente aos cards antigos que já possuem IDs posicionais, às grades bento ou à equipe.
+
+Nos dois grupos novos de Nossa atuação, `.editorial-list` mantém uma linha por cartão também em tablet. A regra antiga de `.side-by-side` fazia dois cartões por linha nessa largura, apertando novamente o texto; o ajuste fica restrito a esses dois grupos. Não muda o layout dos grupos antigos.
+
+Regras em `site.css`, com escopo de página. Registro: `docs/tasks/2026-11-distribuicao-manifesto-blocos.md`; acréscimo autorizado em `docs/reference/presentation/editorial-row-layout-adjustment.json`. Baselines históricos, fontes, cores, dimensões tipográficas e animações não foram substituídos.

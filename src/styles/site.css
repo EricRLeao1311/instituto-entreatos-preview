@@ -31,3 +31,45 @@
 [data-page="home"] #aproximacao-home > .description-wrapper > .button-primary {
   align-self: flex-start;
 }
+
+/* Pedido de 02/11: equilibrar somente o manifesto e as linhas editoriais identificadas. */
+[data-page="nossa-atuacao"] .editorial-list {
+  grid-template-columns: 1fr;
+}
+[data-page="nossa-atuacao"] .editorial-row > .line-title-wrapper,
+[data-page="quem-somos"] .editorial-row > .line-title-wrapper {
+  grid-column: 1 / span 2;
+  min-width: 0;
+}
+[data-page="nossa-atuacao"] .editorial-row > .description-wrapper,
+[data-page="quem-somos"] .editorial-row > .description-wrapper {
+  grid-column: 3 / -1;
+  min-width: 0;
+  width: 100%;
+}
+[data-page="nossa-atuacao"] .editorial-row > .description-wrapper > .button-primary,
+[data-page="quem-somos"] .editorial-row > .description-wrapper > .button-primary {
+  align-self: flex-start;
+  max-width: 100%;
+}
+[data-page="home"] #manifesto .stacked-list-wrapper {
+  width: 100%;
+}
+[data-page="home"] #manifesto .editorial-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+[data-page="home"] #manifesto .editorial-row > .line-title-wrapper {
+  justify-content: center;
+}
+[data-page="home"] #manifesto .editorial-row > .description-wrapper {
+  align-items: center;
+  width: 100%;
+  max-width: 42rem;
+}
+[data-page="home"] #manifesto .editorial-row > .description-wrapper > .button-primary {
+  align-self: center;
+  max-width: 100%;
+}

@@ -14,8 +14,9 @@ test('folhas de apresentação, estados iniciais e dados de animação conservam
   const css = Buffer.from((await read('src/styles/site.css')).toString().replace(/\r\n/g, '\n'));
   assert.equal(hash(css.subarray(0, baseline.siteCssBaselineLength)), baseline.siteCssBaselineSha256);
   const localLayout = JSON.parse(await read('docs/reference/presentation/home-layout-adjustment.json'));
-  assert.equal(css.subarray(baseline.siteCssBaselineLength).toString(), baseline.authorizedCssAddition + localLayout.css,
-    'Somente os acréscimos vinculados aos pedidos explícitos de tablet e dos três blocos autorizados da Home são autorizados.');
+  const editorialLayout = JSON.parse(await read('docs/reference/presentation/editorial-row-layout-adjustment.json'));
+  assert.equal(css.subarray(baseline.siteCssBaselineLength).toString(), baseline.authorizedCssAddition + localLayout.css + editorialLayout.css,
+    'Somente os acréscimos vinculados aos pedidos explícitos de tablet, Home e distribuição editorial são autorizados.');
 });
 
 test('as duas variantes do carrossel conservam todo o componente original, e não apenas eventos IX2', async () => {
