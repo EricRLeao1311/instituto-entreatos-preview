@@ -1,6 +1,6 @@
 # Revisão das cinco páginas e cruzamento dos destinos
 
-Status: implementação e verificação local concluídas; publicação de teste em conferência
+Status: concluída e publicada somente na prévia de teste; serviços/arquivos externos pendentes
 
 ## Resultado esperado
 
@@ -44,6 +44,8 @@ Navegador: 1440 × 1000, 390 × 844, 768 × 1024 e 1024 × 900, com larguras CSS
 
 Fontes somente em leitura: LinkedIn confirmou título e artigo de 28/10/2026; FIEMG e página oficial da NR-1 abriram. Âncoras IPEA coll_8_5, coll_5_4, coll_10_2 e coll_17_16 verificadas no HTML. Planalto bloqueou a leitura automatizada; a lei também consta do registro oficial do Senado, e o destino explicitamente fornecido foi mantido. YouTube/Instagram limitaram a consulta automatizada: destinos transcritos do documento, reprodução externa não foi declarada validada. Nenhuma configuração dessas contas foi alterada.
 
+Publicação: commit `151120c`, [CI de verificação](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41441308764) e [build/publicação Pages](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41441308843) aprovados, incluindo os 51 testes em Linux. [Prévia](https://ericrleao1311.github.io/instituto-entreatos-preview/): cinco páginas retornaram HTTP 200; HTML da URL antiga da análise contém o redirecionamento ao LinkedIn confirmado. No navegador publicado, /pesquisas/ chegou a /biblioteca/#pesquisa-2025, preservando o prefixo do repositório; ambos os formulários da Biblioteca ficaram desabilitados sem receptor. Home em 390px apresentou scrollWidth 375px, sem rolagem horizontal. No local, o botão Propor um estudo chegou ao Contato com o motivo correto selecionado. Captura da Biblioteca publicada salva em `work/editorial-revisada-01-nov/biblioteca-publicada.png`, fora do Git e sem dados pessoais. `node scripts/check-change-record.mjs --staged` e `git diff --cached --check` aprovados. Servidor auxiliar de comparação encerrado; receptor local de captura permanece na porta 4287.
+
 ## Pendências e entrega
 
-Vídeos do manifesto, apresentação Web Summit 2024 e trecho FIEMG ainda não entregues; não há reprodução desses arquivos. PDFs legais novos não fornecidos: preservados links existentes. Contas, hospedagem de backend online e configuração/recebimento real de e-mail continuam pendentes. Antes de produção, conferir entrega do PDF/link, boas-vindas, respostas e cancelamento no provedor. Os botões da prévia não afirmam que isso já funciona. Nenhuma mudança em Webflow, DNS, domínio oficial ou envio real. Publicação e registro Git serão acrescentados após a conferência da prévia.
+Vídeos do manifesto, apresentação Web Summit 2024 e trecho FIEMG ainda não entregues; não há reprodução desses arquivos. PDFs legais novos não fornecidos: preservados links existentes. Contas, hospedagem de backend online e configuração/recebimento real de e-mail continuam pendentes. Antes de produção, conferir entrega do PDF/link, boas-vindas, respostas e cancelamento no provedor. Os botões da prévia não afirmam que isso já funciona. Nenhuma mudança em Webflow, DNS, domínio oficial ou envio real. Conteúdo e navegação da revisão foram entregues na prévia; as dependências externas não são apresentadas como concluídas.
