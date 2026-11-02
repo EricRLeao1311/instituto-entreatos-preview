@@ -68,8 +68,8 @@
   {
     "route": "/contato",
     "key": "contato",
-    "title": "Contato",
-    "description": "Mudando a forma como o mercado entende as pausas de carreira. Pesquisa, educação e conteúdo para quem quer voltar ao mercado — e para quem contrata.",
+    "title": "Contato | Instituto Entre Atos",
+    "description": "Entre em contato com o Instituto Entre Atos para convites, entrevistas, estudos, parcerias e conversas sobre trajetórias profissionais não lineares.",
     "template": "pages/contato.html",
     "originalPageId": "69ca8fb5411afd539109a172",
     "chrome": "pages/contato.chrome.html",
@@ -234,11 +234,55 @@
     "route": "/biblioteca",
     "key": "biblioteca",
     "title": "Biblioteca | Instituto Entre Atos",
-    "description": "Mudando a forma como o mercado entende as pausas de carreira. Pesquisa, educação e conteúdo para quem quer voltar ao mercado — e para quem contrata.",
+    "description": "Explore pesquisas, análises e materiais do Instituto Entre Atos sobre pausas na carreira, retorno ao trabalho e trajetórias profissionais não lineares.",
     "template": "pages/biblioteca.html",
     "originalPageId": "69ca8fb5411afd539109a171",
     "chrome": "pages/biblioteca.chrome.html",
     "head": "pages/biblioteca.head.html",
+    "hasGlobalStyles": true
+  },
+  {
+    "route": "/pesquisas",
+    "key": "pesquisas",
+    "title": "Pesquisas | Instituto Entre Atos",
+    "description": "Por que profissionais interrompem a carreira, o que vivem nesse intervalo e há quanto tempo quem busca recolocação procura retornar ao mercado formal de trabalho. ",
+    "template": "pages/pesquisas.html",
+    "originalPageId": "69ca8fb5411afd539109a171",
+    "chrome": "pages/pesquisas.chrome.html",
+    "head": "pages/pesquisas.head.html",
+    "hasGlobalStyles": true
+  },
+  {
+    "route": "/publicacoes/arquivo-be-back-now",
+    "key": "arquivo-be-back-now",
+    "title": "Arquivo Be Back Now | Instituto Entre Atos",
+    "description": "Quatro e-books e quatorze artigos produzidos pela Be Back Now de 2023 a 2025.",
+    "template": "pages/arquivo-be-back-now.html",
+    "originalPageId": "69ca8fb5411afd539109a171",
+    "chrome": "pages/arquivo-be-back-now.chrome.html",
+    "head": "pages/arquivo-be-back-now.head.html",
+    "hasGlobalStyles": true
+  },
+  {
+    "route": "/publicacoes/lacuna-por-dentro-e-por-fora",
+    "key": "lacuna-por-dentro-e-por-fora",
+    "title": "A lacuna que a empresa aceita por dentro e recusa por fora | Instituto Entre Atos",
+    "description": "Uma análise sobre intervalos no currículo, atualização profissional e critérios de seleção, a partir de dados brasileiros e de um experimento sobre convites para entrevista.",
+    "template": "pages/lacuna-por-dentro-e-por-fora.html",
+    "originalPageId": "69ca8fb5411afd539109a171",
+    "chrome": "pages/lacuna-por-dentro-e-por-fora.chrome.html",
+    "head": "pages/lacuna-por-dentro-e-por-fora.head.html",
+    "hasGlobalStyles": true
+  },
+  {
+    "route": "/cancelar-inscricao",
+    "key": "cancelar-inscricao",
+    "title": "Cancelar inscrição | Instituto Entre Atos",
+    "description": "Gerencie o recebimento das publicações do Instituto Entre Atos.",
+    "template": "pages/cancelar-inscricao.html",
+    "originalPageId": "69ca8fb5411afd539109a171",
+    "chrome": "pages/cancelar-inscricao.chrome.html",
+    "head": "pages/cancelar-inscricao.head.html",
     "hasGlobalStyles": true
   }
 ]

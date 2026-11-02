@@ -23,7 +23,7 @@ export function readConfig(env) {
   if (env.CONTACT_TO && !emailPattern.test(env.CONTACT_TO)) throw new Error('Destino de contato inválido.');
   if (mode === 'send' && (!env.RESEND_API_KEY || !emailPattern.test(env.MAIL_FROM || '') || !allowed.length || !env.CONTACT_TO)) throw new Error('Envio exige provedor, remetente, destino e lista de teste.');
   return { origin, origins, databaseUrl: databaseUrl.origin, databaseKey,
-    hashSecret: env.FORM_HASH_SECRET, mode, allowed: new Set(allowed), contactRecipient: env.CONTACT_TO || '',
+    hashSecret: env.FORM_HASH_SECRET, mode, allowed: new Set(allowed), contactRecipient: env.CONTACT_TO || 'contato@institutoentreatos.com.br',
     from: env.MAIL_FROM, resendKey: env.RESEND_API_KEY, cronSecret: env.CRON_SECRET,
     documentUrl: new URL('/assets/panorama-retorno-profissional-2025.pdf', origin).href };
 }

@@ -24,7 +24,7 @@ export async function buildVercel({ enabled = process.env.BACKEND_ENABLED === 't
   const site = JSON.parse(await readFile(path.join(root, 'src/content/site.json'), 'utf8'));
   // Explicit whitelist. Never spread process.env or server configuration into a browser module.
   await writeFile(path.join(output, 'scripts/config.js'), `export default ${JSON.stringify({ email: site.email, research: site.research,
-    ...(enabled ? { forms: { contactEndpoint: '/api/contact', researchEndpoint: '/api/research' } } : {}) })};\n`);
+    ...(enabled ? { forms: { contactEndpoint: '/api/contact', researchEndpoint: '/api/research', publicationsEndpoint: '/api/publications', unsubscribeEndpoint: '/api/unsubscribe' } } : {}) })};\n`);
   await writeFile(path.join(output, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
   await compressDirectory(output);
   return output;

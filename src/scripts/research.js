@@ -1,6 +1,9 @@
 /** IX2 owns open/close appearance. This adds keyboard handling without restyling. */
 export function setupResearch() {
   const modal = document.querySelector('[data-research-modal]');
+  if (!modal && /\/biblioteca\/?$/.test(location.pathname) && location.hash === '#pesquisa-2025') {
+    location.replace(location.pathname.replace(/\/biblioteca\/?$/, '/pesquisas') + location.search + location.hash);
+  }
   if (!modal) return;
   let opener;
   const visible = () => getComputedStyle(modal).display !== 'none';
@@ -24,9 +27,9 @@ export function setupResearch() {
     if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
   });
-  // The Home CTA reaches this existing dialog through the library deep link.
+  // Home/Library CTAs reach this existing dialog through its research deep link.
   // Trigger the original IX2 click action instead of replacing its animation.
-  if (location.pathname.replace(/\/$/, '') === '/biblioteca' && location.hash === '#pesquisa-2025') {
+  if (/\/(pesquisas|publicacoes)\/?$/.test(location.pathname) && location.hash === '#pesquisa-2025') {
     window.Webflow.push(() => document.querySelector('[data-open-research]')?.click());
   }
 }

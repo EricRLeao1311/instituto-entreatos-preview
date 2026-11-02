@@ -33,14 +33,15 @@ test('menu conserva o cabeçalho original, sua estrutura de hover e runtime de n
   const shell = header.replace(/<a\b(?=[^>]*class="[^"]*\b(?:nav-menu-link|menu-link)\b)[\s\S]*?<\/a>/g, '').replace(/\s+/g, ' ').trim();
   assert.equal(hash(shell), baseline.headerShellSha256);
   const items = [...header.matchAll(/<a class="nav-menu-link[\s\S]*?<\/a>/g)].map(x => x[0]);
-  assert.equal(items.length, 5);
+  // Contato_31 out 26.docx: Contato sai do menu; estrutura/hover continuam protegidos.
+  assert.equal(items.length, 4);
   for (const item of items) {
     const template = item.replace(/href="[^"]*"/, 'href="__HREF__"')
       .replace(/(<div\b[^>]*class="menu-label(?: hover)?"[^>]*>)[^<]*(<\/div>)/g, '$1__LABEL__$2')
       .replace(/\s+/g, ' ').trim();
     assert.equal(hash(template), baseline.headerItemSha256, 'Cada link conserva a estrutura e os estilos do componente original.');
   }
-  assert.equal((header.match(/class="menu-label hover"/g) || []).length, 5);
+  assert.equal((header.match(/class="menu-label hover"/g) || []).length, 4);
   assert.match(header, /data-duration="400" data-easing="ease" data-easing2="ease"/);
   assert.match(header, /class="nav-component w-nav"/);
   assert.doesNotMatch(header, /site-header|site-menu-toggle/);

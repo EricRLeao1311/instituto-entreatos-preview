@@ -8,7 +8,9 @@ O navegador expõe o HTML dos formulários, mas não a caixa de entrada, automa�
 {
   "forms": {
     "contactEndpoint": "",
-    "researchEndpoint": ""
+    "researchEndpoint": "",
+    "publicationsEndpoint": "",
+    "unsubscribeEndpoint": ""
   },
   "research": {
     "documentUrl": "/assets/panorama-retorno-profissional-2025.pdf"
@@ -32,14 +34,14 @@ Informe uma URL HTTPS de um receptor controlado pelo Instituto. O navegador envi
 {
   "Name": "Nome do visitante",
   "Email": "email@exemplo.com",
-  "Subject": "Telefone informado",
+  "Organization": "Organização opcional",
   "Message": "Mensagem",
   "Reason": "convidar-instituto",
   "kind": "contact"
 }
 ```
 
-O nome de campo `Subject` é herdado do formulário de origem, cujo rótulo visível é Telefone. Preserve-o até coordenar uma mudança com o receptor. O formulário de pesquisa usa `Name`, `email`, `Phone`, `checkbox` e `kind: "research"`. Os nomes são sensíveis a maiúsculas e minúsculas.
+Contato agora exige nome, e-mail, motivo e mensagem; organização é opcional e não há telefone no formulário. A mudança é autorizada pelo DOCX de Contato e coordenada nos dois receptores. `Subject` antigo é tolerado opcionalmente para compatibilidade, sem ser salvo. Pesquisa usa `Name`, `email`, `Phone` opcional, `checkbox` obrigatório, `Updates` opcional e `kind: "research"`. Os nomes são sensíveis a maiúsculas e minúsculas. Contrato completo dos três fluxos: [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md).
 
 O receptor precisa validar os dados, verificar consentimento quando aplicável, limitar abuso e enviar a mensagem ou salvar o cadastro. Para um domínio diferente, deve aceitar o preflight CORS e a origem pública do site. Um segredo de envio de e-mail fica no receptor; qualquer valor neste repositório e no JavaScript é público.
 
@@ -51,9 +53,9 @@ A aparência e a abertura do diálogo são as originais exportadas; a validaçã
 
 Sem endpoint e com documento configurado, o formulário oferece o documento e informa que os dados não foram enviados. Sem endpoint e sem documento, oferece solicitar a pesquisa por e-mail. Com endpoint configurado, apresenta o link do documento somente após uma resposta 2xx. O arquivo distribuído já aponta para o PDF público recuperado; a URL e o hash estão no manifesto de recursos.
 
-## Newsletter
+## Publicações do Instituto
 
-A página Contato traz o título “Inscreva-se na nossa newsletter” acima do próprio formulário `Contact`, com nome, e-mail, telefone e mensagem. O formulário usa o receptor padrão do Webflow na origem; não foi encontrada uma integração separada com uma lista de newsletter. Não se deve afirmar que havia Mailchimp, automação de lista ou disparo de newsletter sem evidência adicional. Consulte `FORMULARIOS-ORIGINAIS.md`. Para implementar a inscrição, solicite ao responsável o provedor, o identificador da lista, o endpoint e o fluxo de consentimento; mantenha credenciais fora do navegador.
+A inscrição fica na Biblioteca e usa finalidade própria; Contato não inscreve. Há lista única, origens pesquisa/biblioteca, aceite separado para novidades, boas-vindas, cancelamento e exportação privada. O botão fica desabilitado no build estático sem endpoint; no teste local recebe e captura a mensagem sem enviá-la. A observação sobre “newsletter” do site antigo é evidência histórica em `FORMULARIOS-ORIGINAIS.md`, não o contrato atual. Ativação e campos: [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md).
 
 ## Vídeos e documentos externos
 

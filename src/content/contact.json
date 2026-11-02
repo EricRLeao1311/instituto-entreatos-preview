@@ -1,0 +1,40 @@
+{
+  "intro": "Você é bem-vindo a falar com o Instituto, apresentar um contato, propor um estudo, um piloto ou outra parceria ou compartilhar sua experiência.",
+  "boundary": "O Instituto não intermedia vagas nem faz recolocação. Se você está em busca de trabalho, sua história também nos interessa.",
+  "genericPlaceholder": "Conte o que você tem em mente e como o Instituto pode participar.",
+  "reasons": [
+    {
+      "value": "convidar-instituto",
+      "label": "Convidar o Instituto",
+      "placeholder": "Conte sobre o evento, entrevista, podcast, aula ou conversa. Se houver, informe data, formato e público."
+    },
+    {
+      "value": "apresentar-contato",
+      "label": "Apresentar um contato",
+      "placeholder": "Conte quem você gostaria de aproximar do Instituto e por quê. Você pode fazer a apresentação por e-mail."
+    },
+    {
+      "value": "estudo-parceria-apoio",
+      "label": "Propor um estudo, parceria ou apoio",
+      "guidance": "Para pilotos de retorno, o Instituto orienta o desenho e o acompanhamento; a seleção dos profissionais é conduzida pela própria organização.",
+      "placeholder": "Conte qual questão gostaria de investigar, qual iniciativa ou piloto de retorno tem em mente ou de que forma gostaria de participar."
+    },
+    {
+      "value": "imprensa",
+      "label": "Imprensa",
+      "placeholder": "Informe o veículo, a pauta e o prazo, se houver."
+    },
+    {
+      "value": "contar-historia",
+      "label": "Contar minha história",
+      "placeholder": "Compartilhe brevemente sua experiência. Os relatos ajudam a orientar nossas análises e estudos. O envio não autoriza a publicação do relato; qualquer uso será combinado com você."
+    },
+    {
+      "value": "outro-assunto",
+      "label": "Outro assunto",
+      "placeholder": "Conte o que você gostaria de conversar com o Instituto."
+    }
+  ],
+  "success": "Mensagem recebida. Agradecemos o contato com o Instituto Entre Atos.",
+  "error": "Não foi possível enviar sua mensagem. Tente novamente ou escreva para contato@institutoentreatos.com.br."
+}

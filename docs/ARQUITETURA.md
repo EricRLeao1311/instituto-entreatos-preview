@@ -24,7 +24,7 @@ O projeto foi separado a partir da apresentação existente, preservando a geome
 
 ## Fluxo de montagem
 
-1. `build.mjs` lê `site.json`, `pages.json`, `portraits.json`, `team.json` e `interactions.json`.
+1. `build.mjs` lê `site.json`, `pages.json`, `portraits.json`, `team.json` `contact.json` e `interactions.json`.
 2. Para cada rota, lê a composição em `src/pages/`, o arquivo `*.chrome.html` com cabeçalho/fundo e o `*.head.html` com os estados iniciais. O `originalPageId` vai para o atributo `data-wf-page`. O `base.css` só é carregado nas páginas que continham esse bloco na origem; aplicá-lo a todas altera margens de listas em artigos.
 3. `expandIncludes` resolve recursivamente os comentários `include:`. Uma inclusão circular ou fora de `src/` interrompe o build.
 4. `expandCollections` expande `repeat:` usando os registros de uma coleção e um componente com variáveis `item.*`.
@@ -61,15 +61,15 @@ Crie um novo componente quando houver repetição real com o mesmo contrato. Man
 
 ## Reaplicação editorial com componentes preservados
 
-O carrossel foi extraído literalmente para `src/components/home-carousel.html`, mantendo as duas variantes e seu runtime. A Biblioteca compõe a seção existente de Publicações e oferece acesso à página de imprensa original. `contact.js` acrescenta somente a seleção do motivo por URL. O acesso direto à pesquisa aciona o evento do diálogo original em `research.js`. Nenhum motor alternativo de navegação, carrossel ou animação foi introduzido. Consulte `CORRECAO-PRESERVACAO.md`.
+O carrossel foi extraído literalmente para `src/components/home-carousel.html`, mantendo as duas variantes e seu runtime. A Biblioteca compõe mídia, análise, arquivo, pesquisa, livro e inscrição usando os wrappers e estilos existentes. O arquivo reutiliza os 4 e-books e 14 cards antigos; `/publicacoes` continua acessível. `contact.js` seleciona o motivo por URL e sincroniza placeholder/orientação usando `contact.json`. O acesso direto à pesquisa aciona o evento do diálogo original em `research.js`. Nenhum motor alternativo de navegação, carrossel ou animação foi introduzido. Consulte `CORRECAO-PRESERVACAO.md`.
 
 ## Adaptador de publicação em subdiretório
 
-`build-pages.mjs` mantém o build normal e cria `dist-pages/`. `pages-paths.mjs` prefixa apenas endereços locais em atributos HTML/SVG e URLs CSS; configuração do PDF e comparação de pathname do diálogo são adaptadas na saída. Fontes de apresentação e vendor permanecem intactos. Testes do adaptador cobrem URLs externas, fragmentos, srcset, vídeo, fonte e caminhos inválidos. Os arquivos protegidos por hash recebem `-text` em `.gitattributes` para conservar os mesmos bytes ao publicar via Git em outro sistema operacional.
+`build-pages.mjs` mantém o build normal e cria `dist-pages/`. `pages-paths.mjs` prefixa apenas endereços locais em atributos HTML/SVG e URLs CSS; a configuração do PDF é adaptada na saída. O módulo da pesquisa reconhece o sufixo da rota com ou sem subdiretório, sem reescrita de código no build. O antigo `/biblioteca#pesquisa-2025` leva ao mesmo diálogo em `/pesquisas`. Fontes de apresentação e vendor permanecem intactos. Testes do adaptador cobrem URLs externas, fragmentos, srcset, vídeo, fonte e caminhos inválidos. Os arquivos protegidos por hash recebem `-text` em `.gitattributes` para conservar os mesmos bytes ao publicar via Git em outro sistema operacional.
 
 ## Backend opcional de teste local
 
-`backend/` é separado do gerador estático. `server.mjs` reutiliza o servidor HTTP existente e acrescenta dois receptores e uma resposta local de configuração; `store.mjs` encapsula SQLite e a transação de cadastro/caixa de saída. `preview.mjs` limita a execução a loopback e `inspect.mjs` é a consulta local do operador. Sem novas dependências. Os dados ficam em `.local-data/`, fora de `dist/` e do Git. Nenhuma API de leitura de dados pessoais é publicada. O backend não executa no GitHub Pages e não reutiliza o receptor do Webflow de produção. Guia: `BACKEND-TESTE.md`.
+`backend/` é separado do gerador estático. `server.mjs` reutiliza o servidor HTTP existente e acrescenta quatro receptores e uma resposta local de configuração; `store.mjs` encapsula SQLite e a transação de cadastro/caixa de saída. `preview.mjs` limita a execução a loopback e `inspect.mjs` é a consulta local do operador. Sem novas dependências. Os dados ficam em `.local-data/`, fora de `dist/` e do Git. Nenhuma API de leitura de dados pessoais é publicada. O backend não executa no GitHub Pages e não reutiliza o receptor do Webflow de produção. Guia: `BACKEND-TESTE.md`.
 
 ## Backend para hospedagem de teste
 
@@ -78,3 +78,5 @@ O front-end permanece estático. `api/` contém entradas Web Standard da Vercel;
 `build-vercel.mjs` gera `dist-vercel/`, com `noindex` e endpoints relativos ativados somente por `BACKEND_ENABLED=true`. Uma lista explícita controla a configuração pública, sem espalhar variáveis privadas no JavaScript. Builds `dist/` e `dist-pages/` continuam independentes. A escolha, os limites, as fontes oficiais e a manutenção estão em `BACKEND-CLOUD.md`; configuração pelo titular em `ATIVAR-TESTE.md`.
 
 A suíte completa usa PGlite em desenvolvimento para executar o SQL real. `package-lock.json` fixa a versão e os workflows instalam com `npm ci --ignore-scripts`. A verificação de registro por tarefa antecede a publicação do Pages. Manter os scripts existentes `dev`, `preview`, `build` e `check`; `preview:backend` e `build:vercel` são acréscimos.
+
+O build emite também `/scripts/contact-data.js`, a partir do JSON editorial compartilhado com o servidor. Não editar o arquivo gerado. Lista/consentimentos/cancelamento/exportação estão documentados em [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md); aplicar migrações de forma incremental, sem alterar versões já utilizadas.

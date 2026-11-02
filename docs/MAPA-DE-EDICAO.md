@@ -93,7 +93,7 @@ Composição: `src/pages/contato.html`. Escopo CSS: `[data-page="contato"]`.
 | Seção | Arquivo |
 | --- | --- |
 | Canais de contato e vídeo | `src/sections/contato/01-hero.html` |
-| Formulário de contato / convite de newsletter | `src/sections/contato/02-messages.html` |
+| Formulário de contato, sem inscrição automática | `src/sections/contato/02-messages.html` |
 
 ## Publicações internas
 
@@ -124,7 +124,7 @@ Os nomes de arquivo de seções refletem a origem. IDs `w-node-*` ainda posicion
 
 ## Biblioteca
 
-`/biblioteca` compõe `src/sections/biblioteca/01-navigation.html` e a seção original de Publicações. As categorias adicionais usam os mesmos botões e levam a `/na-midia` e `/depoimentos`, preservando layout e animações dessas rotas. As páginas antigas permanecem acessíveis. O link `/biblioteca#pesquisa-2025` aciona o diálogo original por `research.js`; nenhum outro motor de modal é usado.
+`/biblioteca` compõe os blocos editoriais e a inscrição em `src/sections/biblioteca/`. Mídia preserva acesso a `/na-midia`; análise e arquivo têm páginas próprias. Todas as páginas antigas permanecem acessíveis. O link antigo `/biblioteca#pesquisa-2025` leva ao diálogo original em `/pesquisas` por `research.js`; nenhum outro motor de modal é usado.
 
 Os perfis da Home são oito pessoas distintas em dez slots técnicos. A duplicação final de dois registros conserva a geometria do percurso original; não remover slots ou duplicações de markup para limpar o HTML. As duas grades de equipe continuam sendo as originais e leem os mesmos dados. Consulte os contratos em `docs/reference/presentation/` antes de alterar esses componentes.
 
@@ -135,3 +135,19 @@ Em `home/07-instituto.html`, `#sobre-instituto-home`, `#aproximacao-home` e `#ag
 ## Backend e configuração por ambiente
 
 Contrato de campos/aceite/mensagens: `backend/forms.mjs`. Receptor SQLite local: `backend/server.mjs`/`store.mjs`. API hospedável: `api/` e `backend/cloud/`; migrações: `supabase/migrations/`. Build exclusivo Vercel: `scripts/build-vercel.mjs`; segredos: variáveis privadas do provedor, com nomes em `.env.example`. Leia `BACKEND-CLOUD.md` antes de alterar qualquer contrato e registre a tarefa conforme AGENTS.md. Configuração pública de `site.json` não recebe credenciais nem destinatários privados.
+
+## Contato e Biblioteca atualizados em novembro de 2026
+
+| Área | Fonte atual |
+| --- | --- |
+| Contato: apresentação/formulário | `src/sections/contato/01-hero.html`, `02-messages.html` |
+| Motivos, orientações e mensagens | `src/content/contact.json`; `src/scripts/contact.js` |
+| Biblioteca: blocos e inscrição | `src/sections/biblioteca/01-navigation.html`, `02-subscription.html` |
+| Pesquisa e diálogo original | `src/sections/pesquisas/01-research.html` |
+| Acervo 4 e-books / 14 artigos | `src/sections/arquivo-be-back-now/01-archive.html` |
+| Análise integral e fontes | `src/sections/lacuna-por-dentro-e-por-fora/01-analysis.html` |
+| Confirmação de cancelamento | `src/sections/cancelar-inscricao/01-form.html` |
+| Regras de lista e envio | `backend/forms.mjs`, `store.mjs`, `cloud/`, migração incremental `202611020001_publications.sql` |
+| Exportação privada | `backend/audience-export.mjs` |
+
+São 26 rotas e uma 404. Biblioteca substitui sua composição anterior, não remove `/publicacoes`, `/na-midia`, `/depoimentos` ou artigos. Novas rotas: `/pesquisas`, `/publicacoes/arquivo-be-back-now`, `/publicacoes/lacuna-por-dentro-e-por-fora`, `/cancelar-inscricao`. Home teve apenas destinos de links atualizados. Nossa atuação recebeu os três botões explicitamente indicados nos novos documentos (análise, convite e apresentação), nos componentes existentes. Quem somos mantém seus botões de contato já corretos; demais páginas recebem somente menu/rodapé compartilhados. Leia o contrato de dados em `PUBLICACOES-EMAIL.md` e a tarefa correspondente antes de alterar.

@@ -4,7 +4,7 @@ Estado em 01/11/2026: código implementado e testado localmente; ativação onli
 
 ## Decisão e limite do escopo
 
-A arquitetura conserva o gerador estático e os componentes existentes. Vercel hospeda os arquivos e três funções HTTP; Supabase mantém os dados em Postgres; Resend é o transporte de e-mail. As funções usam APIs nativas de Node, sem dependências de runtime. PGlite é dependência somente de desenvolvimento para executar a migração SQL nos testes. O banco SQLite continua disponível como alternativa local sem contas externas.
+A arquitetura conserva o gerador estático e os componentes existentes. Vercel hospeda os arquivos e cinco funções HTTP; Supabase mantém os dados em Postgres; Resend é o transporte de e-mail. As funções usam APIs nativas de Node, sem dependências de runtime. PGlite é dependência somente de desenvolvimento para executar a migração SQL nos testes. O banco SQLite continua disponível como alternativa local sem contas externas.
 
 Essa escolha evita executar um servidor próprio ou manter um framework no front-end. A separação permite substituir o transporte de e-mail ou o adaptador de banco sem redesenhar as páginas. Três contas são necessárias para essa opção; as contas e o plano aplicável são uma dependência real, não uma configuração recuperável do Webflow.
 
@@ -13,7 +13,8 @@ O ambiente autorizado é **teste**. `APP_STAGE=preview` é obrigatório, e os en
 ## Fluxo e módulos
 
 ```text
-Formulário original → /api/contact ou /api/research
+Formulário → /api/contact, /api/research ou /api/publications
+Cancelamento confirmado → /api/unsubscribe; reenvio autenticado → /api/retry-mail
   → validação compartilhada (backend/forms.mjs)
   → RPC transacional no Postgres: cotas + cadastro + caixa de saída
   → captura, ou tentativa de envio a destinatário de teste autorizado
@@ -33,7 +34,7 @@ Formulário original → /api/contact ou /api/research
 
 ## Funções implementadas
 
-Contato recebe nome, e-mail, telefone obrigatório, motivo opcional e mensagem. Pesquisa recebe nome, e-mail, telefone opcional, aceite do texto já existente, edição 2025 e data. O aceite não é convertido em inscrição de newsletter. Os nomes dos campos da apresentação original permanecem intactos.
+Contato recebe nome, e-mail, motivo entre seis opções e mensagem obrigatórios; organização opcional, sem telefone. Pesquisa recebe nome, e-mail, telefone opcional, aceite de acesso, edição 2025 e data; novidades dependem de `Updates` separado. Biblioteca recebe nome, e-mail e aceite explícito para publicações. Lista única, histórico das escolhas, boas-vindas, cancelamento e exportação privada estão descritos em [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md). A migração `202611020001_publications.sql` é aplicada após a primeira, sem editar a versão já aplicada.
 
 Cadastro e caixa de saída são salvos na mesma transação. Conteúdo idêntico durante dez minutos retorna o mesmo registro. A API pública não lista cadastros, e-mails, configurações ou dados administrativos. O operador usa o painel autenticado do Supabase, com acesso somente dos responsáveis. Não foi criado um login próprio nem um novo CMS para editar o conteúdo editorial.
 
@@ -71,7 +72,7 @@ Leia `AGENTS.md` e registre cada mudança em `docs/tasks/`, no mesmo conjunto/co
 
 Os testes executam a migração em Postgres real compilado para WASM (PGlite) e simulam apenas as fronteiras HTTP dos provedores. Verificam transação, permissões, RLS mesmo se SELECT for concedido, cotas, deduplicação, lease, falhas, expiração da janela e autenticação do worker. Isso não valida credenciais reais, entrega, políticas do serviço, concorrência entre conexões reais ou publicação na Vercel.
 
-Antes da ativação: criar contas/projetos de teste, aplicar a migração, conferir limites e plano, guardar segredos, definir destinatários de teste, backup/retenção e acesso dos operadores. Primeiro validar em captura; depois testar um e-mail real com endereço autorizado e conferir recebimento. Guia: [ATIVAR-TESTE.md](ATIVAR-TESTE.md). O link público atual do GitHub Pages permanece estático e com o fluxo alternativo existente.
+Antes da ativação: criar contas/projetos de teste, aplicar as duas migrações na ordem dos nomes, conferir limites e plano, guardar segredos, definir destinatários de teste, backup/retenção e acesso dos operadores. Primeiro validar em captura; depois testar um e-mail real com endereço autorizado e conferir recebimento. Guia: [ATIVAR-TESTE.md](ATIVAR-TESTE.md). O link público atual do GitHub Pages permanece estático e com o fluxo alternativo existente.
 
 ## Fontes oficiais consultadas
 

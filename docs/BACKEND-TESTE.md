@@ -18,12 +18,12 @@ Os formulários mantêm a aparência e a abertura originais. Depois de salvar, m
 
 | Função | Estado real |
 | --- | --- |
-| Receber contato, motivo, nome, e-mail, telefone e mensagem | Implementado e salvo em SQLite |
+| Receber contato, motivo, nome, e-mail, organização opcional e mensagem | Implementado e salvo em SQLite |
 | Receber cadastro para a pesquisa | Implementado e salvo em SQLite |
 | Registrar aceite | Texto existente, links dos termos/privacidade, edição 2025 e data registrados; não é consentimento de newsletter |
 | Persistir após reiniciar | Implementado |
 | Evitar duplicação por repetição imediata | Mesmo conteúdo nos dez minutos seguintes reutiliza o registro e não cria outra mensagem |
-| Preparar e-mail de contato | Capturado em caixa de saída local; sem destinatário presumido |
+| Preparar e-mail de contato | Capturado para o destino público solicitado; sem envio |
 | Preparar e-mail de pesquisa ao interessado | Capturado com o link do PDF; não é disparado |
 | Conferir dados e caixa de saída | Comando local, sem rota pública de leitura |
 | Validar campos, origem, host, tamanho e quantidade de requisições | Implementado no receptor local |
@@ -40,18 +40,20 @@ node backend/inspect.mjs
 
 Esse comando pode exibir dados pessoais: sua saída não deve ser colada no repositório público. O receptor não expõe leitura, listagem, exportação nem administração por HTTP. Testes automatizados usam dados fictícios e banco temporário próprio.
 
-O destinatário padrão do Webflow foi confirmado por texto do usuário e registrado fora do Git; overrides por formulário ainda não foram conferidos. Por isso, mensagens capturadas de contato ficam com destinatário vazio. Caso o responsável confirme um endereço, `PREVIEW_CONTACT_TO` pode registrar esse destinatário apenas na captura; isso não ativa envio real. O e-mail público do Instituto continua sendo `contato@institutoentreatos.com.br`.
+O destinatário padrão do Webflow foi confirmado por texto do usuário e registrado fora do Git; overrides por formulário ainda não foram conferidos. O DOCX novo solicita explicitamente o destino público de contato; a captura agora usa esse endereço. `PREVIEW_CONTACT_TO` permite override privado somente para teste e não ativa envio real. O e-mail público do Instituto continua sendo `contato@institutoentreatos.com.br`.
 
 ## Separação da prévia pública
 
-O servidor local fornece `/scripts/config.js` com endpoints `/api/contact` e `/api/research`. O código estático gerado conserva endpoints vazios; não recebe URL de localhost. No navegador, `forms.js` usa o endpoint explícito do formulário ou a configuração opcional oferecida pelo servidor local. Nenhum HTML, componente, CSS, estado inicial ou dado de animação foi substituído.
+O servidor local fornece `/scripts/config.js` com endpoints `/api/contact`, `/api/research`, `/api/publications` e `/api/unsubscribe`. O código estático gerado conserva endpoints vazios; não recebe URL de localhost. No navegador, `forms.js` usa o endpoint explícito do formulário ou a configuração opcional oferecida pelo servidor local. Nenhum HTML, componente, CSS, estado inicial ou dado de animação foi substituído.
 
 GitHub Pages continua servindo arquivos estáticos. Os cadastros feitos no endereço público ainda não chegam a este banco local. O repositório contém o código do receptor, mas não o executa. Não adicionar endpoint local ou credenciais a `site.json` para tentar contornar esse limite.
 
 ## Contrato HTTP
 
-- `POST /api/contact`: `Name`, `Email`, `Subject` (telefone), `Message`, `Reason`, `kind: "contact"`.
-- `POST /api/research`: `Name`, `email`, `Phone`, `checkbox`, `kind: "research"`.
+- `POST /api/contact`: `Name`, `Email`, `Organization` opcional, `Message`, `Reason` obrigatório entre seis motivos, `kind: "contact"`.
+- `POST /api/research`: `Name`, `email`, `Phone` opcional, `checkbox` obrigatório, `Updates` opcional, `kind: "research"`.
+- `POST /api/publications`: `Name`, `email`, `checkbox` obrigatórios, `kind: "publications"`.
+- `POST /api/unsubscribe`: `token` do link privado; retorna 200 após cancelamento, sem revelar dados. Não modifica nada por GET.
 - Retorno 202 após transação: `{id, duplicate, mode: "preview", email: "captured"}`. Cadastro e captura são gravados juntos ou nenhum é gravado.
 - Erros: 400 para JSON inválido; 403 para host/origem não autorizados; 405 para método; 413 acima de 16 KiB; 415 para tipo de conteúdo; 422 para campos; 429 acima de dez requisições por endereço em dez minutos; 503 quando não foi possível gravar. Sem dados pessoais ou detalhes internos nos erros.
 
@@ -70,3 +72,5 @@ SQLite usa o módulo integrado [`node:sqlite`](https://nodejs.org/download/relea
 ## Evolução para hospedagem
 
 A validação e a composição das mensagens agora são compartilhadas por `backend/forms.mjs`. SQLite continua sendo a opção local sem contas. A opção hospedável, com Postgres e transporte de e-mail, está em `BACKEND-CLOUD.md`; a dependência de desenvolvimento PGlite serve apenas para testar o SQL e não entra no runtime.
+
+Lista, histórico, cancelamento, persistência de segredo e comandos de exportação: [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md). Toda exportação fica privada em `.local-data/`, nunca na pasta pública ou no Git.

@@ -12,7 +12,7 @@ export async function deliver(rpc, config, id = null, fetcher = fetch) {
       } else {
         const response = await fetcher('https://api.resend.com/emails', {
           method: 'POST', headers: { Authorization: `Bearer ${config.resendKey}`, 'Content-Type': 'application/json', 'Idempotency-Key': `ea-preview/${row.id}` },
-          body: JSON.stringify({ from: config.from, to: [row.mail.to], subject: row.mail.subject, text: row.mail.text, ...(row.mail.reply_to ? { reply_to: row.mail.reply_to } : {}) }),
+          body: JSON.stringify({ from: `Instituto Entre Atos <${config.from}>`, to: [row.mail.to], subject: row.mail.subject, text: row.mail.text, ...(row.mail.reply_to ? { reply_to: row.mail.reply_to } : {}) }),
           signal: AbortSignal.timeout(4000),
         });
         const result = await response.json().catch(() => null);

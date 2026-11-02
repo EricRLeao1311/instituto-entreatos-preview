@@ -1,6 +1,6 @@
 # Instituto Entre Atos — site em código
 
-Reconstrução do site público [institutoentreatos.com.br](https://institutoentreatos.com.br/), consultado em **30/10/2026**. A versão atual mantém as 21 rotas originais e acrescenta Biblioteca: 22 páginas e uma 404. HTML, CSS, JavaScript, imagens, vídeos de fundo e fontes ficam neste projeto. A apresentação funciona sem hospedagem Webflow, CMS remoto ou instalação de pacotes. A apresentação agora usa cópias locais do motor de interações exportado e do jQuery para preservar os efeitos originais.
+Reconstrução do site público [institutoentreatos.com.br](https://institutoentreatos.com.br/), consultado em **30/10/2026**. A versão atual mantém as 21 rotas originais e acrescenta Biblioteca, Pesquisas, análise, arquivo e cancelamento: 26 páginas e uma 404. HTML, CSS, JavaScript, imagens, vídeos de fundo e fontes ficam neste projeto. A apresentação funciona sem hospedagem Webflow, CMS remoto ou instalação de pacotes. A apresentação agora usa cópias locais do motor de interações exportado e do jQuery para preservar os efeitos originais.
 
 ## Começar
 
@@ -41,7 +41,7 @@ A revisão 2 restaura o motor, os 623 eventos e as 72 listas de ações publicad
 
 ## Estado das integrações
 
-O site é estático. Não há banco de dados ou serviço de e-mail escondido no projeto. O formulário de contato tem um fluxo funcional de preparação de e-mail, que o visitante conclui no próprio aplicativo de e-mail. O envio direto requer configurar um endpoint. O formulário da pesquisa abre o PDF incluído no projeto; salvar cadastros requer configurar um receptor. Consulte [INTEGRACOES.md](docs/INTEGRACOES.md).
+O GitHub Pages é estático e não executa o backend. Existem receptores opcionais de teste local e hospedável, documentados abaixo; nenhum serviço externo de e-mail está ativado. O formulário de contato tem um fluxo funcional de preparação de e-mail, que o visitante conclui no próprio aplicativo de e-mail. O envio direto requer configurar um endpoint. O formulário da pesquisa abre o PDF incluído no projeto; salvar cadastros requer configurar um receptor. Consulte [INTEGRACOES.md](docs/INTEGRACOES.md).
 
 Os vídeos de depoimentos continuam hospedados no YouTube. Matérias de imprensa, documentos no Google Drive, redes sociais e WhatsApp permanecem links externos. Uma cópia estática não transfere a administração dessas contas.
 
@@ -74,11 +74,11 @@ Fontes WOFF2 completas, variantes gzip/Brotli no build e revalidação no servid
 
 ## Correção de preservação de 01/11/2026
 
-A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 43 testes, incluindo os contratos de apresentação e o receptor local.
+A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 48 testes, incluindo os contratos de apresentação e o receptor local.
 
 ## Prévia no GitHub Pages
 
-A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 43 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
+A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 48 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
 
 ## Backend local de teste
 
@@ -91,3 +91,9 @@ O código está preparado para um projeto separado de teste na Vercel, com Postg
 Leia [a arquitetura e os limites do backend](docs/BACKEND-CLOUD.md) e [o guia de ativação](docs/ATIVAR-TESTE.md). O build Vercel é separado (`dist-vercel/`); GitHub Pages continua com seu fluxo alternativo. O receptor SQLite local permanece disponível por `npm run preview:backend`.
 
 **Toda mudança com IA precisa ser registrada em `docs/tasks/`, com responsável/IA, pedido, escopo, decisões, verificações reais e pendências, no mesmo conjunto da alteração.** A CI verifica a presença das seções obrigatórias; revisão humana continua necessária. `AGENTS.md` é a fonte de regras, inclusive para Claude via `CLAUDE.md`.
+
+## Contato e Biblioteca — documentos de 31/10/2026
+
+Contato tem seis motivos, organização opcional e não exige telefone. Biblioteca reúne mídia, análise, arquivo Be Back Now (4 e-books e 14 artigos confirmados pelo usuário), pesquisa, livro e inscrição. A análise, o arquivo e Pesquisas têm endereços próprios; URLs antigas foram conservadas. Rodapé compartilhado atualizado, incluindo YouTube confirmado. CSS, carrossel e runtime permanecem iguais.
+
+O backend de teste prepara lista única, origens e escolhas separadas, boas-vindas, cancelamento e exportação privada CSV. Sem ferramenta ativa, a inscrição está desabilitada na prévia estática. Guia e limites: [PUBLICACOES-EMAIL.md](docs/PUBLICACOES-EMAIL.md). Registro obrigatório da alteração por IA: [tarefa](docs/tasks/2026-11-contato-biblioteca.md). Nenhuma mudança no Webflow ou no domínio oficial.

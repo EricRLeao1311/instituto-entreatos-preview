@@ -51,3 +51,5 @@ Use o histórico de versões do provedor ou gere novamente `dist/` a partir de u
 ## Hospedagem de teste com backend na Vercel
 
 Existe `vercel.json` para projeto de teste separado: Node 24, `npm ci --ignore-scripts`, `npm run build:vercel`, saída `dist-vercel/` e funções em `api/`. O comando de build executa a suíte antes de gerar o artefato da Vercel. Contas, banco e credenciais não foram configurados. O domínio atual, DNS e Webflow continuam intactos. O deployment chamado production pela Vercel deve pertencer exclusivamente a esse projeto de teste, sem domínio da cliente. Guia: `ATIVAR-TESTE.md`. A ativação não exige mudar Registro.br. Não pressupor que o plano Hobby permita trabalho para cliente; conferir os termos/plano antes de publicar.
+
+Biblioteca/Pesquisas de novembro estão autorizadas somente como prévia. O build estático mantém inscrição desabilitada sem receptor e não promete envio real. Antes de promoção ao site oficial, ativar e conferir entrega, respostas, consentimentos e cancelamento conforme `PUBLICACOES-EMAIL.md`; isso exige autorização futura específica, não apenas um push no repositório de teste.

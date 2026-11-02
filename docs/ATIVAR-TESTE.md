@@ -10,7 +10,7 @@ O Resend só é necessário para disparar e-mails reais. Até lá, o modo de cap
 
 ## 2. Preparar o banco de teste
 
-No Supabase, criar um projeto exclusivo para esta prévia, conferir a região e guardar as credenciais no gerenciador do titular. Executar uma vez a migração `supabase/migrations/202611010001_forms.sql` no SQL Editor desse projeto novo. Conferir as tabelas `ea_submissions`, `ea_outbox`, `ea_rate_limits` e as funções `ea_submit`, `ea_claim`, `ea_finish`. O teste automatizado executa o mesmo SQL, mas ainda é necessário conferir no projeto real.
+No Supabase, criar um projeto exclusivo para esta prévia, conferir a região e guardar as credenciais no gerenciador do titular. Executar uma vez, em ordem, `supabase/migrations/202611010001_forms.sql` e `supabase/migrations/202611020001_publications.sql` no SQL Editor desse projeto novo. Se a primeira já foi aplicada, aplicar somente a segunda; não reexecutar a primeira. Conferir as tabelas `ea_submissions`, `ea_outbox`, `ea_rate_limits` e as funções `ea_submit`, `ea_claim`, `ea_finish`. A segunda migração acrescenta `ea_audience`, `ea_audience_events`, trigger de audiência e `ea_unsubscribe`, também com RLS/permissões privadas. O teste automatizado executa o mesmo SQL, mas ainda é necessário conferir no projeto real.
 
 Copiar a URL do projeto e a chave de serviço somente para as variáveis privadas da Vercel. Não enviar a chave em chat, captura, repositório, `site.json` ou arquivo público. Usar preferencialmente a chave secreta moderna. A alternativa legada JWT `service_role` é aceita em `SUPABASE_SERVICE_ROLE_KEY`; as chaves anônima/publishable não servem para este backend. No painel, restringir colaboradores aos responsáveis, definir backup/retenção apropriados e evitar exportações com dados reais para o Git.
 
@@ -34,7 +34,7 @@ Usar `.env.example` como lista de nomes. Não publicar os valores. No início, m
 | `FORM_HASH_SECRET` | Segredo aleatório forte, ao menos 32 caracteres; manter estável entre deploys |
 | `CRON_SECRET` | Outro segredo aleatório forte, ao menos 32 caracteres |
 | `MAIL_MODE` | `capture` inicialmente |
-| `CONTACT_TO` | Destinatário confirmado, guardado só no servidor; o padrão do Webflow foi anotado no levantamento privado |
+| `CONTACT_TO` | `contato@institutoentreatos.com.br`, solicitado no novo documento; para testar outro destino, somente override privado autorizado |
 | `MAIL_FROM` | Endereço que o provedor autorize como remetente; não usar o remetente do Webflow |
 | `MAIL_ALLOWED_RECIPIENTS` | Lista separada por vírgulas de e-mails autorizados para teste |
 | `RESEND_API_KEY` | Chave privada de envio, quando o Resend estiver configurado |
@@ -43,7 +43,7 @@ O backend também aceita o hostname da própria implantação informado pela Ver
 
 ## 5. Conferir captura antes de enviar
 
-Abrir Contato e Pesquisa no endereço de teste. Usar dados fictícios. Conferir nome, telefone, motivo, aceite e link do PDF. Após receber, a tela deve explicar que nenhum e-mail foi enviado. Conferir no painel do banco o cadastro e a mensagem correspondente com status `captured`. Repetir a mesma submissão e confirmar que não duplica durante dez minutos. Validar campos inválidos e testar em celular.
+Abrir Contato e Pesquisa no endereço de teste. Usar dados fictícios. Conferir os seis motivos, nome/e-mail/mensagem obrigatórios, organização opcional, aceites independentes e link do PDF. Contato não exige telefone nem inscreve em publicações. Conferir Biblioteca, boas-vindas capturadas, lista única, origens, cancelamento e exportação privada conforme `PUBLICACOES-EMAIL.md`. Após receber, a tela deve explicar que nenhum e-mail foi enviado. Conferir no painel do banco o cadastro e a mensagem correspondente com status `captured`. Repetir a mesma submissão e confirmar que não duplica durante dez minutos. Validar campos inválidos e testar em celular.
 
 Verificar que uma pessoa sem acesso administrativo não consegue consultar as tabelas. Nenhuma URL pública de listagem dos cadastros foi implementada. Não alterar RLS nem conceder acesso anônimo para facilitar testes.
 
@@ -51,7 +51,7 @@ Verificar que uma pessoa sem acesso administrativo não consegue consultar as ta
 
 No Resend, configurar um remetente permitido e criar uma chave de envio. Para a primeira validação, o remetente de teste oferecido pelo serviço pode ter restrições de destinatário; conferir no painel. Não adicionar registros de DNS ao domínio oficial nesta etapa. Se houver necessidade de verificar um domínio, usar um domínio de teste próprio autorizado ou deixar a verificação pendente.
 
-Preencher as variáveis de envio e a lista de destinatários de teste. Somente então definir `MAIL_MODE=send` e publicar novamente o projeto de teste. Submeter dados para um endereço da lista; confirmar o ID de aceitação em `ea_outbox` e a chegada do e-mail na caixa real. Testar Contato e Pesquisa separadamente. Cadastro de endereço fora da lista deve ficar capturado sem disparo.
+Preencher as variáveis de envio e a lista de destinatários de teste. Somente então definir `MAIL_MODE=send` e publicar novamente o projeto de teste. Submeter dados para um endereço da lista; confirmar o ID de aceitação em `ea_outbox` e a chegada do e-mail na caixa real. Testar os seis motivos de Contato, Pesquisa e Biblioteca separadamente. Confirmar Reply-To, chegada do PDF/link, boas-vindas e cancelamento real; não basta aceite HTTP. O remetente definitivo solicitado é Instituto Entre Atos — contato@institutoentreatos.com.br; sua autorização no provedor continua pendente. Não mexer em DNS oficial nesta etapa. Cadastro de endereço fora da lista deve ficar capturado sem disparo.
 
 Não chamar uma mensagem de “entregue” apenas porque o endpoint retornou 202 ou o provedor aceitou. Falhas transitórias ficam em fila; `failed` e `review` exigem avaliação do operador. O cron é diário e não garante recuperação imediata. Consulte os limites de retry e idempotência em [BACKEND-CLOUD.md](BACKEND-CLOUD.md).
 

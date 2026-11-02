@@ -2,7 +2,7 @@ import path from 'node:path';
 import { createStaticServer } from '../scripts/http.mjs';
 import { openStore } from './store.mjs';
 
-import { emailPattern, fail, validateSubmission, prepareMail } from './forms.mjs';
+import { emailPattern, fail, validateSubmission, prepareMail, tokenHash } from './forms.mjs';
 
 function readJson(request) {
   return new Promise((resolve, reject) => {
@@ -49,12 +49,12 @@ export function createPreviewServer({ directory, databasePath, site, contactReci
       const origins = hosts.map(host => `http://${host}`);
       if (request.headers.origin && !origins.includes(request.headers.origin)) throw fail(403);
       if (url.pathname === '/scripts/config.js' && ['GET', 'HEAD'].includes(request.method)) {
-        const config = { email: site.email, research: site.research, forms: { contactEndpoint: '/api/contact', researchEndpoint: '/api/research' } };
+        const config = { email: site.email, research: site.research, forms: { contactEndpoint: '/api/contact', researchEndpoint: '/api/research', publicationsEndpoint: '/api/publications', unsubscribeEndpoint: '/api/unsubscribe' } };
         response.writeHead(200, { 'Content-Type': 'text/javascript; charset=utf-8', 'Cache-Control': 'no-store' });
         return response.end(request.method === 'HEAD' ? undefined : `export default ${JSON.stringify(config)};\n`);
       }
       if (!url.pathname.startsWith('/api/')) return staticHandler(request, response);
-      const kind = { '/api/contact': 'contact', '/api/research': 'research' }[url.pathname];
+      const kind = { '/api/contact': 'contact', '/api/research': 'research', '/api/publications': 'publications', '/api/unsubscribe': 'unsubscribe' }[url.pathname];
       if (!kind) return json(404, { error: 'Rota inexistente' });
       if (request.headers.origin) response.setHeader('Access-Control-Allow-Origin', request.headers.origin);
       response.setHeader('Vary', 'Origin');
@@ -72,8 +72,17 @@ export function createPreviewServer({ directory, databasePath, site, contactReci
       if (++bucket.count > rateLimit) {
         response.setHeader('Retry-After', Math.max(1, Math.ceil((bucket.until - now) / 1000))); throw fail(429);
       }
-      const payload = validateSubmission(await readJson(request), kind);
-      const mail = prepareMail(payload, { contactRecipient, documentUrl: documentUrl.href });
+      const raw = await readJson(request);
+      if (kind === 'unsubscribe') {
+        if (typeof raw?.token !== 'string' || !/^[a-f0-9]{64}$/.test(raw.token)) throw fail(422);
+        store.unsubscribe(tokenHash(raw.token));
+        return json(200, { status: 'unsubscribed', mode: 'preview' });
+      }
+      const payload = validateSubmission(raw, kind);
+      const token = kind === 'contact' ? null : store.tokenFor(payload.email);
+      if (token) payload.unsubscribeTokenHash = tokenHash(token);
+      const mail = prepareMail(payload, { contactRecipient, documentUrl: documentUrl.href,
+        unsubscribeUrl: `${url.origin}/cancelar-inscricao#token=${token}` });
       const result = store.save(payload, mail);
       json(202, { ...result, mode: 'preview', email: 'captured' });
     } catch (error) {

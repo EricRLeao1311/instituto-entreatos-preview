@@ -12,7 +12,7 @@ const port = portIndex < 0 ? 4287 : Number(process.argv[portIndex + 1]);
 if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error('Porta inválida');
 const server = createPreviewServer({
   directory: path.join(root, 'dist'), databasePath: path.join(root, '.local-data/forms.sqlite'), site,
-  contactRecipient: process.env.PREVIEW_CONTACT_TO || '',
+  contactRecipient: process.env.PREVIEW_CONTACT_TO || site.email,
 });
 server.listen(port, '127.0.0.1', () => console.log(`Teste com backend: http://127.0.0.1:${port}\nE-mails capturados localmente; nenhum envio externo. Dados em .local-data/, fora do site público.`));
 server.on('error', error => { console.error(error.code || 'Falha ao iniciar'); process.exitCode = 1; server.close(); });

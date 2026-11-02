@@ -8,11 +8,21 @@ import http from 'node:http';
 import { DatabaseSync } from 'node:sqlite';
 import { createPreviewServer } from '../backend/server.mjs';
 import { openStore } from '../backend/store.mjs';
+import { toCsv } from '../backend/audience-export.mjs';
 import { root } from '../scripts/build.mjs';
 
 const site = { email: 'public@example.org', research: { documentUrl: 'https://example.org/preview/assets/research.pdf' } };
 const contact = { kind: 'contact', Name: 'Pessoa de Teste', Email: 'test@example.org', Subject: '21999990000', Message: 'Mensagem\nde teste', Reason: 'convidar-instituto' };
 const research = { kind: 'research', Name: 'Pessoa de Teste', email: 'test@example.org', Phone: '', checkbox: 'on' };
+
+test('exportação mantém consentimento/origens e neutraliza fórmulas de planilha', () => {
+  const csv=toCsv([{name:'=HYPERLINK("https://example.org")',email:'export@example.org',sources:['pesquisa','biblioteca'],subscribed:false,consent:{accepted:true}}]);
+  assert.ok(csv.startsWith('\ufeff'));
+  assert.ok(csv.includes('"\'=HYPERLINK(""https://example.org"")"'));
+  assert.ok(csv.includes('[""pesquisa"",""biblioteca""]'));
+  assert.ok(csv.includes('"false"'));
+  assert.ok(csv.includes('{""accepted"":true}'));
+});
 async function start(databasePath, options = {}) {
   const server = createPreviewServer({ directory: path.join(root, 'dist'), databasePath, site, ...options });
   server.listen(0, '127.0.0.1'); await once(server, 'listening');
@@ -75,7 +85,7 @@ test('receptor recusa origem/host indevidos, dados inválidos, JSON malformado e
     request.on('error', reject); request.end(JSON.stringify(contact));
   });
   assert.equal(forgedHostStatus, 403);
-  for (const change of [{ Email: 'a@example.org\r\nBcc:b@example.org' }, { Name: ' ' }, { Subject: '' }, { Reason: 'inexistente' }, { Message: '' }, { kind: 'research' }]) {
+  for (const change of [{ Email: 'a@example.org\r\nBcc:b@example.org' }, { Name: ' ' }, { Reason: '' }, { Reason: 'inexistente' }, { Message: '' }, { kind: 'research' }]) {
     assert.equal((await f.app.post('/api/contact', { ...contact, ...change })).status, 422);
   }
   assert.equal((await f.app.post('/api/contact', { ...contact, Message: 'x'.repeat(17_000) })).status, 413);
@@ -117,4 +127,22 @@ test('falha real de gravação não confirma sucesso nem perde a possibilidade d
     assert.equal(lock.prepare('SELECT count(*) AS n FROM submissions').get().n, 1);
     assert.equal(lock.prepare('SELECT count(*) AS n FROM outbox').get().n, 1);
   } finally { lock.close(); }
+});
+
+test('lista local distingue pesquisa de inscrição e permite cancelar e reinscrever explicitamente',async t=>{
+  const f=await fixture(t);
+  assert.equal((await f.app.post('/api/research',research)).status,202);
+  const signup={kind:'publications',Name:research.Name,email:research.email,checkbox:'on'};
+  assert.equal((await f.app.post('/api/publications',signup)).status,202);
+  const db=openStore(f.db);
+  try {
+    assert.equal(db.audience().length,1); assert.equal(db.audience()[0].subscribed,1);
+    const draft=db.recent().outbox.find(row=>row.subject==='Boas-vindas ao Instituto Entre Atos');
+    const token=draft.body.match(/#token=([a-f0-9]{64})/)[1];
+    assert.equal((await f.app.post('/api/unsubscribe',{token})).status,200);
+    assert.equal(db.audience()[0].subscribed,0);
+    assert.equal((await f.app.post('/api/publications',signup)).status,202);
+    assert.equal(db.audience()[0].subscribed,1);
+    assert.ok(db.events().some(row=>row.source==='unsubscribe'));
+  }finally{db.close();}
 });

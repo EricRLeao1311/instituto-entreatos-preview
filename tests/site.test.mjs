@@ -10,9 +10,9 @@ const documents = new Map(await Promise.all(pages.map(async page => [page.route,
 const decode = value => value.replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"');
 const attrs = (html, name) => [...html.matchAll(new RegExp(`(?:^|\\s)${name}="([^"]*)"`, 'g'))].map(match => decode(match[1]));
 
-test('inventário mantém as 21 rotas e acrescenta Biblioteca com os componentes existentes', () => {
-  assert.equal(pages.length, 22);
-  assert.equal(pages.filter(page => page.route.startsWith('/publicacoes/')).length, 14);
+test('inventário mantém as rotas anteriores e acrescenta as páginas solicitadas', () => {
+  assert.equal(pages.length, 26);
+  assert.equal(pages.filter(page => page.route.startsWith('/publicacoes/')).length, 16);
   for (const route of ['/', '/nossa-atuacao', '/quem-somos', '/publicacoes', '/depoimentos', '/na-midia', '/contato']) assert.ok(documents.has(route));
 });
 
@@ -71,7 +71,7 @@ test('formulários oferecem estado de envio e não usam endpoints do Webflow', (
   for (const [route, html] of documents) {
     const forms = [...html.matchAll(/<form\b[\s\S]*?<\/form>/g)];
     for (const [form] of forms) {
-      assert.match(form, /data-form-kind="(?:contact|research)"/, route);
+      assert.match(form, /data-form-kind="(?:contact|research|publications|unsubscribe)"/, route);
       assert.match(form, /role="status"/, route);
       assert.match(form, /method="post"/, route);
       assert.doesNotMatch(form, /webflow\.com/, route);

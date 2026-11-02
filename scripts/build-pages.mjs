@@ -30,9 +30,6 @@ export async function buildPages(basePath) {
   await writeFile(path.join(output, 'scripts/config.js'), `export default ${JSON.stringify({
     email: site.email, research: { ...site.research, documentUrl: prefixUrl(site.research.documentUrl, base) },
   }, null, 2)};\n`);
-  const researchFile = path.join(output, 'scripts/research.js');
-  const research = await readFile(researchFile, 'utf8');
-  await writeFile(researchFile, research.replace("=== '/biblioteca'", `=== '${base}/biblioteca'`));
   await writeFile(path.join(output, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
   await writeFile(path.join(output, '.nojekyll'), '');
   await compressDirectory(output);

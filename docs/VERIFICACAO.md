@@ -18,8 +18,8 @@ Inicie `node scripts/serve.mjs --watch`. Depois de uma alteração, aguarde a ge
 | Área | Critério de aceite |
 | --- | --- |
 | Todas as páginas | Abrem diretamente pela URL; título e texto principal aparecem; nenhuma rolagem horizontal involuntária |
-| Menu desktop | Cinco destinos corretos; página atual identificada; hover original preservado |
-| Navegação celular | Usa o botão e o runtime originais; botão visível em tablet; cinco itens, sem duplicação |
+| Menu desktop | Quatro destinos corretos (Contato fica no rodapé por pedido de 31/10); página atual identificada; hover original preservado |
+| Navegação celular | Usa o botão e o runtime originais; botão visível em tablet; quatro itens, sem duplicação |
 | Capa | Dois botões chegam às âncoras de atuação; percurso e hover dos retratos usam os tempos originais; nenhum controle visual adicional |
 | Pesquisa | Abre; botão de fechar e Escape funcionam; Tab fica no diálogo; ao fechar, foco volta ao acionador |
 | Contato | Campos obrigatórios e e-mail inválido são barrados; fluxo sem endpoint oferece preparar e-mail após submeter, sem afirmar recebimento |

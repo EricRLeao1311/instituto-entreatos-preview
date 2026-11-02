@@ -18,14 +18,15 @@ before(async () => {
   db = new PGlite();
   await db.exec('CREATE ROLE anon; CREATE ROLE authenticated; CREATE ROLE service_role;');
   await db.exec(await readFile(new URL('../supabase/migrations/202611010001_forms.sql', import.meta.url), 'utf8'));
+  await db.exec(await readFile(new URL('../supabase/migrations/202611020001_publications.sql', import.meta.url), 'utf8'));
 });
 after(async () => db?.close());
 beforeEach(async () => {
-  await db.exec('TRUNCATE public.ea_outbox, public.ea_submissions, public.ea_rate_limits;');
+  await db.exec('TRUNCATE public.ea_outbox, public.ea_submissions, public.ea_rate_limits, public.ea_audience, public.ea_audience_events;');
   providerCalls = []; queryCounts = {}; providerReply = () => Response.json({ id: 'provider-test-id' }); rpcDown = false;
 });
 const signatures = { submit: ['p_payload','p_mail','p_fingerprint','p_client','p_email','p_mode'], claim: ['p_id','p_limit'],
-  finish: ['p_id','p_token','p_status','p_provider_id','p_error'] };
+  finish: ['p_id','p_token','p_status','p_provider_id','p_error'], unsubscribe: ['p_token_hash','p_client'] };
 async function fetcher(url, options) {
   if (url === 'https://api.resend.com/emails') {
     providerCalls.push({ ...JSON.parse(options.body), key: options.headers['Idempotency-Key'] });
@@ -78,6 +79,9 @@ test('anon/authenticated não leem dados nem executam RPC; serviço autorizado p
     try {
       await assert.rejects(db.query('SELECT * FROM public.ea_submissions'), /permission denied/);
       await assert.rejects(db.query('SELECT * FROM public.ea_outbox'), /permission denied/);
+      await assert.rejects(db.query('SELECT * FROM public.ea_audience'), /permission denied/);
+      await assert.rejects(db.query('SELECT * FROM public.ea_audience_events'), /permission denied/);
+      await assert.rejects(db.query("SELECT public.ea_unsubscribe($1,$2)",['a'.repeat(64),'b'.repeat(64)]), /permission denied/);
       await assert.rejects(db.query('SELECT public.ea_claim(null,1)'), /permission denied/);
     } finally { await db.exec('RESET ROLE'); }
   }
@@ -165,4 +169,39 @@ test('reenvio exige segredo forte e modo de teste bloqueia domínio oficial/conf
   for (const changes of [{ APP_STAGE: 'production' }, { BACKEND_ENABLED: 'false' }, { APP_ORIGIN: 'https://institutoentreatos.com.br' }, { APP_ORIGIN: 'https://www.institutoentreatos.com.br' }, { FORM_HASH_SECRET: 'short' }]) {
     assert.equal((await handler({ ...sendEnv, ...changes })(request())).status, 503);
   }
+});
+
+test('inscrição registra escolha separada, origem única e descadastramento sem revelar dados', async () => {
+  const signup = {kind:'publications',Name:'Pessoa de teste',email:'test@example.org',checkbox:'on'};
+  assert.equal((await handler()(request({...signup,checkbox:false},'/api/publications'))).status,422);
+  await handler()(request()); // Pesquisa sem optar por novidades.
+  let audience=(await db.query('SELECT * FROM public.ea_audience')).rows[0];
+  assert.equal(audience.subscribed,false);
+  await handler()(request(signup,'/api/publications'));
+  audience=(await db.query('SELECT * FROM public.ea_audience')).rows[0];
+  assert.equal(audience.subscribed,true); assert.deepEqual(audience.sources.sort(),['biblioteca','pesquisa']);
+  assert.equal(await count('ea_audience'),1);
+  const mail=(await db.query("SELECT mail FROM public.ea_outbox WHERE mail->>'category'='publications'")).rows[0].mail;
+  assert.equal(mail.subject,'Boas-vindas ao Instituto Entre Atos');
+  assert.equal(mail.reply_to,'contato@institutoentreatos.com.br');
+  assert.ok(mail.text.includes('https://www.linkedin.com/pulse/experi%C3%AAncia-recente-e-compet%C3%AAncia-atual-s%C3%A3o-mesma-baggio-tet%C3%AA--pmwsf'));
+  assert.doesNotMatch(mail.text,/newsletter/i);
+  const token=mail.text.match(/#token=([a-f0-9]{64})/)[1];
+  assert.equal((await handler()(request({token},'/api/unsubscribe'))).status,200);
+  assert.equal((await db.query('SELECT subscribed FROM public.ea_audience')).rows[0].subscribed,false);
+  await handler()(request({...payload,Name:'Pesquisa após cancelamento'}));
+  assert.equal((await db.query('SELECT subscribed FROM public.ea_audience')).rows[0].subscribed,false,'Pesquisa sem opt-in não reinscreve');
+  await handler()(request(signup,'/api/publications'));
+  assert.equal((await db.query('SELECT subscribed FROM public.ea_audience')).rows[0].subscribed,true,'nova escolha explícita pode reinscrever');
+});
+
+test('seis motivos do Contato aceitam organização opcional, sem telefone obrigatório ou inscrição', async () => {
+  const reasons=['convidar-instituto','apresentar-contato','estudo-parceria-apoio','imprensa','contar-historia','outro-assunto'];
+  for(const [i,Reason] of reasons.entries()) {
+    const response=await handler()(request({kind:'contact',Name:'Contato teste',Email:`contato${i}@example.org`,Organization:i?'Instituição':'',Reason,Message:'Mensagem de teste'},'/api/contact'));
+    assert.equal(response.status,202);
+  }
+  assert.equal(await count('ea_audience'),0);
+  const mail=(await db.query("SELECT mail FROM public.ea_outbox WHERE mail->>'subject' LIKE '%Imprensa%'")).rows[0].mail;
+  assert.equal(mail.to,'contato@institutoentreatos.com.br'); assert.match(mail.subject,/Site · Imprensa/);
 });

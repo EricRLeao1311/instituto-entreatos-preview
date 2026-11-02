@@ -1,6 +1,6 @@
 import { createHmac, createHash, timingSafeEqual } from 'node:crypto';
 import { isIP } from 'node:net';
-import { fail, validateSubmission, prepareMail } from '../forms.mjs';
+import { fail, validateSubmission, prepareMail, subscriptionToken, tokenHash } from '../forms.mjs';
 import { readConfig } from './config.mjs';
 import { cloudStore } from './store.mjs';
 import { deliver } from './delivery.mjs';
@@ -38,18 +38,26 @@ export function createHandler({ env = process.env, fetcher = fetch, getClientIp 
       if (!secret || secret.length < 32 || !timingSafeEqual(digest(request.headers.get('authorization') || ''), digest(`Bearer ${secret}`))) return json(401, { error: 'Não autorizado.' });
       try { return json(200, await deliver(rpc, config, null, fetcher)); } catch { return json(503, { error: 'Fila indisponível.' }); }
     }
-    const kind = { '/api/contact': 'contact', '/api/research': 'research' }[url.pathname];
+    const kind = { '/api/contact': 'contact', '/api/research': 'research', '/api/publications': 'publications', '/api/unsubscribe': 'unsubscribe' }[url.pathname];
     if (!kind) return json(404, { error: 'Rota inexistente.' });
     // Browser-only writes. This is additional origin protection, not authentication.
     if (!config.origins.has(request.headers.get('origin'))) return json(403, { error: 'Origem inválida.' });
     if (request.method !== 'POST') return json(405, { error: 'Método inválido.' }, { Allow: 'POST' });
     try {
       const raw = await body(request);
-      const payload = validateSubmission(raw, kind);
-      // On Vercel this platform-controlled header cannot be taken from arbitrary X-Forwarded-For.
       const ip = getClientIp ? getClientIp(request) : env.VERCEL === '1' ? request.headers.get('x-vercel-forwarded-for')?.split(',')[0].trim() : null;
       if (!ip || !isIP(ip)) throw fail(503);
-      const mail = prepareMail(payload, { contactRecipient: config.contactRecipient, documentUrl: config.documentUrl });
+      if (kind === 'unsubscribe') {
+        if (typeof raw?.token !== 'string' || !/^[a-f0-9]{64}$/.test(raw.token)) throw fail(422);
+        await rpc('unsubscribe', { p_token_hash: tokenHash(raw.token), p_client: hash(config.hashSecret, `ip:${ip}`) });
+        return json(200, { status: 'unsubscribed', mode: 'preview' });
+      }
+      const payload = validateSubmission(raw, kind);
+      // On Vercel this platform-controlled header cannot be taken from arbitrary X-Forwarded-For.
+      const token = kind === 'contact' ? null : subscriptionToken(config.hashSecret, payload.email);
+      if (token) payload.unsubscribeTokenHash = tokenHash(token);
+      const mail = prepareMail(payload, { contactRecipient: config.contactRecipient, documentUrl: config.documentUrl,
+        unsubscribeUrl: `${config.origin}/cancelar-inscricao#token=${token}` });
       const canSend = config.mode === 'send' && config.allowed.has(mail.to?.toLowerCase());
       const result = await rpc('submit', { p_payload: payload, p_mail: mail,
         p_fingerprint: hash(config.hashSecret, JSON.stringify(payload)), p_client: hash(config.hashSecret, `ip:${ip}`),

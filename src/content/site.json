@@ -4,7 +4,9 @@
   "email": "contato@institutoentreatos.com.br",
   "forms": {
     "contactEndpoint": "",
-    "researchEndpoint": ""
+    "researchEndpoint": "",
+    "publicationsEndpoint": "",
+    "unsubscribeEndpoint": ""
   },
   "research": {
     "documentUrl": "/assets/panorama-retorno-profissional-2025.pdf"

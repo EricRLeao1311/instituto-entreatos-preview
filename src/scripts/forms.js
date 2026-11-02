@@ -1,4 +1,5 @@
 import config from './config.js';
+import contact from './contact-data.js';
 
 /** Endpoints receive POST JSON and must return a 2xx response. See docs/INTEGRACOES.md. */
 export function setupForms() {
@@ -6,6 +7,8 @@ export function setupForms() {
     const kind = form.dataset.formKind;
     const status = form.querySelector('.form-status');
     const submit = form.querySelector('[type="submit"]');
+    const endpoint = form.dataset.endpoint || config.forms?.[`${kind}Endpoint`];
+    if (kind === 'publications' && !endpoint) submit.disabled = true;
     // Keep the original caption and empty initial layout. Explain fallback only after submission.
     form.querySelectorAll('input[type="checkbox"]').forEach(input => {
       const custom = input.parentElement.querySelector('div.w-checkbox-input');
@@ -23,15 +26,17 @@ export function setupForms() {
       if (!form.reportValidity()) return;
       status.replaceChildren();
       const payload = Object.fromEntries(new FormData(form).entries());
-      const endpoint = form.dataset.endpoint || config.forms?.[`${kind}Endpoint`];
+      if (kind === 'unsubscribe') payload.token = new URLSearchParams(location.hash.slice(1)).get('token') || '';
       if (!endpoint) {
         if (kind === 'contact') {
           const reason = form.querySelector('[name="Reason"]')?.selectedOptions[0]?.textContent || '';
-          const text = `Nome: ${payload.Name}\nE-mail: ${payload.Email}\nTelefone: ${payload.Subject}\nMotivo: ${payload.Reason ? reason : 'Não informado'}\n\n${payload.Message}`;
+          const text = `Nome: ${payload.Name}\nE-mail: ${payload.Email}\nOrganização: ${payload.Organization || 'Não informada'}\nMotivo: ${reason}\n\n${payload.Message}`;
           const link = document.createElement('a');
           link.href = `mailto:${config.email}?subject=${encodeURIComponent('Contato pelo site — ' + payload.Name)}&body=${encodeURIComponent(text)}`;
           link.textContent = 'Abrir e-mail com esta mensagem';
           status.append('Mensagem preparada. O envio acontece no seu aplicativo de e-mail. ', link);
+        } else if (kind === 'publications' || kind === 'unsubscribe') {
+          status.textContent = kind === 'publications' ? 'A inscrição por e-mail ainda está em configuração nesta prévia. Seus dados não foram enviados.' : 'O descadastramento online está em configuração. Escreva para ' + config.email + '.';
         } else if (config.research.documentUrl) {
           const link = document.createElement('a'); link.href = config.research.documentUrl;
           link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'Abrir pesquisa';
@@ -41,6 +46,7 @@ export function setupForms() {
           const link = document.createElement('a'); link.href = `mailto:${config.email}?subject=Solicitar%20pesquisa`;
           link.textContent = 'Solicitar por e-mail'; status.append(' ', link);
         }
+        status.scrollIntoView({ block: 'nearest', behavior: 'auto' });
         return;
       }
       submit.disabled = true; status.textContent = 'Enviando…';
@@ -51,7 +57,8 @@ export function setupForms() {
         });
         if (!response.ok) throw new Error('Falha no envio');
         const receipt = await response.json().catch(() => null);
-        status.textContent = receipt?.mode !== 'preview' ? 'Obrigado! Seus dados foram recebidos.'
+        status.textContent = kind === 'unsubscribe' ? 'Sua inscrição foi cancelada.'
+          : receipt?.mode !== 'preview' ? (kind === 'contact' ? contact.success : kind === 'publications' ? 'Inscrição recebida. Você receberá as próximas publicações do Instituto por e-mail.' : 'Obrigado! Seus dados foram recebidos.')
           : receipt.email === 'accepted' ? 'Dados recebidos no teste. O envio do e-mail foi solicitado.'
           : receipt.email === 'pending' ? 'Dados recebidos no teste. O e-mail aguarda uma nova tentativa de envio.'
           : receipt.email === 'captured' ? 'Recebido no ambiente de teste. Nenhum e-mail foi enviado.'
@@ -63,8 +70,9 @@ export function setupForms() {
         }
         form.reset();
       } catch {
-        status.textContent = 'Não foi possível confirmar o envio. Tente novamente ou entre em contato por e-mail.';
+        status.textContent = kind === 'contact' ? contact.error : kind === 'publications' ? 'Não foi possível concluir sua inscrição. Tente novamente ou escreva para ' + config.email + '.' : 'Não foi possível confirmar o envio. Tente novamente ou entre em contato por e-mail.';
       } finally { submit.disabled = false; }
+      status.scrollIntoView({ block: 'nearest', behavior: 'auto' });
     });
   });
 }

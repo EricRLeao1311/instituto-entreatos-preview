@@ -12,6 +12,7 @@ export async function build() {
   const content = {};
   for (const key of ['portraits', 'team']) content[key] = JSON.parse(await readFile(path.join(src, `content/${key}.json`), 'utf8'));
   const interactions = JSON.parse(await readFile(path.join(src, 'content/interactions.json'), 'utf8'));
+  const contact = JSON.parse(await readFile(path.join(src, 'content/contact.json'), 'utf8'));
   if (new Set(pages.map(page => page.route)).size !== pages.length) throw new Error('Rotas duplicadas');
   for (const page of pages) {
     if (!/^\/(?:[a-z0-9-]+(?:\/[a-z0-9-]+)*)?$/.test(page.route)) throw new Error(`Rota inválida: ${page.route}`);
@@ -25,6 +26,7 @@ export async function build() {
   await cp(path.join(root, 'public'), dist, { recursive: true });
   await cp(path.join(src, 'styles'), path.join(dist, 'styles'), { recursive: true });
   await cp(path.join(src, 'scripts'), path.join(dist, 'scripts'), { recursive: true });
+  await writeFile(path.join(dist, 'scripts/contact-data.js'), `export default ${JSON.stringify(contact)};\n`);
   await writeFile(path.join(dist, 'scripts/interactions.js'),
     `/* Original published IX2 data, maintained in src/content/interactions.json. */\nWebflow.require("ix2").init(${JSON.stringify(interactions)});\n` +
     `document.documentElement.dataset.presentationReady="true";\n` +
