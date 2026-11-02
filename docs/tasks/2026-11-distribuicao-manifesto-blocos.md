@@ -1,6 +1,6 @@
 # Corrigir a distribuição do manifesto e dos blocos recentes
 
-Status: implementação e conferência local concluídas; publicação de teste em andamento
+Status: concluída e publicada somente na prévia de teste
 
 ## Resultado esperado
 
@@ -33,6 +33,8 @@ Diagnóstico e comparação no navegador em largura CSS real 1440px: onze linhas
 Manifesto: centro do botão igual ao centro da linha (712,4px em desktop e 187,6px em celular). Conferido visualmente com título, botão e aviso centralizados, sem criar área de vídeo fictícia. Demais linhas mantêm título à esquerda e conteúdo amplo à direita. Em 1024/768/390px, Nossa atuação mediu respectivamente 609/625/303px para o texto; Quem somos também manteve uma coluna móvel. Sem rolagem horizontal: scrollWidth 1009/753/375px, respectivamente. Breakpoints originais e cores/fontes foram mantidos. A conferência aguardou as transições originais de entrada; não foi forçada opacidade.
 
 `node scripts/build.mjs` gerou 26 páginas + 404. `node --test` após o ajuste final de tablet: **51 testes aprovados**. Os contratos de apresentação também passaram após a inclusão do acréscimo CSS autorizado, preservando todos os baselines anteriores. Nenhum teste que apenas imita o CSS foi acrescentado; a verificação de distribuição foi feita no navegador. Cópia anterior em `work/layout-manifesto/baseline-site`, fora do Git. Conferência de publicação/CI será registrada ao terminar.
+
+Publicação: commit `d9f1bdc`; [verificação](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41446412236) e [publicação Pages](https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41446412148) aprovadas, com os 51 testes também em Linux. Conferido no navegador público: manifesto centralizado com linha de 1345px; oito linhas de Nossa atuação e duas de Quem somos com conteúdo de 886px em viewport 1440. [Prévia do manifesto](https://ericrleao1311.github.io/instituto-entreatos-preview/#manifesto). Captura final em `work/layout-manifesto/manifesto-depois.png`, fora do Git e sem dados privados. Registro obrigatório e `git diff --cached --check` aprovados. Nenhuma alteração no site oficial.
 
 ## Pendências e entrega
 
