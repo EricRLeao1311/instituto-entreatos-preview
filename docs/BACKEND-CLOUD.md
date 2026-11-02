@@ -81,3 +81,5 @@ Antes da ativação: criar contas/projetos de teste, aplicar as duas migrações
 - [Envio de e-mail](https://resend.com/docs/api-reference/emails/send-email) e [janela de idempotência](https://resend.com/docs/dashboard/emails/idempotency-keys) do Resend.
 - [PGlite para executar Postgres nos testes](https://pglite.dev/docs/).
 - [Restrições de uso do plano Hobby](https://vercel.com/docs/limits/fair-use-guidelines) e [limites de agendamento](https://vercel.com/docs/cron-jobs/usage-and-pricing). Não pressupor gratuidade para trabalho de cliente.
+
+Na revisão integral de 01/11, a pesquisa passou à Biblioteca e ganhou versão explícita do aceite. `ConsentVersion: biblioteca-2026-11-01` salva o texto atual de termos/privacidade e nunca autoriza publicações, mesmo com Updates injetado. O contrato antigo continua aceito pelos diálogos legados. Não houve nova migração ou mudança de persistência/fila: os campos cabem no payload existente. Boas-vindas agora aponta ao LinkedIn correto informado pela contratante. Ver `PUBLICACOES-EMAIL.md`.

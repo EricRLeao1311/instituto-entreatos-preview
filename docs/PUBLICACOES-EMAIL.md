@@ -7,10 +7,10 @@ Contrato atualizado pelos documentos Contato e Biblioteca de 31/10/2026. Impleme
 | Fluxo | Campos | Efeito |
 | --- | --- | --- |
 | `/api/contact` | `Name`, `Email`, `Reason`, `Message` obrigatórios; `Organization` opcional; `kind: contact` | Mensagem ao Instituto; não inscreve na lista |
-| `/api/research` | `Name`, `email`, `checkbox` obrigatórios; `Phone`, `Updates` opcionais; `kind: research` | Pedido do PDF, origem `pesquisa`; novidades somente com `Updates` marcado |
+| `/api/research` | `Name`, `email`, `checkbox` obrigatórios; `ConsentVersion: biblioteca-2026-11-01`; `kind: research` | Formulário na Biblioteca: pedido do PDF, origem `pesquisa`, sem inscrição em novidades |
 | `/api/publications` | `Name`, `email`, `checkbox` obrigatórios; `kind: publications` | Origem `biblioteca`, aceite explícito para publicações e mensagem de boas-vindas |
 
-O checkbox obrigatório da pesquisa registra o acesso/termos, não é autorização implícita para novidades. As duas caixas são independentes e começam desmarcadas. O aceite da Biblioteca inclui termos, privacidade e cancelamento. O backend salva texto dos aceites, URLs legais, origem, edição e data; mantém histórico separado de escolhas. Não preencher escolhas em nome do visitante.
+O checkbox da pesquisa registra somente os termos/privacidade. A inscrição em publicações fica em outro formulário; os dois aceites começam desmarcados. No formulário novo não há telefone nem escolha Updates. A API mantém compatibilidade com os diálogos antigos, que podem ter Phone/Updates opcionais; com a versão nova do aceite, Updates é sempre ignorado, mesmo se injetado na requisição. O aceite da Biblioteca inclui termos, privacidade e cancelamento. O backend salva texto dos aceites, URLs legais, origem, edição e data; mantém histórico separado de escolhas. Não preencher escolhas em nome do visitante.
 
 O texto editorial dos motivos de contato está em `src/content/contact.json`, emitido pelo build como `contact-data.js` e também importado pela validação do servidor. Os seis motivos são obrigatórios; URL válida pode pré-selecionar um, mas o visitante pode mudar. Sem parâmetro ou com valor desconhecido, começa vazio. Organização não é telefone. `Subject` antigo é aceito opcionalmente para compatibilidade e não é salvo no novo contato.
 
@@ -37,16 +37,18 @@ Saída em `.local-data/audience.csv` ou `audience-events.csv`, ignorada no Git e
 
 Contato usa o destino público solicitado `contato@institutoentreatos.com.br`, identifica o motivo no assunto e usa o endereço do visitante em Reply-To. Isso atualiza o destinatário para este código de teste, sem alterar as configurações do Webflow.
 
-Boas-vindas usa assunto e texto do documento, nome do remetente Instituto Entre Atos, resposta para o e-mail público e link obrigatório de cancelamento. O link LinkedIn foi mantido exatamente como solicitado para o e-mail, embora seu título externo difira do texto enviado. Na navegação do site, os botões apontam à análise local com o texto integral aprovado. Confirmar o destino editorial do e-mail antes da ativação real.
+Boas-vindas usa assunto e texto do documento, nome do remetente Instituto Entre Atos, resposta para o e-mail público e link obrigatório de cancelamento. O link LinkedIn foi corrigido para o artigo “A lacuna que a empresa aceita por dentro e recusa por fora”, confirmado nos cinco documentos revisados. É o mesmo destino dos botões da Home, Nossa atuação e Biblioteca. A antiga página interna redireciona ao LinkedIn; não publicar o texto de referência como outro artigo.
 
 A pesquisa prepara mensagem com o link do PDF público. Isso atende ao acesso completo por e-mail, sem anexo pesado. Se a cliente exigir anexo, registrar uma mudança específica no transporte. Não há disparador de campanhas em massa: a lista é exportável para ferramenta autorizada; novas publicações continuam sendo editadas no código, sem CMS novo.
 
 Aplicar **as duas migrações, em ordem**, no projeto Supabase de teste: `202611010001_forms.sql`, depois `202611020001_publications.sql`. Não reexecutar nem editar migração já aplicada. A segunda amplia o contrato e adiciona audiência, eventos, trigger transacional e cancelamento; as novas tabelas também têm RLS e acesso público revogado.
 
-Sem backend, o botão de inscrição da Biblioteca fica desabilitado e a página informa a configuração pendente. Com o receptor local, é possível testar captura sem envio. Em hospedagem, `MAIL_MODE=capture` continua padrão; envio só para a lista autorizada de teste. Não transformar recibo de captura em confirmação de entrega.
+Sem backend, os botões de pesquisa e inscrição da Biblioteca ficam desabilitados e a página informa a configuração pendente. Com o receptor local, é possível testar captura sem envio. Em hospedagem, `MAIL_MODE=capture` continua padrão; envio só para a lista autorizada de teste. Não transformar recibo de captura em confirmação de entrega.
 
 Ainda faltam contas/projetos, banco online, segredos privados, remetente autorizado e teste de entrega/resposta/cancelamento reais. O remetente solicitado `contato@institutoentreatos.com.br` depende de autorização do provedor e, normalmente, verificação do domínio; DNS oficial permanece fora do escopo atual. Não ativar o texto “Pesquisa completa enviada por e-mail” nem promover Biblioteca/Pesquisas ao domínio oficial antes desse teste. Consulte [ATIVAR-TESTE.md](ATIVAR-TESTE.md).
 
 ## Regra de manutenção com IA
 
 Toda alteração futura precisa de registro em `docs/tasks/` no mesmo commit: responsável/IA, pedido, ambiente, decisão, arquivos e verificações reais. Atualizar este contrato e testes ao mudar campos, aceites, origens, destinatário, cancelamento ou exportação. Preservar o componente visual e as animações; não usar integração como autorização de redesenho. `AGENTS.md` continua sendo a fonte obrigatória dessas regras.
+
+A versão do aceite da pesquisa é calculada no servidor a partir do identificador permitido `biblioteca-2026-11-01`; o texto salvo é “Li e aceito os Termos de uso e a Política de privacidade.”. Identificador desconhecido é recusado. Não aceitar texto legal arbitrário do navegador. O recibo da prévia continua identificando captura/pendência/aceite do provedor; não mostra a promessa de envio da versão definitiva. O novo texto de sucesso/falha está preparado em `forms.js` para o contrato de envio futuro, sem ativá-lo.

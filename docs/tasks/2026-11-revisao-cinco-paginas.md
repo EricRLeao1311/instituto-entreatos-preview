@@ -1,0 +1,49 @@
+# Revisão das cinco páginas e cruzamento dos destinos
+
+Status: implementação e verificação local concluídas; publicação de teste em conferência
+
+## Resultado esperado
+
+Responsável: Codex, com assistência de IA. Implementar os cinco DOCX revisados de 01/11 fornecidos pelo usuário. Pedido explícito: não mudar estilo, animações ou estética; somente o mínimo para atender às revisões com integração visual. Ambiente autorizado: local e prévia GitHub Pages, nunca Webflow, DNS, domínio oficial ou envio real.
+
+## Escopo
+
+Fontes: Home_revisada 01 nov 26.docx, Nossa_atuacao_revisada_01 nov.docx, Quem_somos_revisada_01 nov.docx, Biblioteca_revisada_01 nov.docx, Contato_revisado_01 nov.docx. Extração e hashes serão preservados em docs/reference/editorial-revisada-2026-11-01/sources.json.
+
+Arquivos previstos e motivo: header (Contato volta à ordem do menu); footer (tagline/ordem revisadas); metadados pages.json; destinos e pequena correção de tempo verbal em Home; seções Nossa atuação (conteúdo substitui os serviços/FAQs antigos, mantendo wrappers, cartões, fotos, sanfonas e gatilhos de animação disponíveis); Quem somos (manifesto pendente, crédito discreto NOZ e links de metas); Biblioteca (formulário de pesquisa no bloco, análise externa e remoção de nota editorial sobre posts); pesquisa/compatibilidade e análise interna antiga (destinos anteriores preservados como aliases); forms/research/main e backend/forms se exigido pelo novo contrato de pedido/aceite/e-mail; build/adaptador somente se necessário para alias ou configuração; testes de conteúdo/navegação/formulários e documentação de mapa/integração/tarefa. Se for inevitável alguma regra responsiva, limitar às áreas com conteúdo novo e registrar a necessidade; não alterar CSS protegido, baselines, runtime, interações ou carrosséis.
+
+Invariantes: componentes de menu/hover, duas variantes do carrossel, repetições técnicas, fontes, cores, bordas, fotos existentes, tempos/easing, IDs/gatilhos preservados nos componentes reaproveitados. Recomendações de reduzir/redesenhar carrossel/desenho criativo nos DOCX ficam subordinadas à proibição explícita do usuário. Conteúdo antigo substituído pelo texto integral revisado não deve continuar prometendo serviços diferentes.
+
+Decisões iniciais: manter os 14 artigos por autorização anterior expressa, apesar de o texto repetir 12; manter canal YouTube confirmado/CNPJ/crédito sem remoção explícita. Endereço de pesquisa passa à Biblioteca; URLs antigas continuam acessíveis e direcionam ao novo bloco. A análise antiga vira acesso de compatibilidade ao LinkedIn confirmado; não criar outra página de artigo. Não publicar instruções de montagem. Manifesto, Web Summit 2024 e trecho FIEMG continuam dependentes dos arquivos da contratante; não inventar vídeos ou botões que aparentem funcionar. Na prévia sem serviço, não afirmar entrega real nem receber inscrições como ativas.
+
+## Referências
+
+AGENTS.md, PRESERVACAO.md, mapa/conteúdo/estilos/animações/arquitetura/integrações/publicação e versão anterior 77b1be7. Copiar a saída anterior para work/editorial-revisada-01-nov/baseline-site antes das edições. Fontes oficiais dos links legais citados serão consultadas somente em leitura.
+
+## Critérios de aceite
+
+Textos e botões correspondem aos novos documentos; uma pesquisa na Biblioteca, com aceite desmarcado e sem inscrição automática; os seis motivos de contato e seus parâmetros funcionam; antigas URLs preservadas; menu/hover/carrossel/estilos não sofrem redesenho; desktop/celular/tablet conferidos; testes e publicação de prévia verificados; decisões/pendências registradas.
+
+## Execução
+
+Arquivos reais: header/footer; pages.json; composição Home/Nossa atuação; novo componente manifesto-pending e seção Home/08-manifesto; destinos/texto em Home/02-about e 04-place; seções Nossa atuação 01/02/03; Quem somos 03-approach e 07-agenda; Biblioteca 01-navigation e novo 03-research-form; head/seção de compatibilidade da análise; scripts forms/research; backend/forms; testes editorial/presentation/cloud-backend; README e guias de arquitetura, ativação, backend, conteúdo, integração, mapa, publicações/e-mail e verificação; fontes/reference/tarefa. Não foram alterados CSS, fontes, vendor, interactions.json, carrossel da Home ou grades/fotos da equipe.
+
+Nossa atuação: os três pilares e cinco parcerias usam as grades bento anteriores; sete agendas substituem as perguntas antigas na sanfona original, com os mesmos subtítulos, links de fonte e nota dos dados fora de cada item. O wrapper de fotos foi movido inteiro para as participações (referência literal preservada em nossa-photo-marquee.html). As duas variantes responsivas do callout continuam com IDs/animação próprios; somente o conteúdo novo foi distribuído entre título e descrição para acomodar os dois convites. A abertura usa o wrapper de texto limitado já disponível no site. Não foi criada outra sanfona nem animação. A incorporação institucional antiga, sem correspondência aos vídeos solicitados, não foi apresentada como se fosse o manifesto/Web Summit/FIEMG pendentes.
+
+Quem somos: mesmos nomes, fotos, bios e grades; manifesto pendente compartilhado com a Home. NOZ saiu do grupo de apoiadores e seu SVG original passou a 120 × 70 junto ao crédito de metodologia. Links pequenos de metas apontam às âncoras verificadas do IPEA. Home manteve a geometria da abertura/carrossel e mudou apenas destinos, “há” para “havia” e o bloco de manifesto solicitado, abaixo da abertura.
+
+Biblioteca: o pedido da pesquisa está no próprio bloco 2025, com Nome/E-mail/aceite e o wrapper de largura limitada já existente. Removida a nota editorial sobre posts. Pesquisa e inscrição são independentes; sem endpoint, ambos ficam desabilitados, com aviso de indisponibilidade de envio. O backend valida a versão do aceite e impede inscrição implícita mesmo se Updates for injetado nesse novo pedido. Atualizado o LinkedIn de boas-vindas; não houve nova migração. Não foram ativadas contas ou entrega externa. /pesquisas leva à Biblioteca preservando o subdiretório Pages; a URL antiga da análise usa redirecionamento HTML com fallback ao artigo confirmado, sem publicar outro artigo interno.
+
+## Verificação realizada
+
+Antes das edições, Git limpo; cinco documentos locais extraídos em leitura, incluindo tabelas, links e referências de imagens; hashes preservados. Saída anterior copiada antes da edição para work/editorial-revisada-01-nov/baseline-site. Suíte inicial: 48 aprovados. Após revisão: `node scripts/build.mjs`, `node scripts/build-pages.mjs --base-path /instituto-entreatos-preview` e `node --test`: **51 testes aprovados**, 26 páginas + 404. Foram atualizados somente contratos editoriais explicitamente revisados (menu com cinco destinos, análise externa, pesquisa na Biblioteca e link de boas-vindas); os baselines e hashes de apresentação permanecem intocados. Teste novo compara literalmente o componente de fotos com a referência anterior.
+
+O teste SQL executou as duas migrações existentes em PGlite e validou o novo aceite, recusou versões desconhecidas/checkbox ausente e confirmou source pesquisa sem inscrição, mesmo com Updates injetado. Captura local de pedido também foi conferida no navegador, com confirmação visível e sem e-mail externo. Auditoria de fechamento/nesting dos cinco HTMLs com HTMLParser: sem erros ou tags abertas; contratos de links/âncoras/arquivos, SEO/IDs e scripts locais aprovados.
+
+Navegador: 1440 × 1000, 390 × 844, 768 × 1024 e 1024 × 900, com larguras CSS reais conferidas. Abertura da Home comparada com a cópia anterior em 1440: mesma altura 968,8px, mesma tipografia e disposição; apenas o item Contato autorizado foi reinserido. Hover real de Nossa atuação: mesmo estado computado nas duas versões. Transformações sucessivas do carrossel conferidas em ambas; componente completo/estilos/runtime idênticos por teste, sem promessa de quadros sincronizados. Sanfona abre no celular com a transição original e texto legível ao terminar; novos cartões/callout foram conferidos. Pesquisa inline no celular: aceite inicialmente desmarcado, captura sem inscrição, mensagem visível; formulário mediu 800px em viewport 1024, sem overflow. Menu tablet: botão visível e cinco itens inteiramente na tela após completar a entrada. Quem somos: apoiadores e NOZ 120 × 70 conferidos no celular.
+
+Fontes somente em leitura: LinkedIn confirmou título e artigo de 28/10/2026; FIEMG e página oficial da NR-1 abriram. Âncoras IPEA coll_8_5, coll_5_4, coll_10_2 e coll_17_16 verificadas no HTML. Planalto bloqueou a leitura automatizada; a lei também consta do registro oficial do Senado, e o destino explicitamente fornecido foi mantido. YouTube/Instagram limitaram a consulta automatizada: destinos transcritos do documento, reprodução externa não foi declarada validada. Nenhuma configuração dessas contas foi alterada.
+
+## Pendências e entrega
+
+Vídeos do manifesto, apresentação Web Summit 2024 e trecho FIEMG ainda não entregues; não há reprodução desses arquivos. PDFs legais novos não fornecidos: preservados links existentes. Contas, hospedagem de backend online e configuração/recebimento real de e-mail continuam pendentes. Antes de produção, conferir entrega do PDF/link, boas-vindas, respostas e cancelamento no provedor. Os botões da prévia não afirmam que isso já funciona. Nenhuma mudança em Webflow, DNS, domínio oficial ou envio real. Publicação e registro Git serão acrescentados após a conferência da prévia.

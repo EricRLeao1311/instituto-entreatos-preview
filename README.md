@@ -74,11 +74,11 @@ Fontes WOFF2 completas, variantes gzip/Brotli no build e revalidação no servid
 
 ## Correção de preservação de 01/11/2026
 
-A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 48 testes, incluindo os contratos de apresentação e o receptor local.
+A revisão que redesenhou componentes foi rejeitada e restaurada. Textos reaplicados nos componentes originais, cabeçalho e carrossel protegidos, sem troca de motor ou estilos globais. Veja [a política obrigatória](docs/PRESERVACAO.md), [a correção e evidências](docs/CORRECAO-PRESERVACAO.md) e [o backend pendente](docs/BACKEND-PENDENTE.md). A suíte atual tem 51 testes, incluindo os contratos de apresentação e o receptor local.
 
 ## Prévia no GitHub Pages
 
-A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 48 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
+A publicação pelo GitHub usa `.github/workflows/pages.yml` e gera `dist-pages/` com o caminho do repositório. A edição continua em `src/` e `public/`, preservando os componentes e os contratos existentes. A suíte tem 51 testes, incluindo a adaptação de URLs e o receptor local. Veja [o guia de publicação](docs/PUBLICACAO.md).
 
 ## Backend local de teste
 
@@ -97,3 +97,7 @@ Leia [a arquitetura e os limites do backend](docs/BACKEND-CLOUD.md) e [o guia de
 Contato tem seis motivos, organização opcional e não exige telefone. Biblioteca reúne mídia, análise, arquivo Be Back Now (4 e-books e 14 artigos confirmados pelo usuário), pesquisa, livro e inscrição. A análise, o arquivo e Pesquisas têm endereços próprios; URLs antigas foram conservadas. Rodapé compartilhado atualizado, incluindo YouTube confirmado. CSS, carrossel e runtime permanecem iguais.
 
 O backend de teste prepara lista única, origens e escolhas separadas, boas-vindas, cancelamento e exportação privada CSV. Sem ferramenta ativa, a inscrição está desabilitada na prévia estática. Guia e limites: [PUBLICACOES-EMAIL.md](docs/PUBLICACOES-EMAIL.md). Registro obrigatório da alteração por IA: [tarefa](docs/tasks/2026-11-contato-biblioteca.md). Nenhuma mudança no Webflow ou no domínio oficial.
+
+## Revisão integral de 01/11/2026
+
+As cinco páginas foram revisadas conforme os novos DOCX: Contato volta ao menu, análises abrem o artigo confirmado no LinkedIn e o pedido da pesquisa fica na Biblioteca, separado da inscrição em publicações. Nossa atuação reutiliza cartões, fotos, sanfonas e callouts existentes para os novos conteúdos. Home/Quem somos compartilham o componente de manifesto pendente, sem vídeo inventado. CSS, runtime e carrosséis preservados; antigas URLs continuam acessíveis. Fonte e verificação: [registro da revisão](docs/tasks/2026-11-revisao-cinco-paginas.md). O site oficial e o envio real continuam fora do ambiente autorizado.

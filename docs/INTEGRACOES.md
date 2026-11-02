@@ -41,7 +41,7 @@ Informe uma URL HTTPS de um receptor controlado pelo Instituto. O navegador envi
 }
 ```
 
-Contato agora exige nome, e-mail, motivo e mensagem; organização é opcional e não há telefone no formulário. A mudança é autorizada pelo DOCX de Contato e coordenada nos dois receptores. `Subject` antigo é tolerado opcionalmente para compatibilidade, sem ser salvo. Pesquisa usa `Name`, `email`, `Phone` opcional, `checkbox` obrigatório, `Updates` opcional e `kind: "research"`. Os nomes são sensíveis a maiúsculas e minúsculas. Contrato completo dos três fluxos: [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md).
+Contato agora exige nome, e-mail, motivo e mensagem; organização é opcional e não há telefone no formulário. A mudança é autorizada pelo DOCX de Contato e coordenada nos dois receptores. `Subject` antigo é tolerado opcionalmente para compatibilidade, sem ser salvo. O formulário atual da pesquisa fica na Biblioteca e usa `Name`, `email`, `checkbox` obrigatório, `ConsentVersion: biblioteca-2026-11-01` e `kind: "research"`. Não inscreve em novidades. A API preserva Phone/Updates somente para compatibilidade com os diálogos antigos. Os nomes são sensíveis a maiúsculas e minúsculas. Contrato completo dos três fluxos: [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md).
 
 O receptor precisa validar os dados, verificar consentimento quando aplicável, limitar abuso e enviar a mensagem ou salvar o cadastro. Para um domínio diferente, deve aceitar o preflight CORS e a origem pública do site. Um segredo de envio de e-mail fica no receptor; qualquer valor neste repositório e no JavaScript é público.
 
@@ -72,3 +72,5 @@ Use um receptor de teste ou um ambiente autorizado. Verifique um sucesso real, u
 ## Backend de teste hospedável
 
 A nova opção usa `api/` e `backend/cloud/`, mantendo os mesmos campos e apresentação. O recibo 202 separa captura (`captured`), fila (`pending`) e aceite do provedor (`accepted`); nenhum deles prova entrega à caixa final. Não há envio aberto ao público nesta etapa: remetente, destinatários de teste e credenciais são configuração privada. Consulte `BACKEND-CLOUD.md` e `ATIVAR-TESTE.md`. GitHub Pages e o build padrão conservam endpoints vazios. A opção Vercel habilita os endpoints relativos no módulo público de configuração somente após ativação explícita.
+
+Revisão de 01/11: a Biblioteca contém dois formulários separados. O novo pedido de pesquisa não exige telefone e não oferece inscrição em novidades. Sem backend, os dois botões ficam desabilitados com aviso honesto; o fallback dos diálogos legados continua preservado. `/pesquisas` leva ao bloco da Biblioteca, e análises abrem o LinkedIn confirmado. Ver `PUBLICACOES-EMAIL.md`.

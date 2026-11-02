@@ -60,3 +60,5 @@ Não chamar uma mensagem de “entregue” apenas porque o endpoint retornou 202
 Atualizar a tarefa com o endereço real de teste, serviço/projeto escolhido sem segredos, migração aplicada, testes executados, resultado de recebimento e pendências. Registrar também a pessoa/IA que fez a configuração. A próxima IA deve conseguir distinguir o que está codificado, configurado, publicado e efetivamente verificado.
 
 Somente após aprovação futura do usuário será criado um plano separado para domínio e produção. Nenhum passo deste guia altera o site oficial.
+
+Na validação da revisão integral, abrir o formulário da Pesquisa Pausa na Carreira 2025 dentro da Biblioteca. Preencher apenas Nome/E-mail e aceite; confirmar a versão do texto salvo e ausência de inscrição em publicações. Em outro formulário, testar a inscrição explícita e o e-mail de boas-vindas com o LinkedIn corrigido. Aplicam-se as mesmas duas migrações existentes; esta revisão editorial não acrescenta migração.

@@ -1,0 +1,14 @@
+<div class="headline-wrapper medium-width">
+<p class="text-size-regular text-color-secondary">Preencha seu nome e e-mail para receber gratuitamente a pesquisa completa.</p>
+<div class="contact-form w-form">
+  <form class="form-form" data-form-kind="research" data-endpoint="{{site.forms.researchEndpoint}}" method="post" id="library-research-form">
+    <input type="hidden" name="ConsentVersion" value="biblioteca-2026-11-01"/>
+    <div class="form-field-wrapper"><label class="form-label" for="research-name">Nome</label><input class="form-input w-input" id="research-name" name="Name" maxlength="120" autocomplete="name" required/></div>
+    <div class="form-field-wrapper"><label class="form-label" for="research-email">E-mail</label><input class="form-input w-input" id="research-email" name="email" type="email" maxlength="254" autocomplete="email" required/></div>
+    <label class="w-checkbox"><input class="w-checkbox-input" name="checkbox" type="checkbox" required/><span class="checkbox-label w-form-label">Li e aceito os <a class="link-5" href="https://drive.google.com/file/d/1La_6CQZNUR655Kc9jBcuzO5JppZFbxK5/view?usp=sharing" target="_blank" rel="noopener noreferrer">Termos de uso</a> e a <a class="link-5" href="https://drive.google.com/file/d/1-xXcSeB6rE3GYlmdMHLwyFqB8aI3lw_9/view?usp=sharing" target="_blank" rel="noopener noreferrer">Política de privacidade</a>.</span></label>
+    <p class="text-size-small text-color-secondary" data-research-notice>O envio da pesquisa por e-mail ainda não está disponível nesta versão de teste.</p>
+    <div class="form-button"><input class="button-primary w-button" type="submit" value="Receber a pesquisa por e-mail"/></div>
+    <p class="form-status" role="status" aria-live="polite"></p>
+  </form>
+</div>
+</div>

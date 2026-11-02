@@ -18,10 +18,11 @@ Inicie `node scripts/serve.mjs --watch`. Depois de uma alteração, aguarde a ge
 | Área | Critério de aceite |
 | --- | --- |
 | Todas as páginas | Abrem diretamente pela URL; título e texto principal aparecem; nenhuma rolagem horizontal involuntária |
-| Menu desktop | Quatro destinos corretos (Contato fica no rodapé por pedido de 31/10); página atual identificada; hover original preservado |
-| Navegação celular | Usa o botão e o runtime originais; botão visível em tablet; quatro itens, sem duplicação |
+| Menu desktop | Cinco destinos corretos (Contato voltou por pedido revisado de 01/11); página atual identificada; hover original preservado |
+| Navegação celular | Usa o botão e o runtime originais; botão visível em tablet; cinco itens, sem duplicação |
 | Capa | Dois botões chegam às âncoras de atuação; percurso e hover dos retratos usam os tempos originais; nenhum controle visual adicional |
-| Pesquisa | Abre; botão de fechar e Escape funcionam; Tab fica no diálogo; ao fechar, foco volta ao acionador |
+| Pesquisa na Biblioteca | Campos Nome/E-mail e aceite desmarcado; pedido separado da inscrição; validação e mensagem visíveis no celular. Sem serviço, não prometer entrega |
+| Diálogo legado de Publicações | Abre; botão de fechar e Escape funcionam; Tab fica no diálogo; ao fechar, foco volta ao acionador |
 | Contato | Campos obrigatórios e e-mail inválido são barrados; fluxo sem endpoint oferece preparar e-mail após submeter, sem afirmar recebimento |
 | Envio configurado | Estado de espera; sucesso somente após HTTP 2xx; falha e timeout preservam os dados e permitem repetir |
 | Quem somos | Equipe e biografias aparecem tanto em desktop como celular; edição de JSON aparece nas duas grades |

@@ -24,7 +24,7 @@ O projeto foi separado a partir da apresentação existente, preservando a geome
 
 ## Fluxo de montagem
 
-1. `build.mjs` lê `site.json`, `pages.json`, `portraits.json`, `team.json` `contact.json` e `interactions.json`.
+1. `build.mjs` lê `site.json`, `pages.json`, `portraits.json`, `team.json`, `contact.json` e `interactions.json`.
 2. Para cada rota, lê a composição em `src/pages/`, o arquivo `*.chrome.html` com cabeçalho/fundo e o `*.head.html` com os estados iniciais. O `originalPageId` vai para o atributo `data-wf-page`. O `base.css` só é carregado nas páginas que continham esse bloco na origem; aplicá-lo a todas altera margens de listas em artigos.
 3. `expandIncludes` resolve recursivamente os comentários `include:`. Uma inclusão circular ou fora de `src/` interrompe o build.
 4. `expandCollections` expande `repeat:` usando os registros de uma coleção e um componente com variáveis `item.*`.
@@ -65,7 +65,7 @@ O carrossel foi extraído literalmente para `src/components/home-carousel.html`,
 
 ## Adaptador de publicação em subdiretório
 
-`build-pages.mjs` mantém o build normal e cria `dist-pages/`. `pages-paths.mjs` prefixa apenas endereços locais em atributos HTML/SVG e URLs CSS; a configuração do PDF é adaptada na saída. O módulo da pesquisa reconhece o sufixo da rota com ou sem subdiretório, sem reescrita de código no build. O antigo `/biblioteca#pesquisa-2025` leva ao mesmo diálogo em `/pesquisas`. Fontes de apresentação e vendor permanecem intactos. Testes do adaptador cobrem URLs externas, fragmentos, srcset, vídeo, fonte e caminhos inválidos. Os arquivos protegidos por hash recebem `-text` em `.gitattributes` para conservar os mesmos bytes ao publicar via Git em outro sistema operacional.
+`build-pages.mjs` mantém o build normal e cria `dist-pages/`. `pages-paths.mjs` prefixa apenas endereços locais em atributos HTML/SVG e URLs CSS; a configuração do PDF é adaptada na saída. O módulo da pesquisa reconhece o sufixo da rota com ou sem subdiretório, sem reescrita de código no build. `/biblioteca#pesquisa-2025` agora é o formulário inline. O antigo `/pesquisas` leva a esse bloco, conservando o prefixo do repositório. O diálogo original permanece no acesso legado `/publicacoes#pesquisa-2025`, com o mesmo runtime. Fontes de apresentação e vendor permanecem intactos. Testes do adaptador cobrem URLs externas, fragmentos, srcset, vídeo, fonte e caminhos inválidos. Os arquivos protegidos por hash recebem `-text` em `.gitattributes` para conservar os mesmos bytes ao publicar via Git em outro sistema operacional.
 
 ## Backend opcional de teste local
 
@@ -80,3 +80,5 @@ O front-end permanece estático. `api/` contém entradas Web Standard da Vercel;
 A suíte completa usa PGlite em desenvolvimento para executar o SQL real. `package-lock.json` fixa a versão e os workflows instalam com `npm ci --ignore-scripts`. A verificação de registro por tarefa antecede a publicação do Pages. Manter os scripts existentes `dev`, `preview`, `build` e `check`; `preview:backend` e `build:vercel` são acréscimos.
 
 O build emite também `/scripts/contact-data.js`, a partir do JSON editorial compartilhado com o servidor. Não editar o arquivo gerado. Lista/consentimentos/cancelamento/exportação estão documentados em [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md); aplicar migrações de forma incremental, sem alterar versões já utilizadas.
+
+A revisão das cinco páginas mantém o gerador e reaproveita os componentes existentes. `components/manifesto-pending.html` é incluído pela Home e por Quem somos: as duas páginas devem receber o mesmo vídeo quando a contratante o fornecer. `nossa-atuacao/03-benefits.html` agora reúne os eventos e o componente fotográfico original inteiro, incluído dentro da seção 01 na ordem pedida. A antiga URL local da análise faz redirecionamento HTML ao LinkedIn confirmado; não é usada pelos novos botões. Referência literal das fotos e registro da revisão em `docs/reference/editorial-revisada-2026-11-01/` e `docs/tasks/2026-11-revisao-cinco-paginas.md`.

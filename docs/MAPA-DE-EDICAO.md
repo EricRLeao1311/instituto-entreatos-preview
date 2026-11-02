@@ -42,9 +42,9 @@ Composição: `src/pages/nossa-atuacao.html`. Escopo CSS: `[data-page="nossa-atu
 
 | Seção | Arquivo |
 | --- | --- |
-| Apresentação e serviços para empresas | `src/sections/nossa-atuacao/01-approach.html` |
-| Serviços e apoio para profissionais | `src/sections/nossa-atuacao/02-approach-variant-2.html` |
-| Vídeo institucional incorporado | `src/sections/nossa-atuacao/03-benefits.html` |
+| Abertura, pilares, aprendizado, eventos incluídos e agendas | `src/sections/nossa-atuacao/01-approach.html` |
+| Parcerias, quem faz e aproximação | `src/sections/nossa-atuacao/02-approach-variant-2.html` |
+| Eventos, ações e componente fotográfico preservado (incluído pela seção 01) | `src/sections/nossa-atuacao/03-benefits.html` |
 
 ### /quem-somos
 
@@ -151,3 +151,21 @@ Contrato de campos/aceite/mensagens: `backend/forms.mjs`. Receptor SQLite local:
 | Exportação privada | `backend/audience-export.mjs` |
 
 São 26 rotas e uma 404. Biblioteca substitui sua composição anterior, não remove `/publicacoes`, `/na-midia`, `/depoimentos` ou artigos. Novas rotas: `/pesquisas`, `/publicacoes/arquivo-be-back-now`, `/publicacoes/lacuna-por-dentro-e-por-fora`, `/cancelar-inscricao`. Home teve apenas destinos de links atualizados. Nossa atuação recebeu os três botões explicitamente indicados nos novos documentos (análise, convite e apresentação), nos componentes existentes. Quem somos mantém seus botões de contato já corretos; demais páginas recebem somente menu/rodapé compartilhados. Leia o contrato de dados em `PUBLICACOES-EMAIL.md` e a tarefa correspondente antes de alterar.
+
+## Revisão das cinco páginas de 01/11/2026
+
+O menu principal e o rodapé seguem Home · Nossa atuação · Quem somos · Biblioteca · Contato. A tagline voltou ao texto “Entre os atos, a história continua…”, conforme os cinco documentos. Preservar YouTube confirmado, CNPJ e autoria; a omissão desses itens nos documentos não foi tratada como pedido de exclusão.
+
+| Alteração | Fonte atual |
+| --- | --- |
+| Destino da análise em Home/Nossa atuação/Biblioteca | Seções correspondentes e e-mail em `backend/forms.mjs`; URL LinkedIn confirmada nos testes |
+| Formulário da pesquisa na Biblioteca | `src/sections/biblioteca/03-research-form.html`, incluído no bloco `pesquisa-2025` |
+| Compatibilidade `/pesquisas` → Biblioteca | `src/scripts/research.js`, preservando subdiretório Pages |
+| Compatibilidade da análise antiga → LinkedIn | `pages/lacuna-por-dentro-e-por-fora.head.html`; fallback na seção de análise |
+| Manifesto pendente nas duas páginas | `components/manifesto-pending.html`, Home `08-manifesto.html` e Quem somos `03-approach.html` |
+| Nossa atuação: abertura, pilares, aprendizado e agendas | `nossa-atuacao/01-approach.html`, com cards/IDs e sanfona existentes |
+| Nossa atuação: participações e fotos originais | `nossa-atuacao/03-benefits.html`, incluído pela seção 01 |
+| Nossa atuação: parcerias, equipe e aproximação | `nossa-atuacao/02-approach-variant-2.html` |
+| NOZ discreta e links de metas | `quem-somos/07-agenda.html` |
+
+Esta revisão substitui as orientações anteriores sobre retirada de Contato, análise interna e pesquisa em página separada. A quantidade de rotas permanece 26: os dois endereços anteriores continuam como compatibilidade. Preservar `empresa`/`profissional` e demais âncoras ainda existentes. Os 14 artigos continuam por decisão expressa do usuário, apesar da contagem 12 repetida nos DOCX. Registro: `docs/tasks/2026-11-revisao-cinco-paginas.md`.

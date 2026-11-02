@@ -13,8 +13,8 @@
   {
     "route": "/nossa-atuacao",
     "key": "nossa-atuacao",
-    "title": "Nossa atuação",
-    "description": "Mudando a forma como o mercado entende as pausas de carreira. Pesquisa, educação e conteúdo para quem quer voltar ao mercado — e para quem contrata.",
+    "title": "Nossa atuação | Instituto Entre Atos",
+    "description": "Conheça a atuação do Instituto Entre Atos em pesquisas, análises e parcerias sobre pausas na carreira e reconhecimento de trajetórias profissionais não lineares.",
     "template": "pages/nossa-atuacao.html",
     "originalPageId": "69ca8fb5411afd539109a16b",
     "chrome": "pages/nossa-atuacao.chrome.html",

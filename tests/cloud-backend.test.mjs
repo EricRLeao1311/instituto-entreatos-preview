@@ -184,7 +184,7 @@ test('inscrição registra escolha separada, origem única e descadastramento se
   const mail=(await db.query("SELECT mail FROM public.ea_outbox WHERE mail->>'category'='publications'")).rows[0].mail;
   assert.equal(mail.subject,'Boas-vindas ao Instituto Entre Atos');
   assert.equal(mail.reply_to,'contato@institutoentreatos.com.br');
-  assert.ok(mail.text.includes('https://www.linkedin.com/pulse/experi%C3%AAncia-recente-e-compet%C3%AAncia-atual-s%C3%A3o-mesma-baggio-tet%C3%AA--pmwsf'));
+  assert.ok(mail.text.includes('https://www.linkedin.com/pulse/lacuna-que-empresa-aceita-por-dentro-e-recusa-fora-baggio-tet%C3%AA--eyoef'));
   assert.doesNotMatch(mail.text,/newsletter/i);
   const token=mail.text.match(/#token=([a-f0-9]{64})/)[1];
   assert.equal((await handler()(request({token},'/api/unsubscribe'))).status,200);
@@ -204,4 +204,20 @@ test('seis motivos do Contato aceitam organização opcional, sem telefone obrig
   assert.equal(await count('ea_audience'),0);
   const mail=(await db.query("SELECT mail FROM public.ea_outbox WHERE mail->>'subject' LIKE '%Imprensa%'")).rows[0].mail;
   assert.equal(mail.to,'contato@institutoentreatos.com.br'); assert.match(mail.subject,/Site · Imprensa/);
+});
+
+test('pesquisa da Biblioteca registra seu aceite atual sem inscrição implícita, mesmo com Updates injetado', async () => {
+  const inline={kind:'research',Name:'Pesquisa inline',email:'inline@example.org',checkbox:'on',ConsentVersion:'biblioteca-2026-11-01',Updates:'on'};
+  assert.equal((await handler()(request({...inline,checkbox:false}))).status,422);
+  assert.equal((await handler()(request({...inline,ConsentVersion:'unknown'}))).status,422);
+  assert.equal((await handler()(request(inline))).status,202);
+  const stored=(await db.query('SELECT payload FROM public.ea_submissions')).rows[0].payload;
+  assert.equal(stored.updatesOptIn,false);assert.equal(stored.updatesConsent,null);
+  assert.equal(stored.consent.version,'biblioteca-2026-11-01');
+  assert.equal(stored.consent.text,'Li e aceito os Termos de uso e a Política de privacidade.');
+  assert.equal(stored.source,'pesquisa');
+  assert.equal((await db.query('SELECT subscribed FROM public.ea_audience')).rows[0].subscribed,false);
+  const mail=(await db.query('SELECT mail FROM public.ea_outbox')).rows[0].mail;
+  assert.ok(mail.text.includes('/assets/panorama-retorno-profissional-2025.pdf'));
+  assert.doesNotMatch(mail.subject,/Boas-vindas/);
 });

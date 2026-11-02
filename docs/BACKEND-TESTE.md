@@ -74,3 +74,5 @@ SQLite usa o módulo integrado [`node:sqlite`](https://nodejs.org/download/relea
 A validação e a composição das mensagens agora são compartilhadas por `backend/forms.mjs`. SQLite continua sendo a opção local sem contas. A opção hospedável, com Postgres e transporte de e-mail, está em `BACKEND-CLOUD.md`; a dependência de desenvolvimento PGlite serve apenas para testar o SQL e não entra no runtime.
 
 Lista, histórico, cancelamento, persistência de segredo e comandos de exportação: [PUBLICACOES-EMAIL.md](PUBLICACOES-EMAIL.md). Toda exportação fica privada em `.local-data/`, nunca na pasta pública ou no Git.
+
+Revisão integral de 01/11: o formulário novo de pesquisa está na Biblioteca e envia Nome/E-mail/aceite com `ConsentVersion: biblioteca-2026-11-01`; o servidor registra a versão/texto e impede inscrição implícita. O receptor e a persistência são os mesmos; endpoints não mudam. Os diálogos antigos continuam compatíveis.

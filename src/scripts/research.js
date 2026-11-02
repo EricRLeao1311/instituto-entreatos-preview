@@ -1,9 +1,11 @@
 /** IX2 owns open/close appearance. This adds keyboard handling without restyling. */
 export function setupResearch() {
-  const modal = document.querySelector('[data-research-modal]');
-  if (!modal && /\/biblioteca\/?$/.test(location.pathname) && location.hash === '#pesquisa-2025') {
-    location.replace(location.pathname.replace(/\/biblioteca\/?$/, '/pesquisas') + location.search + location.hash);
+  // Revised editorial destination. Keep the old URL, including a Pages base path.
+  if (/\/pesquisas\/?$/.test(location.pathname)) {
+    location.replace(location.pathname.replace(/\/pesquisas\/?$/, '/biblioteca') + location.search + '#pesquisa-2025');
+    return;
   }
+  const modal = document.querySelector('[data-research-modal]');
   if (!modal) return;
   let opener;
   const visible = () => getComputedStyle(modal).display !== 'none';
@@ -27,9 +29,9 @@ export function setupResearch() {
     if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
   });
-  // Home/Library CTAs reach this existing dialog through its research deep link.
+  // Preserve the original dialog for the legacy Publicações deep link.
   // Trigger the original IX2 click action instead of replacing its animation.
-  if (/\/(pesquisas|publicacoes)\/?$/.test(location.pathname) && location.hash === '#pesquisa-2025') {
+  if (/\/publicacoes\/?$/.test(location.pathname) && location.hash === '#pesquisa-2025') {
     window.Webflow.push(() => document.querySelector('[data-open-research]')?.click());
   }
 }

@@ -26,10 +26,13 @@ export function validateSubmission(raw, kind) {
   const phone = field(kind === 'contact' ? raw.Subject : raw.Phone, 40);
   if (kind === 'research' || kind === 'publications') {
     if (!['on', true, 'true'].includes(raw.checkbox)) throw fail(422);
-    const updatesOptIn = kind === 'publications' || ['on', true, 'true'].includes(raw.Updates);
+    if (raw.ConsentVersion !== undefined && raw.ConsentVersion !== 'biblioteca-2026-11-01') throw fail(422);
+    const inlineResearch = kind === 'research' && raw.ConsentVersion === 'biblioteca-2026-11-01';
+    const updatesOptIn = kind === 'publications' || (!inlineResearch && ['on', true, 'true'].includes(raw.Updates));
     return { kind, name, email, ...(kind === 'research' ? { phone, edition: '2025' } : {}), source: kind === 'research' ? 'pesquisa' : 'biblioteca',
       updatesOptIn, updatesConsent: updatesOptIn ? { accepted: true, text: kind === 'research' ? researchUpdatesConsent : publicationsConsent, termsUrl, privacyUrl } : null,
-      consent: { accepted: true, text: kind === 'research' ? consentText : publicationsConsent, termsUrl, privacyUrl } };
+      consent: { accepted: true, text: inlineResearch ? 'Li e aceito os Termos de uso e a Política de privacidade.' : kind === 'research' ? consentText : publicationsConsent, termsUrl, privacyUrl,
+        ...(inlineResearch ? { version: 'biblioteca-2026-11-01' } : {}) } };
   }
   const reason = field(raw.Reason, 40, true);
   const organization = field(raw.Organization, 180);
@@ -40,7 +43,7 @@ export function validateSubmission(raw, kind) {
 
 export function prepareMail(payload, { contactRecipient = 'contato@institutoentreatos.com.br', documentUrl, unsubscribeUrl = '' }) {
   // Link explicitly supplied for the welcome email in Biblioteca_31 out 26.docx.
-  const analysisUrl = 'https://www.linkedin.com/pulse/experi%C3%AAncia-recente-e-compet%C3%AAncia-atual-s%C3%A3o-mesma-baggio-tet%C3%AA--pmwsf';
+  const analysisUrl = 'https://www.linkedin.com/pulse/lacuna-que-empresa-aceita-por-dentro-e-recusa-fora-baggio-tet%C3%AA--eyoef';
   if (payload.kind === 'publications') return {
     to: payload.email, category: 'publications', reply_to: 'contato@institutoentreatos.com.br',
     subject: 'Boas-vindas ao Instituto Entre Atos',

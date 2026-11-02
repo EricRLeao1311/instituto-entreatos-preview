@@ -8,7 +8,8 @@ export function setupForms() {
     const status = form.querySelector('.form-status');
     const submit = form.querySelector('[type="submit"]');
     const endpoint = form.dataset.endpoint || config.forms?.[`${kind}Endpoint`];
-    if (kind === 'publications' && !endpoint) submit.disabled = true;
+    const inlineResearch = form.id === 'library-research-form';
+    if ((kind === 'publications' || inlineResearch) && !endpoint) submit.disabled = true;
     // Keep the original caption and empty initial layout. Explain fallback only after submission.
     form.querySelectorAll('input[type="checkbox"]').forEach(input => {
       const custom = input.parentElement.querySelector('div.w-checkbox-input');
@@ -58,7 +59,7 @@ export function setupForms() {
         if (!response.ok) throw new Error('Falha no envio');
         const receipt = await response.json().catch(() => null);
         status.textContent = kind === 'unsubscribe' ? 'Sua inscrição foi cancelada.'
-          : receipt?.mode !== 'preview' ? (kind === 'contact' ? contact.success : kind === 'publications' ? 'Inscrição recebida. Você receberá as próximas publicações do Instituto por e-mail.' : 'Obrigado! Seus dados foram recebidos.')
+          : receipt?.mode !== 'preview' ? (kind === 'contact' ? contact.success : kind === 'publications' ? 'Inscrição recebida. Você receberá as próximas publicações do Instituto por e-mail.' : 'Solicitação recebida. Você receberá a pesquisa completa no e-mail informado.')
           : receipt.email === 'accepted' ? 'Dados recebidos no teste. O envio do e-mail foi solicitado.'
           : receipt.email === 'pending' ? 'Dados recebidos no teste. O e-mail aguarda uma nova tentativa de envio.'
           : receipt.email === 'captured' ? 'Recebido no ambiente de teste. Nenhum e-mail foi enviado.'
@@ -70,7 +71,7 @@ export function setupForms() {
         }
         form.reset();
       } catch {
-        status.textContent = kind === 'contact' ? contact.error : kind === 'publications' ? 'Não foi possível concluir sua inscrição. Tente novamente ou escreva para ' + config.email + '.' : 'Não foi possível confirmar o envio. Tente novamente ou entre em contato por e-mail.';
+        status.textContent = kind === 'contact' ? contact.error : kind === 'publications' ? 'Não foi possível concluir sua inscrição. Tente novamente ou escreva para ' + config.email + '.' : kind === 'research' ? 'Não foi possível concluir sua solicitação. Tente novamente ou escreva para ' + config.email + '.' : 'Não foi possível confirmar o envio. Tente novamente ou entre em contato por e-mail.';
       } finally { submit.disabled = false; }
       status.scrollIntoView({ block: 'nearest', behavior: 'auto' });
     });
