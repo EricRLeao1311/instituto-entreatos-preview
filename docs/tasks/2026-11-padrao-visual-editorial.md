@@ -1,6 +1,6 @@
 # Tarefa: proporções e organização editorial do site
 
-Status: implementação concluída; validação e publicação de teste em andamento
+Status: concluída e publicada na prévia de teste
 
 ## Resultado esperado
 
@@ -68,7 +68,13 @@ Contato e publicações recebem a escala compartilhada. O primeiro mantém víde
 - Ebooks finais no celular de 390px: duas colunas de 159,6px, quatro capas e links visíveis; segunda linha conferida após rolagem. Sem overflow. Também conferido desktop de 1280px (quatro colunas de 274,2px).
 - Baselines históricos inalterados. Novo CSS e componente da equipe têm hashes próprios vinculados ao pedido; duas exceções aos wrappers da equipe registram hashes antes/depois.
 - Capturas e cópia privada da saída anterior em `work/padrao-visual/`, fora do repositório público. Capturas iniciais durante animação não constituem evidência final; entrega utiliza estado assentado.
+- `node scripts/check-change-record.mjs --staged` e `git diff --cached --check`: aprovados antes do commit.
+- Implementação: commit `1bba6a67e16b213d2b64694a61308db49129bacf`.
+- CI de verificação aprovada: https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41627747269 .
+- Build e publicação aprovados: https://github.com/EricRLeao1311/instituto-entreatos-preview/actions/runs/41627747012 .
+- Prévia pública conferida em https://ericrleao1311.github.io/instituto-entreatos-preview/ : camada editorial carregada no subdiretório, Home sem contadores, aparições antes do rodapé, crédito correto. Navegação pelo menu à Biblioteca: 13 matérias com link + um card pendente, quatro ebooks, três contadores; ambos os formulários seguem desativados após a inicialização, com aviso honesto e aceites desmarcados. Quem somos publicado: quatro marcos e seis pessoas por variante, com Sandra no conselho.
+- Evidências finais inspecionadas: `work/padrao-visual/home-publicada.png` e `metodo-final.png`. Árvore de trabalho limpa após o commit de implementação.
 
 ## Pendências e entrega
 
-Vídeos ausentes continuam pendentes. Backend e envios reais fora desta alteração visual. O registro de mídia “Voltar ao mercado” possuía URL de exemplo herdada (`imprensa.example.com`): conservado como card sem link ativo e indicação de endereço a confirmar; os outros 13 destinos foram preservados. A publicação na prévia e a rodada final serão registradas ao terminar.
+Vídeos ausentes continuam pendentes. Backend e envios reais fora desta alteração visual. O registro de mídia “Voltar ao mercado” possuía URL de exemplo herdada (`imprensa.example.com`): conservado como card sem link ativo e indicação de endereço a confirmar; os outros 13 destinos foram preservados. Entrega publicada somente no GitHub Pages de teste; produção/Webflow/DNS/domínio oficial intactos.
