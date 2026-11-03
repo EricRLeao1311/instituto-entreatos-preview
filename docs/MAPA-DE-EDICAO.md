@@ -6,6 +6,8 @@ A composição de cada rota fica em `src/pages/<key>.html`; os comentários `inc
 
 ## Arquivos compartilhados
 
+Atualização visual de 03/11: padrão em `PADRAO-VISUAL.md`, camada `src/styles/editorial.css`. Método em `components/method-cycle.html`; equipe em `components/team-profiles.html` com dados em `team.json`; números em `components/research-numbers.html` incluídos na pesquisa da Biblioteca; mídia completa em `components/media-cards.html` para Biblioteca e rota antiga. A linha do tempo fica em `sections/quem-somos/08-timeline.html`. Home não inclui mais os números e termina com aparições antes do rodapé. Fontes históricas da tabela abaixo continuam úteis, mas essas inclusões são as autoridades atuais.
+
 | Pedido | Fonte | Alcance |
 | --- | --- | --- |
 | Menu e logo do topo | `src/components/header.html` | Todas as páginas |

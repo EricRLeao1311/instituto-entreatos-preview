@@ -2,6 +2,8 @@
 
 ## Camadas
 
+**Padrão atual:** para a revisão visual autorizada em 03/11, leia `PADRAO-VISUAL.md`. `editorial.css` carrega após `site.css` e é a camada atual para escala, CTAs e organização responsiva. Os arquivos anteriores continuam preservados. As observações históricas abaixo descrevem a camada de origem e as primeiras correções.
+
 A ordem dos estilos no layout faz parte do contrato: `fonts.css`, `legacy.css`, `base.css` somente onde existia na origem, `site.css` e os estados iniciais do arquivo `*.head.html`.
 
 - `fonts.css`: famílias baixadas para uso local.

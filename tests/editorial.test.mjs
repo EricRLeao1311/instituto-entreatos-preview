@@ -17,7 +17,10 @@ test('cinco revisões publicam textos aprovados sem notas de montagem ou promess
     const text=clean(await read(`dist/${route}index.html`));
     const doc=sources.find(d=>d.key===key);
     for(const i of paragraphs) {
-      const expected=doc.paragraphs.find(p=>p.i===i).text.replace(/\s+/g,' ').trim();
+      let expected=doc.paragraphs.find(p=>p.i===i).text.replace(/\s+/g,' ').trim();
+      // Pedido de 03/11: biografias junto das fotos; Sandra identificada como conselho.
+      if (key==='quem' && [47,48,49].includes(i)) expected=expected.replace(/^.*? - /,'');
+      if (key==='quem' && i===50) expected='Conselho consultivo · Diretora de parcerias';
       assert.ok(text.includes(key==='quem'&&i===28 ? expected.replace(/^Por que “Entre Atos”\. /,'') : expected),`${key}: ${i}`);
     }
     assert.doesNotMatch(text,/Orientação de montagem|Buscar um desenho|Sem botões na abertura|ainda vou escrever|Caio localiza|posso enviar novamente|Trazer do site anterior/);
@@ -54,8 +57,8 @@ test('conteúdo novo reaproveita fotos/sanfona; vídeos pendentes não aparentam
   assert.equal((partnership.match(/<a class="button-primary/g)||[]).length,1);
   assert.match(partnership,/Propor um estudo/);
   for(const file of ['dist/index.html','dist/quem-somos/index.html']) assert.match(await read(file),/<button[^>]*disabled>Assistir ao manifesto<\/button>/);
-  const photos=(await read('docs/reference/editorial-revisada-2026-11-01/nossa-photo-marquee.html')).trim();
-  assert.ok((await read('src/sections/nossa-atuacao/03-benefits.html')).includes(photos),'Fotos, estrutura, IDs e animação do componente anterior permanecem intactos');
+  const photos=(await read('docs/reference/editorial-revisada-2026-11-01/nossa-photo-marquee.html')).replace(/\r\n/g,'\n').trim();
+  assert.ok((await read('src/sections/nossa-atuacao/03-benefits.html')).replace(/\r\n/g,'\n').includes(photos),'Fotos, estrutura, IDs e animação do componente anterior permanecem intactos');
 });
 
 test('Contato volta ao menu por pedido revisado; Biblioteca mantém a pesquisa/acervo preservados', async () => {
@@ -63,7 +66,9 @@ test('Contato volta ao menu por pedido revisado; Biblioteca mantém a pesquisa/a
   const links = [...header.matchAll(/<a class="nav-menu-link[^>]+href="([^"]+)"/g)].map(x=>x[1]);
   assert.deepEqual(links,['/','/nossa-atuacao','/quem-somos','/biblioteca','/contato']);
   const lib = await read('dist/biblioteca/index.html');
-  assert.match(lib,/href="\/na-midia"/);
+  // Pedido de 03/11 reúne a mídia na Biblioteca e conserva a rota antiga.
+  assert.match(lib,/id="midia-biblioteca"/);
+  assert.match(await read('src/sections/na-midia/01-store.html'),/include:components\/media-cards.html/);
   assert.match(await read('dist/pesquisas/index.html'),/data-research-modal/);
   assert.match(lib,/id="library-research-form"/);
   assert.match(lib,/id="pesquisa-2025"/);
@@ -71,7 +76,7 @@ test('Contato volta ao menu por pedido revisado; Biblioteca mantém a pesquisa/a
   for (const page of JSON.parse(await read('src/content/pages.json')).filter(x=>x.route.startsWith('/publicacoes/') && !['lacuna-por-dentro-e-por-fora','arquivo-be-back-now'].includes(x.key))) assert.ok(archive.includes(`href="${page.route}"`));
 });
 
-test('motivos de contato têm opções válidas e as grades da equipe continuam sendo as originais', async () => {
+test('motivos de contato têm opções válidas e equipe conserva as duas variantes de revelação', async () => {
   const contact=await read('dist/contato/index.html');
   for(const reason of ['apresentar-contato','convidar-instituto','contar-historia']) assert.ok(contact.includes(`<option value="${reason}">`));
   assert.doesNotMatch(contact,/<\/option\s+[^>]+>/);
@@ -79,6 +84,35 @@ test('motivos de contato têm opções válidas e as grades da equipe continuam 
   assert.match(who,/class="section mobile1"/);
   assert.match(who,/class="section-mobile mobile"/);
   assert.doesNotMatch(who,/people-grid|editorial-page|site-header/);
+});
+
+test('reorganização de 03/11 mantém pesquisa, acervo, pessoas e mídia acessíveis sem duplicar destinos', async () => {
+  const home=await read('dist/index.html'), lib=await read('dist/biblioteca/index.html'), who=await read('dist/quem-somos/index.html');
+  assert.doesNotMatch(home,/id="Benefits"/);
+  assert.ok(lib.indexOf('id="Benefits"')>lib.indexOf('id="pesquisa-2025"'));
+  assert.equal((lib.match(/counter-element="number"/g)||[]).length,3);
+  assert.ok(home.indexOf('id="Testimonials"')>home.indexOf('id="Instituto"'));
+  const media=await read('src/components/media-cards.html');
+  for(const url of [...media.matchAll(/<a class="product-link[^>]*href="([^"]+)"/g)].map(x=>x[1])) {
+    assert.ok(lib.includes(`href="${url}"`));
+    assert.ok((await read('dist/na-midia/index.html')).includes(`href="${url}"`));
+  }
+  assert.equal((media.match(/<a class="product-link/g)||[]).length,13);
+  const ebooks=await read('src/components/ebook-cards.html');
+  const ebookUrls=[...ebooks.matchAll(/<a class="event-card-link[^>]*href="([^"]+)"/g)].map(x=>x[1]);
+  assert.equal(ebookUrls.length,4);
+  for(const url of ebookUrls) assert.ok(lib.includes(`href="${url}"`));
+  assert.doesNotMatch(lib,/href="https:\/\/imprensa\.example\.com/);
+  for(const sectionId of ['Team','Team-variant-2']) {
+    const section=who.split(`id="${sectionId}"`)[1].split('</section>')[0];
+    assert.equal((section.match(/class="team-profile"/g)||[]).length,6);
+    assert.match(section,/Conselho consultivo · Diretora de parcerias/);
+    assert.ok(section.indexOf('Quem faz')<section.indexOf('team-profile'));
+  }
+  const footer=await read('src/components/footer.html');
+  assert.doesNotMatch(footer,/CNPJ/);
+  assert.match(who,/CNPJ 66\.442\.226\/0001-50/);
+  assert.match(footer,/Caio Jacinto/); assert.match(footer,/Eric Leão/);
 });
 
 test('novos documentos preservam textos aprovados, seis motivos e destinos específicos', async () => {

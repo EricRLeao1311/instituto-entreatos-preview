@@ -4,6 +4,8 @@ Esta é a política atual de manutenção. Em 01/11/2026, uma revisão de conte�
 
 ## Antes de editar
 
+**Referência atual de layout (03/11/2026):** o usuário autorizou explicitamente proporções menores, carrosséis menores e reorganização visual. O padrão resultante está em `PADRAO-VISUAL.md`. As restrições históricas abaixo continuam valendo para mudanças não solicitadas; a suspensão de redução do carrossel refere-se à revisão de 01/11, não ao pedido visual de 03/11. Mantenha fontes, paleta, motor e configuração de animações. A equipe atual usa cards compartilhados dentro dos wrappers de revelação existentes.
+
 1. Separe conteúdo, navegação, integração e apresentação no pedido. Para cada arquivo previsto, indique a frase que exige sua mudança. Termine com uma lista fechada de alterações necessárias e invariantes.
 2. Consulte o mapa e os componentes existentes. Localize o conteúdo exato em vez de reconstruir a seção inteira. Textos de hover duplicados e variantes responsivas recebem a mesma atualização editorial.
 3. Guarde a versão anterior e registre os contratos de apresentação. Identifique o que precisa continuar igual: classes, hierarquia, IDs, dimensões, tipografia, máscaras, opacidade inicial, percurso, duração, easing, gatilhos, hover, entrada e comportamento em celular.

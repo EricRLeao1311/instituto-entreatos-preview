@@ -8,6 +8,8 @@ Manter o site do Instituto Entre Atos com alterações pequenas, verificáveis e
 
 **Preserve a implementação existente.** Uma troca de textos, nomes, links ou ordem de seções autoriza apenas essas trocas. Mantenha tipografia, cores, espaçamentos, formatos, dimensões de componentes, imagens não citadas e comportamento responsivo fora do pedido. Preserve o DOM funcional, classes, IDs, estados iniciais e animações dos componentes existentes.
 
+**Layout atual:** o pedido explícito de 03/11/2026 autorizou proporções menores, botões discretos e reorganização de conteúdo/equipe. Antes de alterar apresentação, leia também [PADRAO-VISUAL.md](docs/PADRAO-VISUAL.md) e reutilize sua camada e componentes. Essa autorização está limitada à tarefa registrada; futuras alterações editoriais preservam o padrão atual. Toda IA continua obrigada a registrar sua alteração em `docs/tasks/` no mesmo conjunto/commit.
+
 **O cabeçalho e o carrossel são componentes protegidos.** Alterar itens do menu mantém seu componente, hover, entrada, easing e duração. Alterar conteúdo ou posição do carrossel mantém seus dois layouts responsivos, máscaras, repetição técnica, percurso, velocidade e hover. Reaproveite o componente inteiro; uma alternativa visualmente parecida não é equivalente.
 
 **Antes de editar qualquer conteúdo, HTML, CSS, navegação ou animação, leia [PRESERVACAO.md](docs/PRESERVACAO.md).** Registre para cada mudança a frase do pedido que a exige e os elementos que ficarão iguais. Uma sugestão de desenho em documento de referência não amplia a autorização dada pelo usuário. Se houver ambiguidade, mantenha o desenho atual, conclua as alterações inequívocas e registre a sugestão como pendente.

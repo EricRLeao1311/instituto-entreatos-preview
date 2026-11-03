@@ -8,15 +8,25 @@ import { root } from '../scripts/build.mjs';
 const read = file => readFile(path.join(root, file));
 const hash = value => createHash('sha256').update(value).digest('hex');
 const baseline = JSON.parse(await read('docs/reference/presentation/baseline.json'));
+const editorialDesign = JSON.parse(await read('docs/reference/presentation/editorial-design-2026-11-03.json'));
 
 test('folhas de apresentação, estados iniciais e dados de animação conservam o baseline', async () => {
-  for (const [file, expected] of Object.entries(baseline.protectedHashes)) assert.equal(hash(await read(file)), expected, file);
+  for (const [file, expected] of Object.entries(baseline.protectedHashes)) {
+    const authorized = editorialDesign.overrides[file];
+    if (authorized) assert.equal(authorized.before, expected, 'A referência histórica permanece preservada');
+    assert.equal(hash(await read(file)), authorized?.after || expected, file);
+  }
   const css = Buffer.from((await read('src/styles/site.css')).toString().replace(/\r\n/g, '\n'));
   assert.equal(hash(css.subarray(0, baseline.siteCssBaselineLength)), baseline.siteCssBaselineSha256);
   const localLayout = JSON.parse(await read('docs/reference/presentation/home-layout-adjustment.json'));
   const editorialLayout = JSON.parse(await read('docs/reference/presentation/editorial-row-layout-adjustment.json'));
   assert.equal(css.subarray(baseline.siteCssBaselineLength).toString(), baseline.authorizedCssAddition + localLayout.css + editorialLayout.css,
     'Somente os acréscimos vinculados aos pedidos explícitos de tablet, Home e distribuição editorial são autorizados.');
+  // Revisão visual expressamente autorizada em 03/11; não reescreve os baselines.
+  for (const asset of [editorialDesign.stylesheet, editorialDesign.teamComponent]) assert.equal(hash(await read(asset.path)), asset.sha256, asset.path);
+  const layout=(await read('src/layouts/base.html')).toString();
+  assert.deepEqual([...layout.matchAll(/<link rel="stylesheet" href="([^"]+)"/g)].map(x=>x[1]),
+    ['/styles/fonts.css','/styles/legacy.css','/styles/site.css','/styles/editorial.css']);
 });
 
 test('as duas variantes do carrossel conservam todo o componente original, e não apenas eventos IX2', async () => {

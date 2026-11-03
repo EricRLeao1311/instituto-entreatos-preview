@@ -1,0 +1,27 @@
+{
+  "requestDate": "2026-11-03",
+  "task": "docs/tasks/2026-11-padrao-visual-editorial.md",
+  "reason": "Pedido direto autoriza proporções gerais, carrosséis menores e equipe/conselho junto das fotos. Motor e dados de animação preservados.",
+  "overrides": {
+    "src/sections/quem-somos/04-team.html": {
+      "before": "6cc530643ba28ec889ec68b9296d8ec493ab7b28a148db87ee32583dd0b69596",
+      "after": "66d63991805af501f620cbca01b4b69c45ad190ae59e12d1a4956ca1025f4668"
+    },
+    "src/sections/quem-somos/05-team-variant-2.html": {
+      "before": "0371b0d1b57d2a25acf95d0861d35f8ac88870a64ea057393b6b220cce2e631f",
+      "after": "7c0b63ace003d4e9ced77e4b38de06b3db022d7851cdf54b248516e2bea4f43e"
+    }
+  },
+  "stylesheet": {
+    "path": "src/styles/editorial.css",
+    "sha256": "5636cd5daf5baff12c5290095740943d6ce5cdc987aff4ef39f5be83609cd833"
+  },
+  "teamComponent": {
+    "path": "src/components/team-profiles.html",
+    "sha256": "eba5ad42b6fda7b98d960f7a5dd08a3ca6a8eafe02727ff57fcdf1c2c6659093"
+  },
+  "sources": {
+    "timeline": "Quem_somos_revisada_01 nov.docx / word/media/image1.png",
+    "method": "Home_revisada 01 nov 26.docx / word/media/image1.png"
+  }
+}
